@@ -1,7 +1,7 @@
 ---
-title: "Human-Centred Testing"
-summary: "Quality engineering, accessibility, automation and conversational AI testing with a human-first approach."
-description: "Human-centred testing services covering quality engineering, accessibility audits, automation and conversational AI testing."
+title: "Human-Centred Accessibility Testing"
+summary: "Accessibility audits and systemic analysis for teams who need clear, actionable evidence."
+description: "Accessibility audit services focused on practical WCAG-informed review, manual testing, automated evidence, and systemic analysis using the Accessibility Systemic Analyzer."
 date: "2026-05-28"
 draft: false
 showauthor: false
@@ -10,103 +10,143 @@ showreadingtime: false
 showtableofcontents: false
 showhero: true
 herostyle: "background"
-featureimage: "/images/conversational-ai-testing4.png"
-categories: ["Services"]
-tags: ["conversational AI", "chatbot testing", "AI testing", "accessibility"]
+featureimage: "/images/accessibility-hero4.png"
+categories: ["Accessibility"]
+tags: ["accessibility", "WCAG", "accessibility audit", "systemic analysis", "testing"]
 weight: 1
 ---
 
-<div class="hct-hero-panel" aria-label="Human-Centred Testing introduction">
-  <p class="hct-kicker">Quality engineering · Accessibility · Conversational AI</p>
-  <h2>Testing that treats people as the edge case worth designing for.</h2>
-  <p class="hct-lede">I help teams find the repeated, systemic and human-impacting problems that ordinary test passes tend to miss — from brittle automation and accessibility debt to conversational AI that drifts, hallucinates, overwhelms, or simply stops being useful.</p>
+<div class="hct-hero-panel hct-accessibility-home-hero" aria-label="Accessibility testing introduction">
+  <p class="hct-kicker">Accessibility audits and systemic analysis</p>
+  <h2>Find the barriers. Fix the patterns. Improve the experience.</h2>
+  <p class="hct-lede">I help teams understand accessibility issues in a way that is practical, prioritised and useful for real remediation — not just another spreadsheet of isolated failures.</p>
   <div class="hct-actions" aria-label="Primary actions">
     <a class="hct-button hct-button-primary" href="/accessibility/">Explore accessibility audits</a>
-    <a class="hct-button hct-button-secondary" href="/conversational-ai/">See AI testing services</a>
+    <a class="hct-button hct-button-secondary" href="https://calendly.com/jaffamonkeyltd/intro-call">Book a call</a>
   </div>
 </div>
 
-<div class="hct-proof-grid" aria-label="Service highlights">
-  <div class="hct-proof-card">
-    <strong>Systemic accessibility</strong>
-    <span>Turn noisy scanner output into patterns, priorities and fix-once opportunities.</span>
-  </div>
-  <div class="hct-proof-card">
-    <strong>AI behaviour testing</strong>
-    <span>Stress-test reasoning, tone, memory, safety, and multi-turn consistency.</span>
-  </div>
-  <div class="hct-proof-card">
-    <strong>Pragmatic automation</strong>
-    <span>Useful test coverage without pretending every problem can be solved by tooling.</span>
-  </div>
-</div>
+## Accessibility support that turns findings into action
 
-## Where I can help
-
-<div class="hct-service-grid">
-  <article class="hct-service-card">
-    <p class="hct-card-icon" aria-hidden="true">☑</p>
-    <h3>Accessibility audits with useful triage</h3>
-    <p>Audit web or app experiences against practical accessibility expectations, then group the findings so teams can see what is isolated, what is repeated, and what should be fixed first.</p>
-    <a href="/accessibility/">Read about accessibility audits</a>
+<div class="hct-accessibility-service-grid" aria-label="Accessibility service summary">
+  <article class="hct-service-card hct-service-card-featured">
+    <p class="hct-card-icon" aria-hidden="true">01</p>
+    <h3>Practical accessibility audits</h3>
+    <p>WCAG-informed reviews of websites and web apps, combining automated checks with manual judgement so findings are relevant, explainable and fixable.</p>
+    <ul class="hct-card-list">
+      <li>Keyboard and focus behaviour</li>
+      <li>Semantics, headings and landmarks</li>
+      <li>Forms, errors and user journeys</li>
+      <li>Colour contrast and visual clarity</li>
+    </ul>
   </article>
 
-  <article class="hct-service-card">
-    <p class="hct-card-icon" aria-hidden="true">✦</p>
-    <h3>Conversational AI behaviour analysis</h3>
-    <p>Evaluate how chatbots and assistants behave across realistic user journeys, including long-running dialogue, tone drift, guardrail failures, ambiguity, and confusing recovery paths.</p>
-    <a href="/conversational-ai/">Read about conversational AI testing</a>
+  <article class="hct-service-card hct-service-card-featured">
+    <p class="hct-card-icon" aria-hidden="true">02</p>
+    <h3>Clear remediation guidance</h3>
+    <p>Findings are grouped and explained for the people who need to act on them: developers, designers, testers, product owners and stakeholders.</p>
+    <ul class="hct-card-list">
+      <li>Prioritised issues</li>
+      <li>Plain-English impact notes</li>
+      <li>Suggested fixes and examples</li>
+      <li>Re-test support after changes</li>
+    </ul>
   </article>
 
-  <article class="hct-service-card">
-    <p class="hct-card-icon" aria-hidden="true">⚙</p>
-    <h3>Automation and reliability testing</h3>
-    <p>Build targeted automation and exploratory checks around the risky parts of a product, with a focus on repeatable evidence rather than vanity pass rates.</p>
-    <a href="/testing/">Read about testing support</a>
-  </article>
-
-  <article class="hct-service-card">
-    <p class="hct-card-icon" aria-hidden="true">◎</p>
-    <h3>Human-centred quality coaching</h3>
-    <p>Help teams make better quality decisions by combining technical evidence, accessibility judgement, risk-based thinking, and clear communication.</p>
-    <a href="/about/">Read more about my approach</a>
+  <article class="hct-service-card hct-service-card-featured">
+    <p class="hct-card-icon" aria-hidden="true">03</p>
+    <h3>Systemic accessibility analysis</h3>
+    <p>For larger estates, repeated issues are surfaced as patterns so teams can spot shared components, templates and fix-once opportunities.</p>
+    <ul class="hct-card-list">
+      <li>Repeated issue patterns</li>
+      <li>WCAG concentration</li>
+      <li>Cross-tool evidence</li>
+      <li>Fix-once benefit-many views</li>
+    </ul>
   </article>
 </div>
 
-## A more useful way to look at accessibility findings
+## What an audit can cover
 
-<div class="hct-feature-band">
+<div class="hct-section-panel hct-section-panel-accessibility hct-accessibility-focus-panel">
   <div>
-    <p class="hct-kicker">Featured project</p>
-    <h3>Accessibility Systemic Analyzer</h3>
-    <p>The analyzer turns multi-tool accessibility results into clearer patterns: repeated issues, affected pages, WCAG concentration, component heatmaps, and remediation opportunities.</p>
+    <p class="hct-kicker">Manual plus automated evidence</p>
+    <h3>Automated scans are useful, but they are only the start.</h3>
+    <p>Automated tools are good at finding certain classes of issues quickly. They are much weaker at deciding whether an experience makes sense for real people. A useful accessibility review needs both tool output and human judgement.</p>
+    <p>I focus on the areas that often matter most in practice: keyboard access, focus visibility, structure, forms, navigation, content clarity, responsive behaviour, error recovery and the user journeys most likely to affect customers.</p>
   </div>
-  <div class="hct-mini-list" aria-label="Analyzer outputs">
-    <span>Dashboard cards and charts</span>
-    <span>Workbook exports</span>
-    <span>Cross-tool overlap</span>
-    <span>Fix-once prioritisation</span>
+  <div class="hct-mini-list" aria-label="Audit coverage areas">
+    <span>WCAG-informed checks</span>
+    <span>Keyboard testing</span>
+    <span>Screen reader review</span>
+    <span>Forms and errors</span>
+    <span>Contrast checks</span>
+    <span>Journey review</span>
   </div>
-  <a class="hct-button hct-button-primary" href="/guides/accessibility-systemic-analyzer/">Explore the guide</a>
 </div>
 
-## How engagements usually work
+## The Accessibility Systemic Analyzer
 
-<ol class="hct-steps">
-  <li><strong>Understand the risk.</strong> We identify what matters most: users, journeys, components, flows, compliance pressure, release risk, or AI behaviour.</li>
-  <li><strong>Collect evidence.</strong> I combine tooling, exploratory testing, accessibility review, conversation probes, and repeatable checks where they help.</li>
-  <li><strong>Group the findings.</strong> The emphasis is on patterns and decisions, not drowning people in unprioritised tickets.</li>
-  <li><strong>Support remediation.</strong> You get practical next steps, explainable evidence, and enough context for developers, designers, testers and stakeholders.</li>
-</ol>
+<div class="hct-analyzer-feature" aria-label="Accessibility Systemic Analyzer summary">
+  <div class="hct-analyzer-copy">
+    <p class="hct-kicker">For bigger audits and noisy scan output</p>
+    <h3>From hundreds of findings to reusable remediation targets.</h3>
+    <p>The Accessibility Systemic Analyzer is a reporting layer for multi-tool accessibility output. It helps identify what is repeated, what is corroborated across tools, and which fixes are most likely to remove broad classes of issues across a site or estate.</p>
+    <p>Instead of treating every page-level finding as a separate problem, it groups likely repeated patterns: shared components, templates, WCAG themes, page concentration and fix-once opportunities.</p>
+    <div class="hct-actions">
+      <a class="hct-button hct-button-primary" href="/guides/accessibility-systemic-analyzer/">Read the analyser overview</a>
+      <a class="hct-button hct-button-secondary" href="/guides/dashboard-charts-and-metrics-guide/">Dashboard guide</a>
+    </div>
+  </div>
+  <div class="hct-analyzer-stats" aria-label="Analyzer outputs">
+    <div>
+      <strong>Patterns</strong>
+      <span>Repeated issue families and shared components</span>
+    </div>
+    <div>
+      <strong>Evidence</strong>
+      <span>Cross-tool overlap, confidence and source signals</span>
+    </div>
+    <div>
+      <strong>Priorities</strong>
+      <span>Fix-once opportunities and remediation queues</span>
+    </div>
+  </div>
+</div>
 
-<div class="hct-cta-panel" aria-label="Contact call to action">
+## Typical engagement
+
+<div class="hct-process-list" aria-label="Accessibility audit process">
+  <article>
+    <span aria-hidden="true">1</span>
+    <h3>Scope the journeys</h3>
+    <p>Agree the pages, flows, devices and assistive technology checks that matter most.</p>
+  </article>
+  <article>
+    <span aria-hidden="true">2</span>
+    <h3>Test and analyse</h3>
+    <p>Run targeted automated checks, manual review and systemic analysis where useful.</p>
+  </article>
+  <article>
+    <span aria-hidden="true">3</span>
+    <h3>Prioritise fixes</h3>
+    <p>Group findings by user impact, repeatability, WCAG area and likely remediation value.</p>
+  </article>
+  <article>
+    <span aria-hidden="true">4</span>
+    <h3>Support remediation</h3>
+    <p>Provide clear handoff notes, answer implementation questions and re-test changes.</p>
+  </article>
+</div>
+
+<div class="hct-cta-panel hct-cta-panel-simple" aria-label="Contact call to action">
   <div>
-    <p class="hct-kicker">Ready when you are</p>
-    <h2>Want a more human-centred read on your product quality?</h2>
-    <p>Whether it is an accessibility audit, conversational AI review, or a testing strategy that needs less theatre and more signal, I would be happy to chat.</p>
+    <p class="hct-kicker">Accessibility without the noise</p>
+    <h2>Need a clearer view of your accessibility risks?</h2>
+    <p>I can help you move from raw findings to practical, prioritised action — especially where repeated patterns are making the issue count look worse than the underlying fix.</p>
   </div>
   <div class="hct-actions">
     <a class="hct-button hct-button-primary" href="https://calendly.com/jaffamonkeyltd/intro-call">Book a call</a>
-    <a class="hct-button hct-button-secondary" href="https://www.linkedin.com/in/jaffamonkey/">LinkedIn profile</a>
+    <a class="hct-button hct-button-secondary" href="/accessibility/">Audit details</a>
   </div>
 </div>

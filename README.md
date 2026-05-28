@@ -74,3 +74,32 @@ assets/css/custom.css
 ```
 
 It adds stronger keyboard focus indicators, underlined body links, clearer panel/table borders, and a slightly larger base font size. See `ACCESSIBLE_COLOUR_SCHEME.md` for the contrast notes.
+
+## Homepage jazz-up
+
+This version includes a richer accessible homepage in `content/_index.md`, plus supporting styles in `assets/css/custom.css`.
+
+The custom homepage sections use semantic headings, cards, ordered steps, visible focus states, non-colour-only links, and high-contrast buttons. The extra styling is intentionally layered on top of the `accessible-clarity` Blowfish colour scheme rather than replacing the theme.
+## Homepage revision
+
+This version simplifies the homepage around three clear service summaries:
+
+- Accessibility audits
+- Conversational AI testing
+- Quality engineering support
+
+The previous extra proof/process/featured-project content has been folded into the relevant service sections to reduce visual clutter while keeping the stronger accessible colour and focus treatment.
+
+
+## Homepage revision: accessibility-first
+
+This package updates `content/_index.md` so the homepage focuses primarily on accessibility audit services, with the Accessibility Systemic Analyzer presented as supporting evidence/tooling rather than a separate competing service.
+
+The homepage now centres on:
+
+- practical accessibility audits
+- clear remediation guidance
+- systemic accessibility analysis
+- a short explanation of the analyzer
+- a simple four-step engagement process
+
