@@ -1327,3 +1327,83 @@ html.dark .hct-card-number {
     max-width: 100% !important;
   }
 }
+
+/* Final accessibility-only homepage alignment tweaks.
+   - Remove numbered card lozenges.
+   - Bring homepage width back in line so hero, service row and analyser row align.
+   - Quiet the hero typography so it does not feel shouty. */
+.hct-accessibility-only-home,
+.hct-core-home.hct-accessibility-only-home {
+  width: min(100%, 74rem) !important;
+  max-width: 74rem !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.hct-accessibility-only-home .hct-core-hero,
+.hct-accessibility-only-home .hct-core-services,
+.hct-accessibility-only-home .hct-core-analyser {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.hct-accessibility-only-home .hct-core-hero {
+  padding: clamp(1.45rem, 3vw, 2.35rem) clamp(1.35rem, 3.5vw, 2.75rem) !important;
+}
+
+.hct-accessibility-only-home .hct-core-hero h1 {
+  max-width: 24ch !important;
+  font-size: clamp(1.65rem, 3.6vw, 2.65rem) !important;
+  line-height: 1.12 !important;
+  letter-spacing: -0.025em !important;
+}
+
+.hct-accessibility-only-home .hct-core-lede {
+  max-width: 58rem !important;
+  font-size: clamp(1rem, 1.35vw, 1.12rem) !important;
+  line-height: 1.65 !important;
+}
+
+.hct-accessibility-only-home .hct-core-services-two {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: clamp(1rem, 2vw, 1.35rem) !important;
+}
+
+.hct-accessibility-only-home .hct-core-service-card {
+  min-height: 0 !important;
+  padding: clamp(1.25rem, 2vw, 1.6rem) !important;
+}
+
+.hct-accessibility-only-home .hct-core-service-card > .hct-core-kicker,
+.hct-accessibility-only-home .hct-card-number {
+  display: none !important;
+}
+
+.hct-accessibility-only-home .hct-core-service-card h2 {
+  max-width: none !important;
+  margin-top: 0 !important;
+  font-size: clamp(1.25rem, 1.8vw, 1.55rem) !important;
+}
+
+.hct-accessibility-only-home .hct-core-service-card p:not(.hct-core-kicker) {
+  font-size: 0.98rem !important;
+}
+
+.hct-accessibility-only-home .hct-core-analyser h2 {
+  font-size: clamp(1.25rem, 2vw, 1.6rem) !important;
+}
+
+@media (max-width: 760px) {
+  .hct-accessibility-only-home,
+  .hct-core-home.hct-accessibility-only-home {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .hct-accessibility-only-home .hct-core-services-two {
+    grid-template-columns: 1fr !important;
+  }
+}

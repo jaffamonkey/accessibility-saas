@@ -28,3 +28,12 @@ This keeps the Markdown page clean and avoids raw HTML being displayed as text b
 ## Homepage spacing update
 
 This build widens the homepage content area and refines the core service cards so they feel less cramped. The service number labels now render as small lozenges and service links render as softer pill links.
+
+## Latest homepage tweak
+
+The accessibility-only homepage has been tightened again:
+
+- removed the 01 / 02 numbering from the service panels
+- reduced the hero heading size
+- brought the hero, service cards and analyser strip onto the same content width
+- kept the existing accessible colour and focus treatment
