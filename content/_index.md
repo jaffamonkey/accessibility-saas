@@ -21,7 +21,7 @@ weight: 1
     <p class="hct-core-lede">I help teams understand barriers, prioritise what matters, and turn accessibility findings into changes that improve real products.</p>
     <div class="hct-core-actions" aria-label="Primary actions">
       <a class="hct-core-button hct-core-button-primary" href="/accessibility-specialist/">Specialist support</a>
-      <a class="hct-core-button hct-core-button-secondary" href="/audit-services/">Audit services</a>
+      <a class="hct-core-button hct-core-button-secondary" href="/audit-services/">Accessibility audit</a>
     </div>
   </section>
 
