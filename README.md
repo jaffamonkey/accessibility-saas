@@ -56,3 +56,21 @@ If Netlify still reports an older Hugo version in the build log, add this in **S
 HUGO_VERSION=0.161.1
 HUGO_EXTENDED=true
 ```
+
+## Accessible colour scheme
+
+This build uses a custom Blowfish colour scheme named `accessible-clarity`.
+
+The scheme lives at:
+
+```text
+assets/css/schemes/accessible-clarity.css
+```
+
+The extra accessibility polish lives at:
+
+```text
+assets/css/custom.css
+```
+
+It adds stronger keyboard focus indicators, underlined body links, clearer panel/table borders, and a slightly larger base font size. See `ACCESSIBLE_COLOUR_SCHEME.md` for the contrast notes.
