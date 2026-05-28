@@ -1354,7 +1354,7 @@ html.dark .hct-card-number {
 }
 
 .hct-accessibility-only-home .hct-core-hero h1 {
-  max-width: 24ch !important;
+  max-width: 50ch !important;
   font-size: clamp(1.65rem, 3.6vw, 2.65rem) !important;
   line-height: 1.12 !important;
   letter-spacing: -0.025em !important;
