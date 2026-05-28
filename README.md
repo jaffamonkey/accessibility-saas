@@ -21,3 +21,7 @@ The homepage service cards and analyzer strip are rendered through custom Hugo s
 - `analyser-strip.html`
 
 This keeps the Markdown page clean and avoids raw HTML being displayed as text by Hugo/Goldmark.
+
+## Homepage spacing update
+
+This build widens the homepage content area and refines the core service cards so they feel less cramped. The service number labels now render as small lozenges and service links render as softer pill links.

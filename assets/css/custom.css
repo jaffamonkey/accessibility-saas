@@ -1209,3 +1209,96 @@ html.dark .hct-card-number {
     max-width: 100%;
   }
 }
+
+/* Homepage spacing refinement: wider content, softer service cards, lozenge numbers. */
+.hct-core-home {
+  width: min(94vw, 92rem) !important;
+  max-width: 92rem !important;
+  margin-left: calc(50% - min(47vw, 46rem)) !important;
+  margin-right: calc(50% - min(47vw, 46rem)) !important;
+}
+
+.hct-core-hero {
+  padding: clamp(2rem, 4vw, 3.4rem) clamp(1.6rem, 5vw, 4.2rem) !important;
+}
+
+.hct-core-services {
+  grid-template-columns: repeat(3, minmax(17.5rem, 1fr)) !important;
+  gap: clamp(1rem, 2vw, 1.4rem) !important;
+  align-items: stretch !important;
+}
+
+.hct-core-service-card {
+  padding: clamp(1.35rem, 2.2vw, 1.75rem) !important;
+  border-radius: 1.15rem !important;
+  min-width: 0 !important;
+}
+
+.hct-core-service-card > .hct-core-kicker {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: fit-content !important;
+  min-width: 3.3rem !important;
+  min-height: 2rem !important;
+  margin-bottom: 1rem !important;
+  padding: 0.28rem 0.8rem !important;
+  border: 1px solid #bfdbfe !important;
+  border-radius: 999px !important;
+  background: #93c5fd !important;
+  color: #0f172a !important;
+  font-size: 0.86rem !important;
+  letter-spacing: 0.08em !important;
+}
+
+.hct-core-service-card h2 {
+  max-width: 13ch !important;
+  font-size: clamp(1.25rem, 1.7vw, 1.55rem) !important;
+  line-height: 1.18 !important;
+}
+
+.hct-core-service-card p:not(.hct-core-kicker) {
+  margin-bottom: 1.15rem !important;
+  font-size: 0.98rem !important;
+}
+
+.hct-core-service-card a {
+  padding: 0.48rem 0.78rem !important;
+  border: 1px solid rgba(191, 219, 254, 0.65) !important;
+  border-radius: 999px !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+.hct-core-service-card a:hover {
+  color: #0f172a !important;
+  background: #bfdbfe !important;
+  border-color: #bfdbfe !important;
+}
+
+.hct-core-analyser {
+  padding: clamp(1.35rem, 2.2vw, 1.85rem) !important;
+}
+
+@media (max-width: 1120px) {
+  .hct-core-services {
+    grid-template-columns: repeat(2, minmax(17rem, 1fr)) !important;
+  }
+}
+
+@media (max-width: 760px) {
+  .hct-core-home {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .hct-core-services {
+    grid-template-columns: 1fr !important;
+  }
+
+  .hct-core-service-card h2 {
+    max-width: 100% !important;
+  }
+}
