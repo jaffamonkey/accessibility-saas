@@ -19,9 +19,9 @@
   weight = 40
 
 [[main]]
-  name = "Analyzer Guides"
-  pageRef = "guides"
-  weight = 50
+  name = "Accessibility Analayzer"
+  url = "https://accessibility-analyser.netlify.app"
+  weight = 40
 
 [[main]]
   identifier = "search"
