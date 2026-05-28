@@ -14,6 +14,6 @@ title = "Accessibility Support"
 [params.author]
   name = "Accessibility Support"
   image = "images/logo.png"
-  headline = "Clear accessibility work. Practical fixes. Less theatre."
-  bio = "I help teams understand barriers, prioritise what matters, and turn accessibility findings into changes that improve real products."
+  headline = "I help teams understand barriers, prioritise what matters, and turn accessibility findings into changes that improve real products."
+  bio = "Human-first testing, pragmatic automation and accessibility analysis."
   links = []
