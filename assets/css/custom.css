@@ -1449,3 +1449,97 @@ html.dark .hct-card-number {
     grid-template-columns: 1fr !important;
   }
 }
+
+/* Analyzer panel with collage image: two cards aligned to the service-card row. */
+.hct-core-home.hct-accessibility-only-home {
+  width: min(calc(100vw - 4rem), 65rem) !important;
+  max-width: min(calc(100vw - 4rem), 65rem) !important;
+  margin-left: 50% !important;
+  margin-right: 0 !important;
+  transform: translateX(-50%) !important;
+}
+
+.hct-core-home.hct-accessibility-only-home .hct-core-analyser {
+  display: grid !important;
+  grid-template-columns: minmax(0, 0.88fr) minmax(0, 1.12fr) !important;
+  gap: 1.35rem !important;
+  align-items: stretch !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.hct-core-analyser-copy,
+.hct-core-analyser-visual {
+  min-width: 0;
+  border: 1px solid rgba(147, 197, 253, 0.32);
+  border-radius: 1rem;
+  background: #172033;
+  color: #f8fafc;
+}
+
+.hct-core-analyser-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: clamp(1.25rem, 2.25vw, 1.8rem);
+}
+
+.hct-core-analyser-copy h2 {
+  margin: 0 0 0.65rem !important;
+  color: #ffffff;
+  font-size: clamp(1.25rem, 2vw, 1.65rem) !important;
+  line-height: 1.18 !important;
+  letter-spacing: -0.02em;
+}
+
+.hct-core-analyser-copy p:not(.hct-core-kicker) {
+  margin-bottom: 0;
+  color: #dbeafe;
+  line-height: 1.65;
+}
+
+.hct-core-analyser-copy .hct-core-analyser-links {
+  justify-content: flex-start !important;
+  margin-top: 1.25rem !important;
+}
+
+.hct-core-analyser-visual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+  padding: 0.65rem;
+}
+
+.hct-core-analyser-visual img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 15rem;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0.75rem;
+}
+
+@media (max-width: 900px) {
+  .hct-core-home.hct-accessibility-only-home {
+    width: min(100%, calc(100vw - 2rem)) !important;
+    max-width: min(100%, calc(100vw - 2rem)) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    transform: none !important;
+  }
+
+  .hct-core-home.hct-accessibility-only-home .hct-core-analyser {
+    grid-template-columns: 1fr !important;
+  }
+
+  .hct-core-analyser-visual img {
+    height: auto;
+    min-height: 0;
+    aspect-ratio: 16 / 9;
+  }
+}

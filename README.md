@@ -1,4 +1,4 @@
-# Accessibility Support— Accessibility-focused Blowfish site
+# Human-Centred Testing — Accessibility-focused Blowfish site
 
 This version has been stripped back to the primary market focus: accessibility specialist support, audit services, and the Accessibility Systemic Analyzer guides. Conversational AI and general testing service pages have been removed from the navigation and content.
 
@@ -42,3 +42,17 @@ The accessibility-only homepage has been tightened again:
 ## Homepage row width alignment patch
 
 The custom homepage blocks now deliberately break out of the narrower article/prose column and use a centred width designed to visually match the Blowfish Recent cards row. The controlling override is at the end of `assets/css/custom.css`.
+
+## Homepage analyzer collage update
+
+The homepage analyzer section now uses a two-card layout: explanatory text on the left and the generated analyzer collage image on the right. The image is stored at:
+
+```text
+static/images/accessibility-systemic-analyzer-collage.webp
+```
+
+The section is rendered by:
+
+```text
+layouts/shortcodes/analyser-strip.html
+```

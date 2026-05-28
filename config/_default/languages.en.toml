@@ -1,7 +1,7 @@
 languageCode = "en-gb"
 languageName = "English"
 weight = 1
-title = "Accessibility Support"
+title = "Human-Centred Testing"
 
 [params]
   displayName = "EN"
@@ -12,8 +12,8 @@ title = "Accessibility Support"
   description = "Quality engineering, accessibility, automation and conversational AI testing with a human-first approach."
 
 [params.author]
-  name = "Accessibility Support"
+  name = "Human-Centred Testing"
   image = "images/logo.png"
-  headline = "Clear accessibility work. Practical fixes. Less theatre. I help teams understand barriers, prioritise what matters, and turn accessibility findings into changes that improve real products."
+  headline = "Quality engineering, accessibility and conversational AI testing."
   bio = "Human-first testing, pragmatic automation and accessibility analysis."
   links = []

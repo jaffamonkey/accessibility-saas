@@ -4,7 +4,7 @@
   weight = 10
 
 [[main]]
-  name = "Accessibility Audit"
+  name = "Audit Services"
   pageRef = "audit-services"
   weight = 20
 
@@ -26,7 +26,7 @@
   weight = 10
 
 [[footer]]
-  name = "Accessibility Audit"
+  name = "Audit Services"
   pageRef = "audit-services"
   weight = 20
 
