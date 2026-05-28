@@ -37,3 +37,7 @@ The accessibility-only homepage has been tightened again:
 - reduced the hero heading size
 - brought the hero, service cards and analyser strip onto the same content width
 - kept the existing accessible colour and focus treatment
+
+## Homepage alignment tweak
+
+The homepage custom sections now use `--hct-home-row-width: 96rem` so the hero, service row and analyser strip line up more closely with the default Blowfish Recent card row.

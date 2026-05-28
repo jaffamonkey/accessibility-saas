@@ -1407,3 +1407,64 @@ html.dark .hct-card-number {
     grid-template-columns: 1fr !important;
   }
 }
+
+/* Homepage row alignment refinement.
+   Match the custom homepage sections to the same comfortable width as the Blowfish Recent card row. */
+:root {
+  --hct-home-row-width: 96rem;
+}
+
+.hct-core-home,
+.hct-core-home.hct-accessibility-only-home,
+.hct-accessibility-only-home {
+  width: min(100%, var(--hct-home-row-width)) !important;
+  max-width: var(--hct-home-row-width) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.hct-core-hero,
+.hct-core-services,
+.hct-core-services-two,
+.hct-core-analyser,
+.hct-accessibility-only-home .hct-core-hero,
+.hct-accessibility-only-home .hct-core-services,
+.hct-accessibility-only-home .hct-core-services-two,
+.hct-accessibility-only-home .hct-core-analyser {
+  width: min(100%, var(--hct-home-row-width)) !important;
+  max-width: var(--hct-home-row-width) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.hct-accessibility-only-home .hct-core-services-two,
+.hct-core-services-two {
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+}
+
+.hct-core-analyser {
+  grid-template-columns: minmax(0, 1.2fr) minmax(18rem, auto) !important;
+}
+
+@media (max-width: 980px) {
+  .hct-core-analyser {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media (max-width: 760px) {
+  .hct-core-home,
+  .hct-core-home.hct-accessibility-only-home,
+  .hct-accessibility-only-home,
+  .hct-core-hero,
+  .hct-core-services,
+  .hct-core-services-two,
+  .hct-core-analyser {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .hct-core-services-two {
+    grid-template-columns: 1fr !important;
+  }
+}
