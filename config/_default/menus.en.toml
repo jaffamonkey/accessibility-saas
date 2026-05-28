@@ -4,12 +4,12 @@
   weight = 10
 
 [[main]]
-  name = "Quality Enginnering"
+  name = "Testing"
   pageRef = "testing"
   weight = 20
 
 [[main]]
-  name = "Accessibility Audit"
+  name = "Accessibility"
   pageRef = "accessibility"
   weight = 30
 
@@ -19,9 +19,9 @@
   weight = 40
 
 [[main]]
-  name = "Accessibility Analayzer"
-  url = "https://accessibility-analyser.netlify.app"
-  weight = 40
+  name = "Guides"
+  pageRef = "guides"
+  weight = 50
 
 [[main]]
   identifier = "search"
