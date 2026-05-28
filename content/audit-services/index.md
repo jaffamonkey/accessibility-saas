@@ -40,3 +40,19 @@ Audit work should help a team act. The aim is not just to record issues, but to 
 For bigger estates, the same underlying problem can appear across many pages. This is where systemic analysis helps: repeated issues can be grouped by pattern, component, template or WCAG concentration so teams can prioritise shared causes rather than chasing every row one by one.
 
 [Read about the Accessibility Systemic Analyzer](/guides/accessibility-systemic-analyzer/)
+
+## Recent clients
+
+* M&S
+* JamUp
+* Leva Clinic
+* Adora
+* Dawa Innovations
+* Coloplast
+* DigiSafe
+* HealthwaveHub
+* IMS Maxims
+* MediaLogix
+* ZoomDoc
+* TympaHealth
+* Infervision
