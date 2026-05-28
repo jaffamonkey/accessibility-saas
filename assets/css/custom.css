@@ -1,0 +1,4 @@
+/* Optional small refinements on top of Blowfish. */
+.prose table { font-size: 0.95rem; }
+.prose blockquote p:first-child { margin-top: 0; }
+.prose blockquote p:last-child { margin-bottom: 0; }

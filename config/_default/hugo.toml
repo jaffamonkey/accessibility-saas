@@ -1,0 +1,17 @@
+baseURL = "https://example.com/"
+languageCode = "en-gb"
+title = "Human-Centred Testing"
+theme = "blowfish"
+
+enableRobotsTXT = true
+summaryLength = 30
+
+[pagination]
+  pagerSize = 12
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"

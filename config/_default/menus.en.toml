@@ -1,0 +1,46 @@
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 10
+
+[[main]]
+  name = "Testing"
+  pageRef = "testing"
+  weight = 20
+
+[[main]]
+  name = "Accessibility"
+  pageRef = "accessibility"
+  weight = 30
+
+[[main]]
+  name = "Conversational AI"
+  pageRef = "conversational-ai"
+  weight = 40
+
+[[main]]
+  name = "Guides"
+  pageRef = "guides"
+  weight = 50
+
+[[main]]
+  identifier = "search"
+  weight = 99
+  [main.params]
+    action = "search"
+    icon = "search"
+
+[[footer]]
+  name = "Accessibility Systemic Analyzer"
+  pageRef = "guides/accessibility-systemic-analyzer"
+  weight = 10
+
+[[footer]]
+  name = "Dashboard Guide"
+  pageRef = "guides/dashboard-charts-and-metrics-guide"
+  weight = 20
+
+[[footer]]
+  name = "Workbook Guide"
+  pageRef = "guides/workbook-guide"
+  weight = 30

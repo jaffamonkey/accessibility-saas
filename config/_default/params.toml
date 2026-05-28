@@ -1,0 +1,53 @@
+colorScheme = "blowfish"
+defaultAppearance = "dark"
+autoSwitchAppearance = true
+
+enableSearch = true
+enableCodeCopy = true
+mainSections = ["guides", "testing", "accessibility", "conversational-ai"]
+
+[homepage]
+  layout = "profile"
+  showRecent = true
+  recentLimit = 6
+  cardView = true
+  cardViewScreenWidth = false
+  layoutBackgroundBlur = true
+
+[article]
+  showDate = false
+  showViews = false
+  showLikes = false
+  showDateUpdated = false
+  showAuthor = false
+  showHero = true
+  heroStyle = "background"
+  showBreadcrumbs = true
+  showDraftLabel = true
+  showEdit = false
+  showHeadingAnchors = true
+  showPagination = true
+  showReadingTime = true
+  showTableOfContents = true
+  showTaxonomies = true
+  showWordCount = false
+  sharingLinks = []
+
+[list]
+  showBreadcrumbs = true
+  showSummary = true
+  showTableOfContents = false
+  showCards = true
+  groupByYear = false
+  cardView = true
+  cardViewScreenWidth = false
+
+[sitemap]
+  excludedKinds = []
+
+[footer]
+  showCopyright = true
+  showThemeAttribution = true
+
+[header]
+  layout = "fixed"
