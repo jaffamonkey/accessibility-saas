@@ -849,7 +849,7 @@ html.dark .hct-card-number {
 .hct-core-hero,
 .hct-core-service-card,
 .hct-core-analyser {
-  /* border: 1px solid rgba(147, 197, 253, 0.32); */
+  border: 1px solid rgba(147, 197, 253, 0.32);
   background: #1e293b;
   color: #f8fafc;
   box-shadow: none;
@@ -1354,7 +1354,7 @@ html.dark .hct-card-number {
 }
 
 .hct-accessibility-only-home .hct-core-hero h1 {
-  max-width: 50ch !important;
+  max-width: 24ch !important;
   font-size: clamp(1.65rem, 3.6vw, 2.65rem) !important;
   line-height: 1.12 !important;
   letter-spacing: -0.025em !important;
@@ -1473,7 +1473,7 @@ html.dark .hct-card-number {
 .hct-core-analyser-copy,
 .hct-core-analyser-visual {
   min-width: 0;
-  /* border: 1px solid rgba(147, 197, 253, 0.32); */
+  border: 1px solid rgba(147, 197, 253, 0.32);
   border-radius: 1rem;
   background: #172033;
   color: #f8fafc;
@@ -1542,4 +1542,18 @@ html.dark .hct-card-number {
     min-height: 0;
     aspect-ratio: 16 / 9;
   }
+}
+
+/* Final tweak: remove the framed panel treatment from the top accessibility support hero.
+   The supporting service/analyser cards below keep their borders. */
+.hct-core-home.hct-accessibility-only-home .hct-core-hero {
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.hct-core-home.hct-accessibility-only-home .hct-core-hero .hct-core-actions {
+  margin-top: 1.35rem !important;
 }
