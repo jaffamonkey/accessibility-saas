@@ -4,12 +4,12 @@
   weight = 10
 
 [[main]]
-  name = "Testing"
+  name = "Quality Enginnering"
   pageRef = "testing"
   weight = 20
 
 [[main]]
-  name = "Accessibility"
+  name = "Accessibility Audit"
   pageRef = "accessibility"
   weight = 30
 
@@ -19,7 +19,7 @@
   weight = 40
 
 [[main]]
-  name = "Guides"
+  name = "Analyzer Guides"
   pageRef = "guides"
   weight = 50
 
