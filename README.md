@@ -38,6 +38,7 @@ The accessibility-only homepage has been tightened again:
 - brought the hero, service cards and analyser strip onto the same content width
 - kept the existing accessible colour and focus treatment
 
-## Homepage alignment tweak
 
-The homepage custom sections now use `--hct-home-row-width: 96rem` so the hero, service row and analyser strip line up more closely with the default Blowfish Recent card row.
+## Homepage row width alignment patch
+
+The custom homepage blocks now deliberately break out of the narrower article/prose column and use a centred width designed to visually match the Blowfish Recent cards row. The controlling override is at the end of `assets/css/custom.css`.
