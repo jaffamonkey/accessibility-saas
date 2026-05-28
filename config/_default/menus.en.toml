@@ -4,7 +4,7 @@
   weight = 10
 
 [[main]]
-  name = "Testing"
+  name = "Quality Engineering"
   pageRef = "testing"
   weight = 20
 
@@ -14,12 +14,12 @@
   weight = 30
 
 [[main]]
-  name = "Conversational AI"
+  name = "AI"
   pageRef = "conversational-ai"
   weight = 40
 
 [[main]]
-  name = "Guides"
+  name = "Analyzer Guides"
   pageRef = "guides"
   weight = 50
 
