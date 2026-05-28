@@ -667,3 +667,174 @@ html.dark .hct-process-list article {
     grid-template-columns: 1fr;
   }
 }
+
+/* Subtle accessibility-first homepage revision.
+   This intentionally quietens the previous large panel style. */
+.hct-home-intro,
+.hct-soft-section {
+  max-width: 68rem;
+  margin: 0 auto 2.25rem;
+}
+
+.hct-home-intro {
+  padding: 1.5rem 0 1rem;
+}
+
+.hct-home-intro h1 {
+  max-width: 18ch;
+  margin: 0 0 0.75rem;
+  font-size: clamp(1.9rem, 4vw, 2.65rem);
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+}
+
+.hct-home-intro .hct-lede {
+  max-width: 62ch;
+  font-size: clamp(1rem, 1.4vw, 1.12rem);
+  line-height: 1.65;
+}
+
+.hct-soft-section {
+  padding: 1.25rem 0;
+  border-top: 1px solid var(--hct-panel-border);
+}
+
+.hct-section-heading {
+  max-width: 48rem;
+  margin-bottom: 1rem;
+}
+
+.hct-section-heading h2,
+.hct-two-column h2,
+.hct-final-note h2 {
+  margin-top: 0;
+  font-size: clamp(1.35rem, 2.4vw, 1.8rem);
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+}
+
+.hct-soft-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.hct-soft-card {
+  padding: 1rem;
+  border: 1px solid var(--hct-panel-border);
+  border-radius: 0.9rem;
+  background: rgba(255, 255, 255, 0.36);
+}
+
+html.dark .hct-soft-card {
+  background: rgba(15, 23, 42, 0.22);
+}
+
+.hct-soft-card h3 {
+  margin: 0.25rem 0 0.45rem;
+  font-size: 1.05rem;
+  line-height: 1.25;
+}
+
+.hct-soft-card p,
+.hct-soft-card li,
+.hct-inline-metrics span,
+.hct-simple-steps li {
+  font-size: 0.98rem;
+  line-height: 1.6;
+}
+
+.hct-soft-card ul {
+  margin: 0.65rem 0 0 !important;
+  padding-left: 1.1rem !important;
+}
+
+.hct-card-number {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: rgb(var(--color-secondary-700));
+}
+
+html.dark .hct-card-number {
+  color: rgb(var(--color-secondary-300));
+}
+
+.hct-two-column {
+  display: grid;
+  grid-template-columns: minmax(0, 0.75fr) minmax(0, 1.25fr);
+  gap: 1.75rem;
+  align-items: start;
+}
+
+.hct-analyser-section {
+  border-top-color: rgba(20, 184, 166, 0.35);
+}
+
+.hct-inline-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin: 1.25rem 0 1rem;
+}
+
+.hct-inline-metrics div {
+  padding: 0.85rem 0;
+  border-top: 1px solid var(--hct-panel-border);
+}
+
+.hct-inline-metrics strong,
+.hct-inline-metrics span {
+  display: block;
+}
+
+.hct-inline-metrics strong {
+  margin-bottom: 0.25rem;
+  font-size: 1rem;
+}
+
+.hct-link-row {
+  margin-top: 1rem;
+}
+
+.hct-simple-steps {
+  display: grid;
+  gap: 0.65rem;
+  margin-top: 1rem !important;
+  padding-left: 1.25rem !important;
+}
+
+.hct-simple-steps li {
+  padding-left: 0.25rem;
+}
+
+.hct-final-note {
+  margin-top: 0;
+  padding-bottom: 2rem;
+}
+
+.hct-final-note p {
+  max-width: 62ch;
+}
+
+/* Override previous big/panel homepage treatments for the new index. */
+.hct-home-intro .hct-button,
+.hct-soft-section .hct-button {
+  min-height: 42px;
+  padding: 0.62rem 0.9rem;
+  font-weight: 750;
+}
+
+@media (max-width: 900px) {
+  .hct-soft-grid,
+  .hct-two-column,
+  .hct-inline-metrics {
+    grid-template-columns: 1fr;
+  }
+
+  .hct-home-intro h1 {
+    max-width: 100%;
+  }
+}

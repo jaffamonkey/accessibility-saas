@@ -103,3 +103,8 @@ The homepage now centres on:
 - a short explanation of the analyzer
 - a simple four-step engagement process
 
+
+
+## Homepage design update
+
+The homepage has been simplified into a calmer accessibility-first landing page. It now avoids large panel styling and oversized headings, using subtle footer-like cards, thin separators, and smaller typography while preserving strong contrast and keyboard focus states.
