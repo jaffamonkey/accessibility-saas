@@ -1,10 +1,10 @@
 [[main]]
-  name = "Accessibility Specialist"
+  name = "Accessibility support"
   pageRef = "accessibility-specialist"
   weight = 10
 
 [[main]]
-  name = "Audit Services"
+  name = "Accessibility audit"
   pageRef = "audit-services"
   weight = 20
 
@@ -21,12 +21,12 @@
     icon = "search"
 
 [[footer]]
-  name = "Accessibility Specialist"
+  name = "Accessibility support"
   pageRef = "accessibility-specialist"
   weight = 10
 
 [[footer]]
-  name = "Audit Services"
+  name = "Accessibility audit"
   pageRef = "audit-services"
   weight = 20
 
