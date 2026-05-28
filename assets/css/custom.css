@@ -849,7 +849,7 @@ html.dark .hct-card-number {
 .hct-core-hero,
 .hct-core-service-card,
 .hct-core-analyser {
-  border: 1px solid rgba(147, 197, 253, 0.32);
+  /* border: 1px solid rgba(147, 197, 253, 0.32); */
   background: #1e293b;
   color: #f8fafc;
   box-shadow: none;
