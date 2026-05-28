@@ -1,6 +1,6 @@
 baseURL = "https://example.com/"
 languageCode = "en-gb"
-title = "Human-Centred Testing"
+title = "Accessibility Support"
 theme = "blowfish"
 
 enableRobotsTXT = true
