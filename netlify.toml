@@ -1,8 +1,9 @@
 [build]
-  command = "git clone --depth 1 --branch main https://github.com/nunocoracao/blowfish.git themes/blowfish && hugo --gc --minify"
+  command = "rm -rf themes/blowfish && git clone --depth 1 --branch main https://github.com/nunocoracao/blowfish.git themes/blowfish && hugo --gc --minify"
   publish = "public"
 
 [build.environment]
-  HUGO_VERSION = "0.147.5"
+  HUGO_VERSION = "0.161.1"
+  HUGO_EXTENDED = "true"
   HUGO_ENV = "production"
   HUGO_ENABLEGITINFO = "true"

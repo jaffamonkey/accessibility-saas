@@ -44,3 +44,15 @@ publish = "public"
 - Placeholder PNGs are included so the site renders cleanly immediately. Replace files in `static/images/` with your real artwork using the same filenames.
 - Main menu links are configured in `config/_default/menus.en.toml`.
 - Site-level appearance and article/list settings are in `config/_default/params.toml`.
+
+
+## Netlify Hugo version note
+
+This site pins Netlify to Hugo Extended `0.161.1` in `netlify.toml`. Blowfish currently requires Hugo `0.158.0` or later, so do not remove the `HUGO_VERSION` setting unless your Netlify project environment variables already pin a compatible Hugo version.
+
+If Netlify still reports an older Hugo version in the build log, add this in **Site configuration → Environment variables** as well:
+
+```text
+HUGO_VERSION=0.161.1
+HUGO_EXTENDED=true
+```
