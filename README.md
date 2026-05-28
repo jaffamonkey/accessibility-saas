@@ -1,4 +1,4 @@
-# Human-Centred Testing — Accessibility-focused Blowfish site
+# Accessibility Support— Accessibility-focused Blowfish site
 
 This version has been stripped back to the primary market focus: accessibility specialist support, audit services, and the Accessibility Systemic Analyzer guides. Conversational AI and general testing service pages have been removed from the navigation and content.
 
