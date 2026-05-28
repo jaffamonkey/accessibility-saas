@@ -1,7 +1,7 @@
 languageCode = "en-gb"
 languageName = "English"
 weight = 1
-title = "Accessibility Support"
+title = "Practical fixes. Less theatre."
 
 [params]
   displayName = "EN"
@@ -12,7 +12,7 @@ title = "Accessibility Support"
   description = "Quality engineering, accessibility, automation and conversational AI testing with a human-first approach."
 
 [params.author]
-  name = "Accessibility Support"
+  name = "Practical fixes. Less theatre."
   image = "images/logo.png"
   headline = "I help teams understand barriers, prioritise what matters, and turn accessibility findings into changes that improve real products."
   bio = "Human-first testing, pragmatic automation and accessibility analysis."
