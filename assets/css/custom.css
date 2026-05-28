@@ -1468,3 +1468,39 @@ html.dark .hct-card-number {
     grid-template-columns: 1fr !important;
   }
 }
+
+/* Force custom homepage blocks to align with the Blowfish Recent card row */
+.hct-core-home {
+  max-width: 84rem !important;
+  width: calc(100% - 2rem) !important;
+  margin-inline: auto !important;
+}
+
+.hct-core-home .hct-core-hero,
+.hct-core-home .hct-core-services,
+.hct-core-home .hct-core-services-two,
+.hct-core-home .hct-core-analyser {
+  max-width: 100% !important;
+  width: 100% !important;
+  margin-inline: 0 !important;
+  box-sizing: border-box !important;
+}
+
+.hct-core-home .hct-core-services-two {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 1.25rem !important;
+}
+
+.hct-core-home .hct-core-analyser {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) auto !important;
+  gap: 1.25rem !important;
+}
+
+@media (max-width: 900px) {
+  .hct-core-home .hct-core-services-two,
+  .hct-core-home .hct-core-analyser {
+    grid-template-columns: 1fr !important;
+  }
+}
