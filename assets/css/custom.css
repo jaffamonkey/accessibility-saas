@@ -1302,3 +1302,28 @@ html.dark .hct-card-number {
     max-width: 100% !important;
   }
 }
+
+/* Accessibility-only homepage refinement. */
+.hct-accessibility-only-home .hct-core-hero h1 {
+  max-width: 18ch !important;
+}
+
+.hct-core-services-two {
+  grid-template-columns: repeat(2, minmax(18rem, 1fr)) !important;
+  max-width: 64rem !important;
+}
+
+.hct-core-services-two .hct-core-service-card {
+  min-height: 15rem !important;
+}
+
+.hct-core-services-two .hct-core-service-card h2 {
+  max-width: 12ch !important;
+}
+
+@media (max-width: 760px) {
+  .hct-core-services-two {
+    grid-template-columns: 1fr !important;
+    max-width: 100% !important;
+  }
+}

@@ -1,17 +1,19 @@
 ---
-title: "Guides"
-summary: "Reference guides for the Accessibility Systemic Analyzer, workbook, dashboard and reporting workflow."
-description: "Documentation guides covering the Accessibility Systemic Analyzer, dashboard metrics, workbook exports and accessibility reporting workflow."
-date: 2026-05-28
+title: "Analyzer guides"
+summary: "Guides for the Accessibility Systemic Analyzer, dashboard and workbook."
+description: "Documentation for the Accessibility Systemic Analyzer, including dashboard and workbook guides."
+date: "2026-05-28"
 draft: false
 showauthor: false
-showReadingTime: false
-showTableOfContents: true
-cascade:
-  showTableOfContents: true
-  showReadingTime: true
+showdate: false
+showreadingtime: false
+showtableofcontents: false
 ---
 
-A small documentation library for the Accessibility Systemic Analyzer and related reporting workflow.
+The Accessibility Systemic Analyzer is supporting tooling for larger accessibility work: it helps group repeated findings, highlight cross-tool evidence and identify fix-once benefit-many opportunities.
 
-The guides cover the project overview, dashboard interpretation, workbook export model, and practical workflow notes for accessibility analysis.
+## Guides
+
+- [Accessibility Systemic Analyzer overview](/guides/accessibility-systemic-analyzer/)
+- [Dashboard guide](/guides/dashboard-charts-and-metrics-guide/)
+- [Workbook guide](/guides/workbook-guide/)

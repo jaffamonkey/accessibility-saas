@@ -1,4 +1,7 @@
-# Human-Centred Testing — Blowfish Hugo site
+# Human-Centred Testing — Accessibility-focused Blowfish site
+
+This version has been stripped back to the primary market focus: accessibility specialist support, audit services, and the Accessibility Systemic Analyzer guides. Conversational AI and general testing service pages have been removed from the navigation and content.
+
 
 This version uses the Blowfish Hugo theme with a custom accessible colour scheme and a shortcode-based homepage.
 
