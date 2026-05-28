@@ -16,7 +16,7 @@ weight: 1
 
 <section class="hct-home-intro" aria-label="Accessibility testing introduction">
   <p class="hct-kicker">Accessibility testing</p>
-  <h1>Clear audits. Practical fixes. Better access.</h1>
+  <h2>Clear audits. Practical fixes. Better access.</h2>
   <p class="hct-lede">I help teams understand accessibility barriers, prioritise what matters, and turn findings into changes that improve the product rather than just filling another report.</p>
   <div class="hct-actions" aria-label="Primary actions">
     <a class="hct-button hct-button-primary" href="/accessibility/">Audit details</a>
