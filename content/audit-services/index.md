@@ -1,5 +1,5 @@
 ---
-title: "Audit services"
+title: "Accessibility Audit"
 summary: "WCAG-informed accessibility audits with manual testing, practical findings and remediation guidance."
 description: "Accessibility audit services for websites and web apps, covering WCAG-informed checks, manual testing, keyboard support, forms, semantics, journeys and remediation guidance."
 date: "2026-05-28"
