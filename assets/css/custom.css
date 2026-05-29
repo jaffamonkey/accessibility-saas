@@ -1560,106 +1560,282 @@ html.dark .hct-card-number {
 }
 
 /* --------------------------------------------------------------------------
-   FINAL BUTTON VISIBILITY FIX
-   Keep this at the very end of custom.css so Blowfish/prose/link styles cannot
-   make the homepage CTA text disappear in light mode.
+   Homepage feature-row redesign
+   Keeps the calmer hero, then uses a consistent [copy card] [image card]
+   pattern for Accessibility Specialist, Audit Services and the Analyzer.
    -------------------------------------------------------------------------- */
+
+.hct-core-home.hct-accessibility-only-home {
+  width: min(calc(100vw - 4rem), 65rem) !important;
+  max-width: min(calc(100vw - 4rem), 65rem) !important;
+  margin-left: 50% !important;
+  margin-right: 0 !important;
+  transform: translateX(-50%) !important;
+}
+
+.hct-core-home.hct-accessibility-only-home .hct-core-hero {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 0 clamp(1.25rem, 2vw, 1.6rem) !important;
+  padding: clamp(0.25rem, 1.2vw, 0.75rem) 0 clamp(0.75rem, 2vw, 1.15rem) !important;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.hct-core-home.hct-accessibility-only-home .hct-core-hero h1 {
+  max-width: 24ch !important;
+  margin-bottom: 0.75rem !important;
+  font-size: clamp(1.55rem, 3.2vw, 2.35rem) !important;
+  line-height: 1.14 !important;
+  letter-spacing: -0.025em !important;
+}
+
+.hct-core-home.hct-accessibility-only-home .hct-core-lede {
+  max-width: 58rem !important;
+  font-size: clamp(1rem, 1.2vw, 1.08rem) !important;
+  line-height: 1.65 !important;
+}
+
 .hct-core-home.hct-accessibility-only-home .hct-core-actions {
   display: flex !important;
   flex-wrap: wrap !important;
   justify-content: center !important;
   align-items: center !important;
-  gap: 0.85rem !important;
+  gap: 0.8rem !important;
+  margin-top: 1.35rem !important;
 }
 
+.hct-feature-stack {
+  display: grid !important;
+  gap: clamp(1rem, 2vw, 1.35rem) !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 0 clamp(1rem, 2vw, 1.35rem) !important;
+}
+
+.hct-feature-row {
+  display: grid !important;
+  grid-template-columns: minmax(0, 0.95fr) minmax(18rem, 1.05fr) !important;
+  gap: clamp(1rem, 2vw, 1.35rem) !important;
+  align-items: stretch !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+
+.hct-feature-copy,
+.hct-feature-image {
+  min-width: 0 !important;
+  border: 1px solid rgba(30, 64, 175, 0.22) !important;
+  border-radius: 0.85rem !important;
+  background: rgba(255, 255, 255, 0.82) !important;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08) !important;
+}
+
+.hct-feature-copy {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  padding: clamp(1.25rem, 2.25vw, 1.8rem) !important;
+}
+
+.hct-feature-copy .hct-core-kicker {
+  margin: 0 0 0.65rem !important;
+}
+
+.hct-feature-copy h2 {
+  margin: 0 0 0.7rem !important;
+  max-width: 24ch !important;
+  color: #172033 !important;
+  font-size: clamp(1.2rem, 2vw, 1.55rem) !important;
+  line-height: 1.2 !important;
+  letter-spacing: -0.018em !important;
+}
+
+.hct-feature-copy p:not(.hct-core-kicker) {
+  margin: 0 !important;
+  color: #334155 !important;
+  font-size: 0.98rem !important;
+  line-height: 1.65 !important;
+}
+
+.hct-feature-copy > .hct-core-button,
+.hct-feature-links {
+  margin-top: 1.2rem !important;
+}
+
+.hct-feature-links {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 0.7rem !important;
+  align-items: center !important;
+}
+
+.hct-feature-image {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  overflow: hidden !important;
+  margin: 0 !important;
+  padding: 0.65rem !important;
+}
+
+.hct-feature-image img {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 15rem !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  border-radius: 0.65rem !important;
+}
+
+.hct-feature-image-analyser img {
+  aspect-ratio: 16 / 9 !important;
+}
+
+/* Keep the middle row varied on desktop. */
+@media (min-width: 901px) {
+  .hct-feature-row:nth-child(even) .hct-feature-copy {
+    order: 2 !important;
+  }
+
+  .hct-feature-row:nth-child(even) .hct-feature-image {
+    order: 1 !important;
+  }
+}
+
+/* Button reset: prevents Blowfish/prose link colour from making button text vanish in light mode. */
 .hct-core-home.hct-accessibility-only-home .hct-core-button,
 .hct-core-home.hct-accessibility-only-home .hct-core-button:link,
-.hct-core-home.hct-accessibility-only-home .hct-core-button:visited {
+.hct-core-home.hct-accessibility-only-home .hct-core-button:visited,
+.hct-core-home.hct-accessibility-only-home .hct-feature-links a,
+.hct-core-home.hct-accessibility-only-home .hct-feature-links a:link,
+.hct-core-home.hct-accessibility-only-home .hct-feature-links a:visited {
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
-  min-height: 44px !important;
-  padding: 0.68rem 1rem !important;
+  width: fit-content !important;
+  min-height: 2.55rem !important;
+  padding: 0.66rem 1rem !important;
   border-radius: 999px !important;
-  border-width: 2px !important;
-  border-style: solid !important;
-  font-weight: 800 !important;
-  line-height: 1.15 !important;
-  text-decoration: none !important;
-  text-decoration-line: none !important;
-  opacity: 1 !important;
-}
-
-/* Light theme: explicit, accessible button colours. */
-html:not(.dark) .hct-core-home.hct-accessibility-only-home .hct-core-button-primary,
-html:not(.dark) .hct-core-home.hct-accessibility-only-home .hct-core-button-primary:link,
-html:not(.dark) .hct-core-home.hct-accessibility-only-home .hct-core-button-primary:visited {
-  color: #ffffff !important;
-  -webkit-text-fill-color: #ffffff !important;
-  background-color: #1d4ed8 !important;
-  border-color: #1d4ed8 !important;
-}
-
-html:not(.dark) .hct-core-home.hct-accessibility-only-home .hct-core-button-primary:hover,
-html:not(.dark) .hct-core-home.hct-accessibility-only-home .hct-core-button-primary:focus-visible {
-  color: #ffffff !important;
-  -webkit-text-fill-color: #ffffff !important;
-  background-color: #172554 !important;
-  border-color: #172554 !important;
-}
-
-html:not(.dark) .hct-core-home.hct-accessibility-only-home .hct-core-button-secondary,
-html:not(.dark) .hct-core-home.hct-accessibility-only-home .hct-core-button-secondary:link,
-html:not(.dark) .hct-core-home.hct-accessibility-only-home .hct-core-button-secondary:visited {
+  border: 1px solid #1d4ed8 !important;
+  background-color: #ffffff !important;
   color: #1d4ed8 !important;
   -webkit-text-fill-color: #1d4ed8 !important;
-  background-color: #ffffff !important;
-  border-color: #1d4ed8 !important;
+  font-size: 0.94rem !important;
+  font-weight: 700 !important;
+  line-height: 1.15 !important;
+  text-decoration: none !important;
 }
 
-html:not(.dark) .hct-core-home.hct-accessibility-only-home .hct-core-button-secondary:hover,
-html:not(.dark) .hct-core-home.hct-accessibility-only-home .hct-core-button-secondary:focus-visible {
+.hct-core-home.hct-accessibility-only-home .hct-core-button-primary,
+.hct-core-home.hct-accessibility-only-home .hct-core-button-primary:link,
+.hct-core-home.hct-accessibility-only-home .hct-core-button-primary:visited {
+  background-color: #1d4ed8 !important;
+  border-color: #1d4ed8 !important;
   color: #ffffff !important;
   -webkit-text-fill-color: #ffffff !important;
-  background-color: #172554 !important;
-  border-color: #172554 !important;
 }
 
-/* Dark theme: preserve the existing look, but keep text explicit. */
-html.dark .hct-core-home.hct-accessibility-only-home .hct-core-button-primary,
-html.dark .hct-core-home.hct-accessibility-only-home .hct-core-button-primary:link,
-html.dark .hct-core-home.hct-accessibility-only-home .hct-core-button-primary:visited {
-  color: #0f172a !important;
-  -webkit-text-fill-color: #0f172a !important;
+.hct-core-home.hct-accessibility-only-home .hct-core-button:hover,
+.hct-core-home.hct-accessibility-only-home .hct-core-button:focus-visible,
+.hct-core-home.hct-accessibility-only-home .hct-feature-links a:hover,
+.hct-core-home.hct-accessibility-only-home .hct-feature-links a:focus-visible {
+  background-color: #172033 !important;
+  border-color: #172033 !important;
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+.hct-core-home.hct-accessibility-only-home .hct-core-button:focus-visible,
+.hct-core-home.hct-accessibility-only-home .hct-feature-links a:focus-visible {
+  outline: 3px solid #f59e0b !important;
+  outline-offset: 3px !important;
+}
+
+/* Dark theme */
+.dark .hct-feature-copy,
+.dark .hct-feature-image {
+  border-color: rgba(147, 197, 253, 0.32) !important;
+  background: #172033 !important;
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.26) !important;
+}
+
+.dark .hct-feature-copy h2 {
+  color: #ffffff !important;
+}
+
+.dark .hct-feature-copy p:not(.hct-core-kicker) {
+  color: #dbeafe !important;
+}
+
+.dark .hct-core-home.hct-accessibility-only-home .hct-core-button,
+.dark .hct-core-home.hct-accessibility-only-home .hct-core-button:link,
+.dark .hct-core-home.hct-accessibility-only-home .hct-core-button:visited,
+.dark .hct-core-home.hct-accessibility-only-home .hct-feature-links a,
+.dark .hct-core-home.hct-accessibility-only-home .hct-feature-links a:link,
+.dark .hct-core-home.hct-accessibility-only-home .hct-feature-links a:visited {
+  background-color: rgba(15, 23, 42, 0.72) !important;
+  border-color: rgba(147, 197, 253, 0.46) !important;
+  color: #dbeafe !important;
+  -webkit-text-fill-color: #dbeafe !important;
+}
+
+.dark .hct-core-home.hct-accessibility-only-home .hct-core-button-primary,
+.dark .hct-core-home.hct-accessibility-only-home .hct-core-button-primary:link,
+.dark .hct-core-home.hct-accessibility-only-home .hct-core-button-primary:visited {
   background-color: #93c5fd !important;
   border-color: #93c5fd !important;
-}
-
-html.dark .hct-core-home.hct-accessibility-only-home .hct-core-button-secondary,
-html.dark .hct-core-home.hct-accessibility-only-home .hct-core-button-secondary:link,
-html.dark .hct-core-home.hct-accessibility-only-home .hct-core-button-secondary:visited {
-  color: #ffffff !important;
-  -webkit-text-fill-color: #ffffff !important;
-  background-color: transparent !important;
-  border-color: #93c5fd !important;
-}
-
-html.dark .hct-core-home.hct-accessibility-only-home .hct-core-button-primary:hover,
-html.dark .hct-core-home.hct-accessibility-only-home .hct-core-button-primary:focus-visible,
-html.dark .hct-core-home.hct-accessibility-only-home .hct-core-button-secondary:hover,
-html.dark .hct-core-home.hct-accessibility-only-home .hct-core-button-secondary:focus-visible {
   color: #0f172a !important;
   -webkit-text-fill-color: #0f172a !important;
-  background-color: #bfdbfe !important;
-  border-color: #bfdbfe !important;
 }
 
-@media (max-width: 640px) {
-  .hct-core-home.hct-accessibility-only-home .hct-core-actions {
+.dark .hct-core-home.hct-accessibility-only-home .hct-core-button:hover,
+.dark .hct-core-home.hct-accessibility-only-home .hct-core-button:focus-visible,
+.dark .hct-core-home.hct-accessibility-only-home .hct-feature-links a:hover,
+.dark .hct-core-home.hct-accessibility-only-home .hct-feature-links a:focus-visible {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+  color: #0f172a !important;
+  -webkit-text-fill-color: #0f172a !important;
+}
+
+@media (max-width: 900px) {
+  .hct-core-home.hct-accessibility-only-home {
+    width: min(100%, calc(100vw - 2rem)) !important;
+    max-width: min(100%, calc(100vw - 2rem)) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    transform: none !important;
+  }
+
+  .hct-feature-row {
+    grid-template-columns: 1fr !important;
+  }
+
+  .hct-feature-row:nth-child(even) .hct-feature-copy,
+  .hct-feature-row:nth-child(even) .hct-feature-image {
+    order: initial !important;
+  }
+
+  .hct-feature-image img {
+    height: auto !important;
+    min-height: 0 !important;
+    aspect-ratio: 16 / 9 !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .hct-core-home.hct-accessibility-only-home .hct-core-actions,
+  .hct-feature-links {
     align-items: stretch !important;
   }
 
-  .hct-core-home.hct-accessibility-only-home .hct-core-button {
+  .hct-core-home.hct-accessibility-only-home .hct-core-button,
+  .hct-core-home.hct-accessibility-only-home .hct-feature-links a {
     width: 100% !important;
   }
 }
