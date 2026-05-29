@@ -31,6 +31,6 @@
   weight = 20
 
 [[footer]]
-  name = "Analyzer"
+  name = "Analyser"
   pageRef = "guides/accessibility-systemic-analyser"
   weight = 30

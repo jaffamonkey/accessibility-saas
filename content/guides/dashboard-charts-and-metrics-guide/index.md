@@ -1,7 +1,7 @@
 ---
 title: "Dashboard Charts and Metrics Guide"
 summary: "Guide to the current dashboard cards, charts, panels, and drilldown behavior."
-description: "A guide to the Accessibility Systemic Analyzer dashboard, covering top cards, WCAG support coverage, problem type charts, component heatmaps, drilldowns, and interpretation guidance."
+description: "A guide to the Accessibility Systemic Analyser dashboard, covering top cards, WCAG support coverage, problem type charts, component heatmaps, drilldowns, and interpretation guidance."
 categories: ["Accessibility", "Testing"]
 tags: ["accessibility", "dashboard", "metrics", "wcag", "testing"]
 date: 2026-05-28
