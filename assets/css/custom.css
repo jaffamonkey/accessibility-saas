@@ -1558,3 +1558,52 @@ html.dark .hct-card-number {
 .hct-core-home.hct-accessibility-only-home .hct-core-hero .hct-core-actions {
   margin-top: 1.35rem !important;
 }
+
+/* Light theme repair for the borderless homepage hero.
+   The hero no longer has a dark panel background, so its inherited dark-panel
+   text/button colours need explicit light-mode values. Dark mode keeps the
+   existing high-contrast treatment. */
+html:not(.dark) .hct-core-home.hct-accessibility-only-home .hct-core-hero h1 {
+  color: #0f172a !important;
+}
+
+html:not(.dark) .hct-core-home.hct-accessibility-only-home .hct-core-hero .hct-core-kicker {
+  color: #1d4ed8 !important;
+}
+
+html:not(.dark) .hct-core-home.hct-accessibility-only-home .hct-core-hero .hct-core-lede {
+  color: #334155 !important;
+}
+
+html:not(.dark) .hct-core-home.hct-accessibility-only-home .hct-core-hero .hct-core-button-primary {
+  color: #ffffff !important;
+  background: #1d4ed8 !important;
+  border-color: #1d4ed8 !important;
+}
+
+html:not(.dark) .hct-core-home.hct-accessibility-only-home .hct-core-hero .hct-core-button-primary:hover {
+  color: #ffffff !important;
+  background: #1e3a8a !important;
+  border-color: #1e3a8a !important;
+}
+
+html:not(.dark) .hct-core-home.hct-accessibility-only-home .hct-core-hero .hct-core-button-secondary {
+  color: #1e3a8a !important;
+  background: #ffffff !important;
+  border-color: #1d4ed8 !important;
+}
+
+html:not(.dark) .hct-core-home.hct-accessibility-only-home .hct-core-hero .hct-core-button-secondary:hover {
+  color: #0f172a !important;
+  background: #dbeafe !important;
+  border-color: #1e3a8a !important;
+}
+
+/* Keep all pill-style custom links/buttons consistently shaped after Blowfish
+   light/dark theme styles have had their say. */
+.hct-core-button,
+.hct-core-service-card a,
+.hct-core-analyser-links a {
+  border-radius: 999px !important;
+  line-height: 1.2 !important;
+}
