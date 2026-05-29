@@ -1839,3 +1839,8 @@ html.dark .hct-card-number {
     width: 100% !important;
   }
 }
+
+/* Remove top accessibility support hero section from homepage */
+.hct-core-home .hct-core-hero {
+  display: none !important;
+}
