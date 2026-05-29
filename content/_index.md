@@ -20,7 +20,7 @@ weight: 1
     <h1 id="core-services-heading">Practical fixes. Less theatre.</h1> -->
     <p class="hct-core-lede">I help teams turn accessibility findings into changes that improve real products. WCAG-informed reviews combining automated checks, manual testing, keyboard coverage, journeys, forms and clear remediation guidance. Embedded, pragmatic support for teams who need accessibility judgement during design, build, test and release.</p>
     <div class="hct-core-actions" aria-label="Primary actions">
-      <a class="hct-core-button hct-core-button-primary" href="/accessibility-specialist/">Accessibility support</a>
+      <a class="hct-core-button hct-core-button-secondary" href="/accessibility-specialist/">Accessibility support</a>
       <a class="hct-core-button hct-core-button-secondary" href="/audit-services/">Accessibility audit</a>
     </div>
   </section>

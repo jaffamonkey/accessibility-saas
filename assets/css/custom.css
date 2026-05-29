@@ -1080,9 +1080,8 @@ html.dark .hct-card-number {
 
 .hct-core-actions,
 .hct-core-analyser-links {
-  align-content: center;
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
   gap: 0.85rem;
   margin-top: 1.4rem;
 }
