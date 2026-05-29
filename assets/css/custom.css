@@ -887,13 +887,13 @@ html.dark .hct-card-number {
   line-height: 1.65;
 }
 
-.hct-core-actions,
+/* .hct-core-actions,
 .hct-core-analyser-links {
   display: flex;
   flex-wrap: wrap;
   gap: 0.85rem;
   margin-top: 1.4rem;
-}
+} */
 
 .hct-core-button,
 .hct-core-analyser-links a,
@@ -1080,6 +1080,7 @@ html.dark .hct-card-number {
 
 .hct-core-actions,
 .hct-core-analyser-links {
+  align-content: center;
   display: flex;
   flex-wrap: wrap;
   gap: 0.85rem;
