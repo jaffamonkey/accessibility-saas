@@ -91,4 +91,4 @@ If you'd like to talk about improving quality, testing, or accessibility, feel f
 
 [LinkedIn Profile](https://www.linkedin.com/in/jaffamonkey/)
 
-[Book a call on Calendly](https://calendly.com/jaffamonkeyltd/intro-call)
+{{< calendar-booking >}}
