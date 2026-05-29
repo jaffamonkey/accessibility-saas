@@ -1864,7 +1864,7 @@ html.dark .hct-card-number {
 .hct-core-home .hct-core-lede,
 .hct-core-home .hct-page-description,
 .hct-core-home > header p {
-  max-width: 38rem !important;
+  max-width: 36rem !important;
   margin-left: auto !important;
   margin-right: auto !important;
   line-height: 1.55 !important;
