@@ -16,6 +16,10 @@ Accessibility work is most useful when it helps teams make better product decisi
 
 I can support teams with accessibility thinking across design, development, testing and release, keeping the focus on evidence, user impact and practical remediation.
 
+WCAG-informed reviews combining automated checks, manual testing, keyboard coverage, journeys, forms and clear remediation guidance. 
+
+Embedded, pragmatic support for teams who need accessibility judgement during design, build, test and release.
+
 ## Where I can help
 
 - Reviewing journeys, components and patterns before they become expensive to change
