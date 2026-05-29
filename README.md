@@ -5,7 +5,7 @@ Copy these files into the Hugo/Blowfish project:
 
 - content/_index.md
 - layouts/shortcodes/core-services.html
-- layouts/shortcodes/analyser-strip.html
+- layouts/shortcodes/analyzer-strip.html
 - assets/css/custom.css
 
 If your project currently keeps CSS in a `css/` folder before copying it into `assets/css/`, the same updated file is also included at:

@@ -26,5 +26,5 @@ showHero: false
 
   {{< core-services >}}
 
-  {{< analyser-strip >}}
+  {{< analyzer-strip >}}
 </div>

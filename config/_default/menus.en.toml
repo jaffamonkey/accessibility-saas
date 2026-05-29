@@ -14,7 +14,7 @@
   weight = 20
 
 [[main]]
-  name = "Analyser"
+  name = "Analyzer"
   pageRef = "guides"
   weight = 30
 
@@ -36,6 +36,6 @@
   weight = 20
 
 [[footer]]
-  name = "Analyser"
-  pageRef = "guides/accessibility-systemic-analyser"
+  name = "Analyzer"
+  pageRef = "guides/accessibility-systemic-analyzer"
   weight = 30
