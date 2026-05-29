@@ -11,7 +11,3 @@
   tabWidth = 2
 
 tableOfContents = { startLevel = 2, endLevel = 4, ordered = false }
-
-[goldmark]
-  [goldmark.renderer]
-    unsafe = true
