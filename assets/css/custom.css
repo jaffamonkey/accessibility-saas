@@ -1844,3 +1844,36 @@ html.dark .hct-card-number {
 .hct-core-home .hct-core-hero {
   display: none !important;
 }
+
+/* Refine homepage intro spacing and line length */
+.hct-core-home.hct-accessibility-only-home {
+  padding-top: 2.5rem;
+}
+
+.hct-core-home .hct-core-intro,
+.hct-core-home .hct-page-intro,
+.hct-core-home > header {
+  margin-bottom: 4rem !important;
+}
+
+.hct-core-home h1,
+.hct-core-home .hct-core-title {
+  margin-bottom: 1.1rem !important;
+}
+
+.hct-core-home .hct-core-lede,
+.hct-core-home .hct-page-description,
+.hct-core-home > header p {
+  max-width: 44rem !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  line-height: 1.55 !important;
+}
+
+/* Add breathing room before the first card row */
+.hct-core-home .hct-core-services,
+.hct-core-home .hct-core-services-two,
+.hct-core-home .hct-analyser-grid,
+.hct-core-home .hct-core-analyser {
+  margin-top: 3rem !important;
+}
