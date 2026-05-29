@@ -17,4 +17,4 @@ The Accessibility Systemic Analyzer is supporting tooling for larger accessibili
 - [Accessibility Systemic Analyzer overview](/guides/accessibility-systemic-analyzer/)
 - [Dashboard guide](/guides/dashboard-charts-and-metrics-guide/)
 - [Workbook guide](/guides/workbook-guide/)
-- [View analyzer jobs board](https://a11yanalyser.sbs)
+- [View analyzer jobs board](https://a11yanalyzer.sbs)
