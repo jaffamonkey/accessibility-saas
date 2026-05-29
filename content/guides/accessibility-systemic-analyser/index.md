@@ -1,7 +1,7 @@
 ---
-title: "Accessibility Systemic Analyzer"
+title: "Accessibility Systemic Analyser"
 summary: "Project overview covering the architecture, supported tools, workflow, workbook, and dashboard notes."
-description: "A refreshed project overview for the Accessibility Systemic Analyzer, covering the current architecture, supported adapters, WCAG handling, systemic analysis workflow, workbook model, and dashboard support."
+description: "A refreshed project overview for the Accessibility Systemic Analyser, covering the current architecture, supported adapters, WCAG handling, systemic analysis workflow, workbook model, and dashboard support."
 categories: ["Accessibility", "Testing"]
 tags: ["accessibility", "testing", "analysis", "wcag", "dashboard"]
 date: 2026-05-28
@@ -12,11 +12,11 @@ showTableOfContents: true
 showReadingTime: true
 ---
 
-The Accessibility Systemic Analyzer is a multi-tool analysis and reporting layer for accessibility scan output. It is designed for the point where a team has more findings than it can triage comfortably page by page, and needs a way to understand what is repeated, what is systemic, what is corroborated across tools, and which fixes are most likely to remove broad classes of issues across a site or estate.
+The Accessibility Systemic Analyser is a multi-tool analysis and reporting layer for accessibility scan output. It is designed for the point where a team has more findings than it can triage comfortably page by page, and needs a way to understand what is repeated, what is systemic, what is corroborated across tools, and which fixes are most likely to remove broad classes of issues across a site or estate.
 
-Instead of treating accessibility results only as isolated page-level defects, the analyzer normalizes data from multiple engines, deduplicates likely overlaps, maps findings to WCAG where possible, groups repeated issue patterns, and produces both a dashboard and workbook that are easier to use for remediation planning.
+Instead of treating accessibility results only as isolated page-level defects, the analyser normalizes data from multiple engines, deduplicates likely overlaps, maps findings to WCAG where possible, groups repeated issue patterns, and produces both a dashboard and workbook that are easier to use for remediation planning.
 
-> **Current state:** the analyzer now supports a wider adapter set, richer WCAG handling, friendlier rule labels, stronger workbook and dashboard alignment, static dashboard builds, and drilldown search / pagination.
+> **Current state:** the analyser now supports a wider adapter set, richer WCAG handling, friendlier rule labels, stronger workbook and dashboard alignment, static dashboard builds, and drilldown search / pagination.
 
 ---
 
@@ -35,11 +35,11 @@ Traditional reports treat these as separate rows.
 
 > The underlying issue may really be “the shared button implementation has a contrast problem”.
 
-The analyzer exists to help move from raw issue volume to reusable remediation targets.
+The analyser exists to help move from raw issue volume to reusable remediation targets.
 
 ---
 
-## What the analyzer does
+## What the analyser does
 
 - Detects and loads supported report formats.
 - Normalizes source-specific findings into a shared row model.
@@ -78,7 +78,7 @@ Some adapters preserve “needs review” style outputs rather than only confirm
 - cleanup of WCAG-only charts and exports so that only real criterion codes appear in WCAG-specific views
 - friendlier rule labels so bare WCAG codes are not reused unnecessarily as human rule names
 
-In practice, the analyzer tries to separate:
+In practice, the analyser tries to separate:
 
 - **Rule**: a human-readable issue label
 - **Rule Id**: source-specific technical identifier
@@ -91,11 +91,11 @@ In practice, the analyzer tries to separate:
 
 ### Pa11y mixed-run support
 
-Pa11y is no longer treated as two fake tools when axe and HTMLCS findings come from the same Pa11y run. The analyzer now models one `pa11y` source and keeps the per-issue `runner` such as `axe` or `htmlcs`.
+Pa11y is no longer treated as two fake tools when axe and HTMLCS findings come from the same Pa11y run. The analyser now models one `pa11y` source and keeps the per-issue `runner` such as `axe` or `htmlcs`.
 
 ### Friendlier rule labels
 
-Rule formatting has been tightened so that the analyzer no longer prefers a bare WCAG code or raw HTMLCS identifier when a friendlier label can be derived from `rule_name`, `ruleId`, WCAG title metadata, or technique-aware enrichment such as `1.4.6 [G17]`.
+Rule formatting has been tightened so that the analyser no longer prefers a bare WCAG code or raw HTMLCS identifier when a friendlier label can be derived from `rule_name`, `ruleId`, WCAG title metadata, or technique-aware enrichment such as `1.4.6 [G17]`.
 
 ### WCAG chart cleanup
 
@@ -103,7 +103,7 @@ WCAG-specific dashboard and export views now accept only real WCAG codes. This p
 
 ### Needs-review preservation
 
-The analyzer now more intentionally preserves incomplete/manual-review style findings from sources like axe-core, IBM, and HTMLCS-derived reports.
+The analyser now more intentionally preserves incomplete/manual-review style findings from sources like axe-core, IBM, and HTMLCS-derived reports.
 
 ### Drilldown UX upgrade
 
@@ -143,7 +143,7 @@ The final output can be written to analyst-friendly workbook tabs, Power BI-frie
 
 A systemic issue is any finding pattern that appears repeated enough that fixing it once may help many pages or instances. In practice that can mean a design-system component issue, a repeated template issue, a repeated content structure issue, or a crawler/flow-discovered issue affecting many pages.
 
-The analyzer uses several related but distinct concepts:
+The analyser uses several related but distinct concepts:
 
 - **design_system_issue**: stronger hint of a reusable shared source
 - **issue_scope**: shared component, shared template/pattern, or page-specific
@@ -165,7 +165,7 @@ The workbook supports both analyst review and BI workflows. It includes human su
 
 ## Interpreting overlap and confidence
 
-The analyzer includes fields such as `sources`, `tool_count`, `tool_families`, `tool_family_count`, `consensus`, and `confidence`. These help answer whether a finding was seen by multiple engines and how much evidence sits behind the pattern.
+The analyser includes fields such as `sources`, `tool_count`, `tool_families`, `tool_family_count`, `consensus`, and `confidence`. These help answer whether a finding was seen by multiple engines and how much evidence sits behind the pattern.
 
 ---
 
