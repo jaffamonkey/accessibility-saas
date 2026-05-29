@@ -1,4 +1,9 @@
 [[main]]
+  name = "Bio"
+  pageRef = "about"
+  weight = 10
+
+[[main]]
   name = "Support"
   pageRef = "accessibility-specialist"
   weight = 10
