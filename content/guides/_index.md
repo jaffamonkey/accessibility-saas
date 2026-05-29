@@ -1,5 +1,5 @@
 ---
-title: "Analyzer guides"
+title: "Accessibility analyzer"
 summary: "Guides for the Accessibility Systemic Analyzer, dashboard and workbook."
 description: "Documentation for the Accessibility Systemic Analyzer, including dashboard and workbook guides."
 date: "2026-05-28"
