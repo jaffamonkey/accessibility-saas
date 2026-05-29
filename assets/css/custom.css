@@ -1559,97 +1559,107 @@ html.dark .hct-card-number {
   margin-top: 1.35rem !important;
 }
 
-/* Button visibility fix after removing the top hero panel background.
-   The hero is now transparent, so do not use the dark-panel button colours there. */
-.hct-core-home.hct-accessibility-only-home .hct-core-hero .hct-core-actions {
+/* --------------------------------------------------------------------------
+   FINAL BUTTON VISIBILITY FIX
+   Keep this at the very end of custom.css so Blowfish/prose/link styles cannot
+   make the homepage CTA text disappear in light mode.
+   -------------------------------------------------------------------------- */
+.hct-core-home.hct-accessibility-only-home .hct-core-actions {
   display: flex !important;
   flex-wrap: wrap !important;
   justify-content: center !important;
   align-items: center !important;
   gap: 0.85rem !important;
-  width: 100% !important;
-  margin-top: 1.35rem !important;
-  margin-bottom: 0 !important;
 }
 
-.hct-core-home.hct-accessibility-only-home .hct-core-hero .hct-core-button,
-.hct-core-home.hct-accessibility-only-home .hct-core-hero .hct-core-button:visited {
+.hct-core-home.hct-accessibility-only-home .hct-core-button,
+.hct-core-home.hct-accessibility-only-home .hct-core-button:link,
+.hct-core-home.hct-accessibility-only-home .hct-core-button:visited {
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
   min-height: 44px !important;
-  padding: 0.68rem 1.05rem !important;
+  padding: 0.68rem 1rem !important;
   border-radius: 999px !important;
-  border: 2px solid #1d4ed8 !important;
+  border-width: 2px !important;
+  border-style: solid !important;
   font-weight: 800 !important;
-  line-height: 1.1 !important;
+  line-height: 1.15 !important;
   text-decoration: none !important;
+  text-decoration-line: none !important;
   opacity: 1 !important;
-  visibility: visible !important;
 }
 
-/* Light theme: visible on the transparent/light hero area. */
-html:not(.dark) .hct-core-home.hct-accessibility-only-home .hct-core-hero .hct-core-button-primary,
-html:not(.dark) .hct-core-home.hct-accessibility-only-home .hct-core-hero .hct-core-button-primary:visited {
+/* Light theme: explicit, accessible button colours. */
+html:not(.dark) .hct-core-home.hct-accessibility-only-home .hct-core-button-primary,
+html:not(.dark) .hct-core-home.hct-accessibility-only-home .hct-core-button-primary:link,
+html:not(.dark) .hct-core-home.hct-accessibility-only-home .hct-core-button-primary:visited {
   color: #ffffff !important;
-  background: #1d4ed8 !important;
+  -webkit-text-fill-color: #ffffff !important;
+  background-color: #1d4ed8 !important;
   border-color: #1d4ed8 !important;
 }
 
-html:not(.dark) .hct-core-home.hct-accessibility-only-home .hct-core-hero .hct-core-button-secondary,
-html:not(.dark) .hct-core-home.hct-accessibility-only-home .hct-core-hero .hct-core-button-secondary:visited {
-  color: #0f172a !important;
-  background: #ffffff !important;
+html:not(.dark) .hct-core-home.hct-accessibility-only-home .hct-core-button-primary:hover,
+html:not(.dark) .hct-core-home.hct-accessibility-only-home .hct-core-button-primary:focus-visible {
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  background-color: #172554 !important;
+  border-color: #172554 !important;
+}
+
+html:not(.dark) .hct-core-home.hct-accessibility-only-home .hct-core-button-secondary,
+html:not(.dark) .hct-core-home.hct-accessibility-only-home .hct-core-button-secondary:link,
+html:not(.dark) .hct-core-home.hct-accessibility-only-home .hct-core-button-secondary:visited {
+  color: #1d4ed8 !important;
+  -webkit-text-fill-color: #1d4ed8 !important;
+  background-color: #ffffff !important;
   border-color: #1d4ed8 !important;
 }
 
-html:not(.dark) .hct-core-home.hct-accessibility-only-home .hct-core-hero .hct-core-button-primary:hover,
-html:not(.dark) .hct-core-home.hct-accessibility-only-home .hct-core-hero .hct-core-button-primary:focus-visible {
+html:not(.dark) .hct-core-home.hct-accessibility-only-home .hct-core-button-secondary:hover,
+html:not(.dark) .hct-core-home.hct-accessibility-only-home .hct-core-button-secondary:focus-visible {
   color: #ffffff !important;
-  background: #1e3a8a !important;
-  border-color: #1e3a8a !important;
+  -webkit-text-fill-color: #ffffff !important;
+  background-color: #172554 !important;
+  border-color: #172554 !important;
 }
 
-html:not(.dark) .hct-core-home.hct-accessibility-only-home .hct-core-hero .hct-core-button-secondary:hover,
-html:not(.dark) .hct-core-home.hct-accessibility-only-home .hct-core-hero .hct-core-button-secondary:focus-visible {
+/* Dark theme: preserve the existing look, but keep text explicit. */
+html.dark .hct-core-home.hct-accessibility-only-home .hct-core-button-primary,
+html.dark .hct-core-home.hct-accessibility-only-home .hct-core-button-primary:link,
+html.dark .hct-core-home.hct-accessibility-only-home .hct-core-button-primary:visited {
   color: #0f172a !important;
-  background: #dbeafe !important;
-  border-color: #1e3a8a !important;
-}
-
-/* Dark theme: keep the calmer dark-mode treatment. */
-html.dark .hct-core-home.hct-accessibility-only-home .hct-core-hero .hct-core-button,
-html.dark .hct-core-home.hct-accessibility-only-home .hct-core-hero .hct-core-button:visited {
+  -webkit-text-fill-color: #0f172a !important;
+  background-color: #93c5fd !important;
   border-color: #93c5fd !important;
 }
 
-html.dark .hct-core-home.hct-accessibility-only-home .hct-core-hero .hct-core-button-primary,
-html.dark .hct-core-home.hct-accessibility-only-home .hct-core-hero .hct-core-button-primary:visited {
-  color: #0f172a !important;
-  background: #93c5fd !important;
-  border-color: #93c5fd !important;
-}
-
-html.dark .hct-core-home.hct-accessibility-only-home .hct-core-hero .hct-core-button-secondary,
-html.dark .hct-core-home.hct-accessibility-only-home .hct-core-hero .hct-core-button-secondary:visited {
+html.dark .hct-core-home.hct-accessibility-only-home .hct-core-button-secondary,
+html.dark .hct-core-home.hct-accessibility-only-home .hct-core-button-secondary:link,
+html.dark .hct-core-home.hct-accessibility-only-home .hct-core-button-secondary:visited {
   color: #ffffff !important;
-  background: transparent !important;
+  -webkit-text-fill-color: #ffffff !important;
+  background-color: transparent !important;
   border-color: #93c5fd !important;
 }
 
-html.dark .hct-core-home.hct-accessibility-only-home .hct-core-hero .hct-core-button:hover,
-html.dark .hct-core-home.hct-accessibility-only-home .hct-core-hero .hct-core-button:focus-visible {
+html.dark .hct-core-home.hct-accessibility-only-home .hct-core-button-primary:hover,
+html.dark .hct-core-home.hct-accessibility-only-home .hct-core-button-primary:focus-visible,
+html.dark .hct-core-home.hct-accessibility-only-home .hct-core-button-secondary:hover,
+html.dark .hct-core-home.hct-accessibility-only-home .hct-core-button-secondary:focus-visible {
   color: #0f172a !important;
-  background: #bfdbfe !important;
+  -webkit-text-fill-color: #0f172a !important;
+  background-color: #bfdbfe !important;
   border-color: #bfdbfe !important;
 }
 
 @media (max-width: 640px) {
-  .hct-core-home.hct-accessibility-only-home .hct-core-hero .hct-core-actions {
-    justify-content: stretch !important;
+  .hct-core-home.hct-accessibility-only-home .hct-core-actions {
+    align-items: stretch !important;
   }
 
-  .hct-core-home.hct-accessibility-only-home .hct-core-hero .hct-core-button {
+  .hct-core-home.hct-accessibility-only-home .hct-core-button {
     width: 100% !important;
   }
 }
