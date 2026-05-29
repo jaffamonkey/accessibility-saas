@@ -9,7 +9,7 @@
   weight = 20
 
 [[main]]
-  name = "Analyzer Guides"
+  name = "Accessibility analyzer"
   pageRef = "guides"
   weight = 30
 
