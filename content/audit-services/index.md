@@ -1,16 +1,16 @@
 ---
-title: "Audit services"
-summary: "WCAG-informed accessibility audits with manual testing, practical findings and remediation guidance."
-description: "Accessibility audit services for websites and web apps, covering WCAG-informed checks, manual testing, keyboard support, forms, semantics, journeys and remediation guidance."
-date: "2026-05-28"
+title: "Accessibility Specialist & Audit Services"
+description: "Accessibility specialist support, WCAG-informed audit services, and systemic accessibility analysis to help teams find, prioritise and fix barriers."
+summary: "Practical accessibility support, audit services, and systemic analysis for clearer findings and better fixes."
+images:
+  - "/images/accessibility-systemic-analyzer-collage.webp"
+date: 2026-05-28
 draft: false
-showauthor: false
-showdate: false
-showreadingtime: true
-showtableofcontents: true
-categories: ["Accessibility"]
-tags: ["accessibility audit", "WCAG", "manual testing", "remediation"]
-aliases: ["/accessibility/"]
+showAuthor: false
+showDate: false
+showReadingTime: false
+showTableOfContents: false
+showHero: false
 ---
 
 Audit work should help a team act. The aim is not just to record issues, but to explain what matters, why it matters, and how to improve it.
