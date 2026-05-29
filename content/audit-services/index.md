@@ -1,9 +1,9 @@
 ---
-title: "Accessibility Specialist & Audit Services"
+title: "Accessibility audit"
 description: "Accessibility specialist support, WCAG-informed audit services, and systemic accessibility analysis to help teams find, prioritise and fix barriers."
 summary: "Practical accessibility support, audit services, and systemic analysis for clearer findings and better fixes."
 images:
-  - "/images/accessibility-systemic-analyzer-collage.webp"
+  - "/images/accessibility-audit.png"
 date: 2026-05-28
 draft: false
 showAuthor: false
