@@ -1,5 +1,5 @@
 ---
-title: "Accessibility specialist"
+title: "Accessibility support"
 summary: "Practical accessibility support across design, development, testing and remediation."
 description: "Accessibility specialist support for product teams, including WCAG guidance, manual testing, remediation advice and quality review."
 date: "2026-05-28"
