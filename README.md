@@ -16,6 +16,6 @@ Expected image files:
 
 - static/images/accessibility-specialist.webp
 - static/images/accessibility-audit-services.webp
-- static/images/accessibility-systemic-analyzer-collage.webp
+- static/images/accessibility-systemic-analyzer-collage.png
 
 The first two image filenames are placeholders for your new service panel images. Rename either the image files or the shortcode `src` values if you prefer different names.
