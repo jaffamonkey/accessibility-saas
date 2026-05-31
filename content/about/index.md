@@ -1,5 +1,5 @@
 ---
-title: "About me"
+title: "About us"
 summary: "Engineering better software through smarter testing, stronger automation and a human-first approach to quality."
 description: "Quality engineering, test automation, accessibility and conversational AI testing experience."
 date: "2026-05-28"
