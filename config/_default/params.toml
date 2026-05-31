@@ -8,7 +8,7 @@ mainSections = ["guides", "testing", "accessibility", "conversational-ai"]
 
 [homepage]
   layout = "profile"
-  showRecent = true
+  showRecent = false
   recentLimit = 6
   cardView = true
   cardViewScreenWidth = false
