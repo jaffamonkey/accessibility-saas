@@ -1,6 +1,6 @@
 baseURL = "https://practicalaccessibility.co.uk/"
 languageCode = "en-gb"
-title = "Practical fixes. Less theatre."
+title = "Practical Accessibility"
 theme = "blowfish"
 
 enableRobotsTXT = true
