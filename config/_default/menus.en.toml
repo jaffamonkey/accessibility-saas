@@ -6,17 +6,17 @@
 [[main]]
   name = "Accessibility support"
   pageRef = "accessibility-specialist"
-  weight = 10
+  weight = 20
 
 [[main]]
   name = "Accessibility audit"
   pageRef = "audit-services"
-  weight = 20
+  weight = 30
 
 [[main]]
   name = "Analyzer"
   pageRef = "guides"
-  weight = 30
+  weight = 40
 
 [[main]]
   identifier = "search"
@@ -26,16 +26,21 @@
     icon = "search"
 
 [[footer]]
+  name = "Bio"
+  pageRef = "about"
+  weight = 10
+
+[[footer]]
   name = "Accessibility support"
   pageRef = "accessibility-specialist"
-  weight = 10
+  weight = 20
 
 [[footer]]
   name = "Accessibility audit"
   pageRef = "audit-services"
-  weight = 20
+  weight = 30
 
 [[footer]]
   name = "Analyzer"
   pageRef = "guides"
-  weight = 30
+  weight = 40
