@@ -29,10 +29,9 @@ mainSections = ["guides", "testing", "accessibility", "conversational-ai"]
   showPagination = true
   showReadingTime = true
   showTableOfContents = true
-  showTaxonomies = true
+  showTaxonomies = false
   showWordCount = false
   sharingLinks = []
-  showTaxonomies = false
   showTags = false
   showCategories = false
 
