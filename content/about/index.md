@@ -79,7 +79,7 @@ Every project has strengthened my belief that quality engineering works best whe
 Alongside broader quality engineering, I provide focused accessibility services for websites and mobile apps:
 
 - [Accessibility audits](/audit-services/) for structured, prioritised findings and remediation guidance
-- [Accessibility specialist support](/accessibility-specialist/) for practical help during design, development, testing and release
+- [Accessibility support](/accessibility-specialist/) for practical help during design, development, testing and release
 
 ## What drives me
 

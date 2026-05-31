@@ -1,7 +1,7 @@
 ---
-title: "Accessibility specialist support"
+title: "Accessibility support"
 summary: "Practical accessibility support for websites and mobile apps across design, development, testing and remediation."
-description: "Accessibility specialist support for websites and mobile apps, including WCAG guidance, manual testing, remediation advice and quality review."
+description: "Accessibility support for websites and mobile apps, including WCAG guidance, manual testing, remediation advice and quality review."
 date: "2026-05-28"
 images:
   - "/images/accessibility-support.png"
