@@ -10,11 +10,11 @@ title = "Practical Accessibility"
   dateFormat = "2 January 2006"
   logo = "images/logo-dark.png"
   secondaryLogo = "images/logo-light.png"
-  description = "Specialist accessibility audits and support for websites and mobile apps."
+  description = "I help teams understand accessibility barriers and prioritise what matters, and help teams turn accessibility findings into changes that improve real products."
 
 [params.author]
   name = "Practical Accessibility"
   image = "images/logo-dark.png"
-  headline = "Practical fixes. Less theatre. I help teams understand accessibility barriers and prioritise what matters, and help teams turn accessibility findings into changes that improve real products."
-  bio = "Specialist accessibility audits and support for websites and mobile apps."
+  headline = "Practical fixes. Less theatre."
+  bio = "I help teams understand accessibility barriers and prioritise what matters, and help teams turn accessibility findings into changes that improve real products."
   links = []
