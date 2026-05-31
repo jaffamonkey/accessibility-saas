@@ -34,6 +34,8 @@ Audit work should help a team act. The aim is not just to record issues, but to 
 - Suggested fixes and examples
 - Clear separation between confirmed issues and items needing human judgement
 - Re-test support after remediation
+- Draft Accessibilty Statement
+- Test automation reports (and code)
 
 ## Larger sites and repeated issues
 
