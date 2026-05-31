@@ -17,7 +17,7 @@ showHero: false
   <section class="hct-core-hero" aria-labelledby="core-services-heading">
     <p class="hct-core-kicker">Accessibility support</p>
     <h1 id="core-services-heading">Clear accessibility work. Practical fixes. Less theatre.</h1>
-    <p class="hct-core-lede">I help teams understand barriers, prioritise what matters, and turn accessibility findings into changes that improve real products.</p>
+    <p class="hct-core-lede">I help teams understand barriers, prioritise what matters, and turn accessibility findings into changes that improve web and mobile apps.</p>
     <div class="hct-core-actions" aria-label="Primary actions">
       <a class="hct-core-button hct-core-button-primary" href="/accessibility-specialist/">Specialist support</a>
       <a class="hct-core-button hct-core-button-secondary" href="/audit-services/">Audit services</a>
