@@ -32,6 +32,9 @@ mainSections = ["guides", "testing", "accessibility", "conversational-ai"]
   showTaxonomies = true
   showWordCount = false
   sharingLinks = []
+  showTaxonomies = false
+  showTags = false
+  showCategories = false
 
 [list]
   showBreadcrumbs = true
