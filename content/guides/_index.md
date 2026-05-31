@@ -10,11 +10,13 @@ showreadingtime: false
 showtableofcontents: true
 ---
 
+> The analyzer is still being polished for public use, but the jobs board is open for a preview of how it surfaces patterns, priorities, and fix-once opportunities.
+
 The **Accessibility Systemic Analyzer** is a multi-tool analysis and reporting layer for accessibility scan output. It is built for the point where a website, application, or wider digital estate has more findings than a team can sensibly triage one page at a time.
 
 Rather than treating every scanner result as an isolated defect, the analyzer brings reports together, normalises the data, identifies likely overlaps, groups repeated patterns, and highlights the fixes most likely to improve many pages or components at once.
 
-> The aim is not to produce a larger pile of findings. It is to make the findings easier to understand, prioritise, and act on.
+_The aim is not to produce a larger pile of findings. It is to make the findings easier to understand, prioritise, and act on._
 
 ## From issue volume to useful priorities
 
