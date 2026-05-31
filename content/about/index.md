@@ -16,6 +16,8 @@ tags: ["quality engineering", "testing", "accessibility", "automation"]
 weight: 10
 ---
 
+![Past clients](images/clients.png)
+
 I’m **Paul Littlebury**, a quality engineer and tester with more than 25 years of experience helping teams ship better software through smarter testing, stronger automation and a more human approach to quality.
 
 I believe quality is not something to add at the end of delivery. It is a mindset, a culture and a way of working that improves reliability, delivery confidence and the experience of the people using a product.
