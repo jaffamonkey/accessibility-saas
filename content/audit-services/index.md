@@ -51,7 +51,7 @@ Repeated issues can be grouped by pattern, component, template or WCAG concentra
 
 [Read about the Accessibility Systemic Analyzer](/guides/accessibility-systemic-analyzer/)
 
-## Recent clients
+## Recent audit clients
 
 - M&S
 - JamUp
