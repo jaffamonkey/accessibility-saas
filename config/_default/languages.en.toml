@@ -8,12 +8,13 @@ title = "Practical Accessibility"
   isoCode = "en-gb"
   rtl = false
   dateFormat = "2 January 2006"
-  logo = "images/logo.png"
-  description = "Quality engineering, accessibility, automation and conversational AI testing with a human-first approach."
+  logo = "images/logo-dark.png"
+  secondaryLogo = "images/logo-light.png"
+  description = "Specialist accessibility audits and support for websites and mobile apps."
 
 [params.author]
   name = "Practical Accessibility"
-  image = "images/logo.png"
+  image = "images/logo-dark.png"
   headline = "Practical fixes. Less theatre. I help teams understand accessibility barriers and prioritise what matters, and help teams turn accessibility findings into changes that improve real products."
-  bio = "Human-first testing, pragmatic automation and accessibility analysis."
+  bio = "Specialist accessibility audits and support for websites and mobile apps."
   links = []
