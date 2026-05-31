@@ -3,7 +3,7 @@ title: "Accessibility Specialist & Audit Services"
 description: "Accessibility specialist support, WCAG-informed audit services, and systemic accessibility analysis to help teams find, prioritise and fix barriers."
 summary: "Practical accessibility support, audit services, and systemic analysis for clearer findings and better fixes."
 images:
-  - "https://accessibilityreview.co.uk/images/accessibility-systemic-analyzer-collage.png"
+  - "https://practicalaccessibility.co.uk/images/accessibility-systemic-analyzer-collage.png"
 date: 2026-05-28
 draft: false
 showAuthor: false
