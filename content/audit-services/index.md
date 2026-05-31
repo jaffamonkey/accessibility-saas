@@ -4,13 +4,15 @@ description: "Accessibility audits for websites and mobile apps, with WCAG-infor
 summary: "Practical accessibility audits for websites and mobile apps, with clear findings, actionable fixes and systemic analysis."
 images:
   - "/images/accessibility-audit.png"
-date: 2026-05-28
+date: "2026-05-28"
 draft: false
 showAuthor: false
 showDate: false
 showReadingTime: false
 showTableOfContents: false
 showHero: false
+categories: ["Accessibility"]
+tags: ["accessibility", "WCAG", "audit", "manual testing", "systemic analysis"]
 ---
 
 An accessibility audit should help a team act. The aim is not simply to record issues, but to explain what matters, why it matters and how to improve it.
@@ -38,7 +40,7 @@ I provide accessibility audits for websites and mobile apps, from focused review
 - Suggested fixes and practical examples
 - Clear separation between confirmed issues and items requiring human judgement
 - Re-test support after remediation
-- A draft Accessibility Statement where appropriate
+- A draft accessibility statement where appropriate
 - Test automation reports and supporting code where useful
 
 ## Larger sites and repeated issues
@@ -65,3 +67,9 @@ Repeated issues can be grouped by pattern, component, template or WCAG concentra
 - ZoomDoc
 - TympaHealth
 - Infervision
+
+## Book a call
+
+To discuss the scope of an accessibility audit, book a call below.
+
+{{< calendar-booking >}}

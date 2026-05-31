@@ -1,33 +1,33 @@
 ---
 title: "Accessibility support"
-summary: "Practical accessibility support across design, development, testing and remediation."
-description: "Accessibility specialist support for product teams, including WCAG guidance, manual testing, remediation advice and quality review."
+summary: "Practical accessibility support for websites and mobile apps across design, development, testing and remediation."
+description: "Accessibility specialist support for websites and mobile apps, including WCAG guidance, manual testing, remediation advice and quality review."
 date: "2026-05-28"
 images:
   - "/images/accessibility-support.png"
 draft: false
-showauthor: false
-showdate: false
-showreadingtime: true
-showtableofcontents: true
+showAuthor: false
+showDate: false
+showReadingTime: true
+showTableOfContents: true
+showHero: false
 categories: ["Accessibility"]
 tags: ["accessibility", "WCAG", "specialist support", "manual testing"]
 ---
 
-Accessibility work is most useful when it helps teams make better product decisions, not when it simply produces a long list of defects.
+Accessibility work is most useful when it helps a team make better product decisions, not when it simply produces a long list of defects.
 
-I can support teams with accessibility thinking across design, development, testing and release, keeping the focus on evidence, user impact and practical remediation.
-
-WCAG-informed reviews combining automated checks, manual testing, keyboard coverage, journeys, forms and clear remediation guidance. 
-
-Embedded, pragmatic support for teams who need accessibility judgement during design, build, test and release.
+I provide practical accessibility support for websites and mobile apps across design, development, testing and release. The focus is on evidence, user impact and realistic remediation: helping teams understand what matters, make informed decisions and improve the experience they deliver.
 
 ## Where I can help
 
-- Reviewing journeys, components and patterns before they become expensive to change
-- Checking keyboard access, focus behaviour, forms, errors and navigation
+- Reviewing journeys, screens, components and patterns before they become expensive to change
+- Checking keyboard access, focus behaviour, navigation, forms and error handling
+- Reviewing touch targets, gestures and mobile interaction patterns where relevant
+- Carrying out screen reader and assistive technology checks
+- Combining automated checks with manual testing and human judgement
 - Translating accessibility findings into plain-English product and engineering decisions
-- Helping teams understand WCAG without turning it into theatre
+- Helping teams understand WCAG without turning it into a box-ticking exercise
 - Supporting re-testing and verification after fixes are made
 
 ## Typical outputs
@@ -40,6 +40,12 @@ Embedded, pragmatic support for teams who need accessibility judgement during de
 
 ## Good fit
 
-This is useful when you need accessibility judgement alongside delivery work: reviewing a feature, unblocking a team, sense-checking fixes, improving a design system, or preparing for a fuller audit.
+This service is useful when you need accessibility judgement alongside delivery work: reviewing a feature, unblocking a team, sense-checking fixes, improving a design system, preparing for release or deciding whether a fuller audit is needed.
 
-[Book a call](https://calendly.com/jaffamonkeyltd/intro-call)
+For a more structured review with prioritised findings, see [accessibility audits](/audit-services/).
+
+## Book a call
+
+To discuss where accessibility support would be most useful, book a call below.
+
+{{< calendar-booking >}}
