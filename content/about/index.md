@@ -16,7 +16,7 @@ tags: ["quality engineering", "testing", "accessibility", "automation"]
 weight: 10
 ---
 
-![Past clients](images/clients.png)
+![Past clients](clients.png)
 
 I’m **Paul Littlebury**, a quality engineer and tester with more than 25 years of experience helping teams ship better software through smarter testing, stronger automation and a more human approach to quality.
 
