@@ -9,7 +9,7 @@ draft: false
 showAuthor: false
 showDate: false
 showReadingTime: false
-showTableOfContents: false
+showTableOfContents: true
 showHero: false
 categories: ["Accessibility"]
 tags: ["accessibility", "WCAG", "audit", "manual testing", "systemic analysis"]
