@@ -2,7 +2,7 @@ colorScheme = "accessible-clarity"
 defaultAppearance = "dark"
 autoSwitchAppearance = true
 
-enableSearch = true
+enableSearch = false
 enableCodeCopy = true
 mainSections = ["guides", "testing", "accessibility", "conversational-ai"]
 
