@@ -26,7 +26,7 @@
     icon = "search"
 
 [[footer]]
-  name = Accessibility support"
+  name = "Accessibility support"
   pageRef = "accessibility-specialist"
   weight = 10
 
