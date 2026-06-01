@@ -198,7 +198,7 @@ Examples of areas that often still need human judgement include alt-text quality
 
 ---
 
-## Related guides
+## Related analyzer
 
 - **Dashboard Guide** explains the cards, panels, and drilldowns.
 - **Workbook Guide** explains each spreadsheet tab and the main column families.

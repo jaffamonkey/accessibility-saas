@@ -49,7 +49,7 @@ For larger websites, apps and digital estates, the same underlying problem can a
 
 Repeated issues can be grouped by pattern, component, template or WCAG concentration, allowing teams to prioritise shared causes rather than chase every individual row one by one.
 
-[Read about the Accessibility Systemic Analyzer](/guides/accessibility-systemic-analyzer/)
+[Read about the Accessibility Systemic Analyzer](/analyzer/accessibility-systemic-analyzer/)
 
 ## Recent audit clients
 

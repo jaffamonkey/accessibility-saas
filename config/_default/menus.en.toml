@@ -15,7 +15,7 @@
 
 [[main]]
   name = "Analyzer"
-  pageRef = "guides"
+  pageRef = "analyzer"
   weight = 40
 
 [[main]]
@@ -42,5 +42,5 @@
 
 [[footer]]
   name = "Analyzer"
-  pageRef = "guides"
+  pageRef = "analyzer"
   weight = 40
