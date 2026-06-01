@@ -8,7 +8,7 @@ images:
 draft: false
 showAuthor: false
 showDate: false
-showReadingTime: true
+showReadingTime: false
 showTableOfContents: true
 showHero: false
 categories: ["Accessibility"]
