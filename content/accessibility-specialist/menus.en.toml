@@ -14,7 +14,7 @@
   weight = 30
 
 [[main]]
-  name = "Systemic Analyzer"
+  name = "Systemic analyzer"
   pageRef = "analyzer"
   weight = 40
 
@@ -41,6 +41,6 @@
   weight = 30
 
 [[footer]]
-  name = "Systemic Analyzer"
+  name = "Systemic analyzer"
   pageRef = "analyzer"
   weight = 40
