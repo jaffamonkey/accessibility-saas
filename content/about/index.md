@@ -34,20 +34,6 @@ I work across:
 
 I build automation frameworks, embed testing into pipelines, improve reliability, coach teams and explore systems deeply to uncover issues before users encounter them.
 
-## Current work
-
-I currently work as a **Conversational AI Quality Engineer for Acorn Compliance**, helping to ensure that a compliance-focused chatbot is:
-
-- Reliable
-- Context-aware
-- Accurate
-- Accessible
-- Clear and enjoyable to use
-
-My work includes designing and running automation suites with Playwright and Mocha/Chai, monitoring API health, assessing NLP behaviour, and evaluating tone, inclusiveness and multi-turn logic.
-
-A particular interest is **neurodivergent accessibility**: creating experiences that are clear, calm and supportive for a wider range of users.
-
 ## How I work
 
 My approach blends hands-on engineering with collaborative problem-solving:
