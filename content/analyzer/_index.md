@@ -1,5 +1,5 @@
 ---
-title: "Accessibility Systemic Analyzer"
+title: "Accessibility Systemic Analyzer Overview"
 summary: "A multi-tool analysis and reporting layer for finding repeated accessibility barriers, prioritising systemic fixes, and turning scan output into a practical remediation plan."
 description: "The Accessibility Systemic Analyzer brings accessibility scan output together into a clearer dashboard and workbook, helping teams identify repeated patterns, compare evidence across tools, and prioritise fixes with the widest impact."
 date: "2026-05-28"
@@ -11,7 +11,7 @@ showtableofcontents: true
 ---
 
 > [!NOTE]
-> The analyzer is still being polished for public use, but the test jobs board is open for a preview of how it surfaces patterns, priorities, and fix-once opportunities. <br />[View analyzer jobs board](https://a11yanalyzer.sbs)
+> The systemic analyzer is still being polished for public use, but the test jobs board is open for a preview of how it surfaces patterns, priorities, and fix-once opportunities. <br />[View systemic analyzer jobs board](https://a11yanalyzer.sbs)
 
 The **Accessibility Systemic Analyzer** is a multi-tool analysis and reporting layer for accessibility scan output. It is built for the point where a website, application, or wider digital estate has more findings than a team can sensibly triage one page at a time.
 

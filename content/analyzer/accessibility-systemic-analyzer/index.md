@@ -9,7 +9,7 @@ draft: false
 weight: 10
 showauthor: false
 showTableOfContents: true
-showReadingTime: true
+showReadingTime: false
 ---
 
 The Accessibility Systemic Analyzer is a multi-tool analysis and reporting layer for accessibility scan output. It is designed for the point where a team has more findings than it can triage comfortably page by page, and needs a way to understand what is repeated, what is systemic, what is corroborated across tools, and which fixes are most likely to remove broad classes of issues across a site or estate.
