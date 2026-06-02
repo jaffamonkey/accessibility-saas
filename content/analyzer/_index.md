@@ -115,4 +115,4 @@ Areas such as alt-text quality, meaningful link wording in context, logical focu
 - [Accessibility Systemic Analyzer overview](/analyzer/accessibility-systemic-analyzer/)
 - [Dashboard charts and metrics guide](/analyzer/dashboard-charts-and-metrics-guide/)
 - [Spreadsheet workbook guide](/analyzer/workbook-guide/)
-- [View analyzer jobs board](https://a11yanalyzer.sbs)
+- [View systemic analyzer dashboard](https://a11yanalyzer.sbs)
