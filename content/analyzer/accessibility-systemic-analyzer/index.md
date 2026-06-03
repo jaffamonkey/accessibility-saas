@@ -175,8 +175,6 @@ The analyzer includes fields such as `sources`, `tool_count`, `tool_families`, `
 
 Examples of areas that often still need human judgement include alt-text quality, meaningful link text in context, logical focus order, error recovery, semantic clarity, and cognitive accessibility.
 
----
-
 <!-- ## Suggested workflow
 
 1.  Run the scanners and collect report files.
