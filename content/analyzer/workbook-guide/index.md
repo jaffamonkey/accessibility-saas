@@ -1,7 +1,7 @@
 ---
 title: "Spreadsheet Workbook Guide"
 summary: "Reference guide for the exported spreadsheet tabs, columns, and analysis model."
-description: "A guide to the Accessibility Systemic Analyzer workbook export, including analyst tabs, BI-friendly sheets, fact/dimension tabs, field concepts, and suggested workflows."
+description: "A guide to the Systemic Web Accessibility Analyzer workbook export, including analyst tabs, BI-friendly sheets, fact/dimension tabs, field concepts, and suggested workflows."
 categories: ["Accessibility", "Testing"]
 tags: ["accessibility", "workbook", "reporting", "wcag", "power-bi"]
 date: 2026-05-28
