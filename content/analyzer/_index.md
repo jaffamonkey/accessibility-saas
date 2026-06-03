@@ -1,7 +1,7 @@
 ---
-title: "Systemic Web Accessibility Analyzer Overview"
+title: "Systemic Accessibility Analyzer Overview"
 summary: "A multi-tool analysis and reporting layer for finding repeated accessibility barriers, prioritising systemic fixes, and turning scan output into a practical remediation plan."
-description: "The Systemic Web Accessibility Analyzer brings accessibility scan output together into a clearer dashboard and workbook, helping teams identify repeated patterns, compare evidence across tools, and prioritise fixes with the widest impact."
+description: "The Systemic Accessibility Analyzer brings accessibility scan output together into a clearer dashboard and workbook, helping teams identify repeated patterns, compare evidence across tools, and prioritise fixes with the widest impact."
 date: "2026-05-28"
 draft: false
 showauthor: false
@@ -13,7 +13,7 @@ showtableofcontents: true
 > [!NOTE]
 > The systemic analyzer is still being polished for public use, but the test jobs board is open for a preview of how it surfaces patterns, priorities, and fix-once opportunities. <br />[View systemic analyzer jobs board](https://a11yanalyzer.sbs)
 
-The **Systemic Web Accessibility Analyzer** is a multi-tool analysis and reporting layer for accessibility scan output. It is built for the point where a website, application, or wider digital estate has more findings than a team can sensibly triage one page at a time.
+The **Systemic Accessibility Analyzer** is a multi-tool analysis and reporting layer for accessibility scan output. It is built for the point where a website, application, or wider digital estate has more findings than a team can sensibly triage one page at a time.
 
 Rather than treating every scanner result as an isolated defect, the analyzer brings reports together, normalises the data, identifies likely overlaps, groups repeated patterns, and highlights the fixes most likely to improve many pages or components at once.
 
@@ -112,7 +112,7 @@ Areas such as alt-text quality, meaningful link wording in context, logical focu
 
 ## Explore the analyzer
 
-- [Systemic Web Accessibility Analyzer overview](/analyzer/accessibility-systemic-analyzer/)
+- [Systemic Accessibility Analyzer overview](/analyzer/accessibility-systemic-analyzer/)
 - [Dashboard charts and metrics guide](/analyzer/dashboard-charts-and-metrics-guide/)
 - [Spreadsheet workbook guide](/analyzer/workbook-guide/)
 - [View systemic analyzer dashboard](https://a11yanalyzer.sbs)

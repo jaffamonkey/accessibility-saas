@@ -1,7 +1,7 @@
 ---
-title: "Systemic Web Accessibility Analyzer"
+title: "Systemic Accessibility Analyzer"
 summary: "Project overview covering the architecture, supported tools, workflow, workbook, and dashboard notes."
-description: "A refreshed project overview for the Systemic Web Accessibility Analyzer, covering the current architecture, supported adapters, WCAG handling, systemic analysis workflow, workbook model, and dashboard support."
+description: "A refreshed project overview for the Systemic Accessibility Analyzer, covering the current architecture, supported adapters, WCAG handling, systemic analysis workflow, workbook model, and dashboard support."
 categories: ["Accessibility", "Testing"]
 tags: ["accessibility", "testing", "analysis", "wcag", "dashboard"]
 date: 2026-05-28
@@ -12,7 +12,7 @@ showTableOfContents: true
 showReadingTime: false
 ---
 
-The Systemic Web Accessibility Analyzer is a multi-tool analysis and reporting layer for accessibility scan output. It is designed for the point where a team has more findings than it can triage comfortably page by page, and needs a way to understand what is repeated, what is systemic, what is corroborated across tools, and which fixes are most likely to remove broad classes of issues across a site or estate.
+The Systemic Accessibility Analyzer is a multi-tool analysis and reporting layer for accessibility scan output. It is designed for the point where a team has more findings than it can triage comfortably page by page, and needs a way to understand what is repeated, what is systemic, what is corroborated across tools, and which fixes are most likely to remove broad classes of issues across a site or estate.
 
 Instead of treating accessibility results only as isolated page-level defects, the analyzer normalizes data from multiple engines, deduplicates likely overlaps, maps findings to WCAG where possible, groups repeated issue patterns, and produces both a dashboard and workbook that are easier to use for remediation planning.
 
