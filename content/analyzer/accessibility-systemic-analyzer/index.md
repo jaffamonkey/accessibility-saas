@@ -177,7 +177,7 @@ Examples of areas that often still need human judgement include alt-text quality
 
 ---
 
-## Suggested workflow
+<!-- ## Suggested workflow
 
 1.  Run the scanners and collect report files.
 2.  Build the normalized dashboard / workbook output.
@@ -194,7 +194,7 @@ Examples of areas that often still need human judgement include alt-text quality
     source venv/bin/activate
     pip install -r requirements.txt
 
-    uvicorn app.main:app --reload
+    uvicorn app.main:app --reload -->
 
 ---
 
