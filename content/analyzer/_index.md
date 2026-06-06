@@ -11,7 +11,6 @@ showtableofcontents: true
 ---
 
 > [!NOTE]---
-> 🛠️ **Status Preview**
 > The systemic analyzer is still being polished for public use, but the test jobs board is open for a preview of how it surfaces patterns, priorities, and fix-once opportunities.
 > [View systemic analyzer jobs board](https://a11yanalyzer.sbs)
 ---
