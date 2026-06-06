@@ -1646,7 +1646,7 @@ html.dark .hct-card-number {
 
 .hct-feature-copy h2 {
   margin: 0 0 0.7rem !important;
-  max-width: 24ch !important;
+  /* max-width: 24ch !important; */
   color: #172033 !important;
   font-size: clamp(1.2rem, 2vw, 1.55rem) !important;
   line-height: 1.2 !important;
