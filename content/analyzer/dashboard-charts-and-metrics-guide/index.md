@@ -12,103 +12,92 @@ showTableOfContents: true
 showReadingTime: true
 ---
 
-This guide explains the current dashboard cards, charts, wide panels, and drilldown behavior. It reflects the newer support table, stricter WCAG-only charting, friendlier rule labels, and drilldown search/paging.
+This guide explains how to read and interpret the analyzer's dashboard cards, charts, panels, and drilldown behaviors. 
 
-> **Recent dashboard changes:** WCAG Support Coverage panel, WCAG chart cleanup, improved rule labels, better component label display, and drilldowns with search, page-size controls, and pagination.
+The layout is optimized to help your team quickly answer four critical questions:
+1.  **Volume:** How much total issue volume exists across the estate?
+2.  **Concentration:** Where are these issues physically concentrated?
+3.  **Systemicity:** How much of the problem is systemic or tied to reusable code?
+4.  **Action:** Which specific fixes will remove the most repeated errors first?
 
----
-
-## How to read the dashboard overall
-
-1.  How much issue volume exists?
-2.  Where is it concentrated?
-3.  How much of it looks systemic or reusable?
-4.  Which fixes could remove the most repeated issues first?
-
-The top cards provide a snapshot. The chart panels show pattern shape. The wide panels validate the dataset and help turn findings into action. The drilldown lets you inspect the findings behind a chart bar or fix row.
+> 🔄 **Recent Dashboard Updates:** Features an all-new WCAG Support Coverage panel, strict WCAG-only charting limits, friendlier human rule labels, optimized component layout tracking, and full text-search, sizing, and pagination on drilldowns.
 
 ---
 
-## Top metric cards
+## Suggested Reading Order (How to Triage)
 
-- **Violations**: total processed findings.
-- **Pages Affected**: count of unique normalized pages with at least one finding.
-- **WCAG Criteria Affected**: count of distinct WCAG success criteria represented.
-- **Shared Pattern Impact**: percentage of issue volume tied to shared patterns or reusable sources.
-- **Opportunity Score**: estimated percentage of findings concentrated in the top remediation opportunities.
-- **Accessibility Debt Index**: weighted burden score based on repetition, spread, and systemicity.
-- **Cross-Tool Overlap**: counts of `verified`, `likely`, and `single` findings.
-- **Evidence Confidence**: evidence strength summary.
-- **WCAG Levels**: A / AA / AAA counts.
-- **Legacy Frames**: frame/iframe-related counts and pages.
-- **Shared Source Rate**: percentage tied to shared components, templates, or patterns.
-- **Top 5 Page Concentration**: share of issue volume in the five most affected pages.
+If you aren't sure where to start looking, follow this recommended sequence to process the dashboard data efficiently:
+
+1.  **Verify the Data:** Look at the **Page Inventory Check** first to ensure all your scanner files loaded correctly.
+2.  **Identify the Shape:** Scan the **Top Problem Types** and **Component Heatmap** to locate where the issues sit[cite: 6].
+3.  **Check Compliance:** Review the **WCAG Rule Breakdown** to gather numbers for standards-focused reporting[cite: 6].
+4.  **Evaluate Tools:** Look at the **Tool Agreement Profile** to see where your different scanners match or disagree[cite: 6].
+5.  **Build Your Queue:** Open the **Fix Once, Benefit Many** panel to grab your highest-value development tasks[cite: 6].
+6.  **Inspect Closely:** Click any chart bar or row to use the **Drilldown Search** and inspect the exact code errors[cite: 6].
 
 ---
 
-## Main chart and table panels
+## Top Metric Cards (The Snapshot)
 
-### Tool Agreement Profile
+The top of the dashboard displays summary cards[cite: 6]. They are organized into four functional categories to prevent data overwhelm:
 
-Shows how often each tool’s findings agree across families, overlap only within the same family, or remain unique. This is a corroboration view, not a truth meter.
+### 📊 Volume Metrics
+*   **Violations:** Total count of all processed findings across the entire scan dataset[cite: 6].
+*   **Pages Affected:** Total number of unique, normalized pages containing at least one finding[cite: 6].
+*   **WCAG Criteria Affected:** Total count of distinct WCAG success criteria triggered[cite: 6].
+*   **Top 5 Page Concentration:** The exact percentage of total issue volume found on your five most broken pages[cite: 6].
 
-### WCAG Support Coverage
+### ⚙️ Systemic & Architectural Metrics
+*   **Shared Pattern Impact:** The percentage of overall issue volume directly tied to shared patterns or reusable code sources[cite: 6].
+*   **Shared Source Rate:** The percentage of findings explicitly linked to global components, templates, or design styles[cite: 6].
+*   **Opportunity Score:** An estimated percentage showing how many bugs can be cleared by focusing only on top-ranked opportunities[cite: 6].
+*   **Accessibility Debt Index:** A weighted burden score calculated from overall repetition, page spread, and systemicity[cite: 6].
 
-A summary table of high-level WCAG support breadth by tool framework. Treat it as a capability overview rather than a guarantee that every configured run is exercising every supported rule.
+### 🛡️ Trust & Tool Metrics
+*   **Cross-Tool Overlap:** High-level counts splitting issues into `verified` (multiple tools matched), `likely`, and `single` categories[cite: 6].
+*   **Evidence Confidence:** A summary scale rating the raw strength of your automated test evidence[cite: 6].
 
-### Top Problem Types
-
-Rolls component findings into broad issue areas such as Forms, Interactive, Navigation, Content, Structure, Media, ARIA, and Other.
-
-### Component Heatmap
-
-Shows which inferred UI components generate the most findings. Labels are humanized for display, while drilldowns still use the raw component keys underneath.
-
-### WCAG Rule Breakdown
-
-Shows only valid WCAG criteria now. Non-WCAG rule ids and messages are intentionally excluded.
-
-### Issues per Page
-
-Highlights the most affected pages so you can spot concentration or template noise quickly.
-
-### Page Inventory Check
-
-Validates cross-tool page coverage before you trust the rest of the dashboard. This is one of the most important trust checks in the dashboard.
-
-### Fix Once, Benefit Many
-
-A ranked shortlist of repeated patterns most worth fixing first. It is the most action-oriented panel in the dashboard.
+### 🧩 Compliance & Heritage Markers
+*   **WCAG Levels:** Total issue breakdowns categorized by strict compliance tiers: A, AA, and AAA[cite: 6].
+*   **Legacy Frames:** Total counts of frame/iframe-related items and the specific pages they affect[cite: 6].
 
 ---
 
-## Drilldown behavior
+## Main Chart and Table Panels
 
-Clicking a chart bar or fix row opens the drilldown panel for the current subset.
+### 🚦 Data Validation Panels
 
-- **Search** across the current drilldown result set
-- **Page size** selection (10 / 25 / 50 / 100)
-- **Pagination** for long result sets
+> 🔍 **Critical Trust Check: Page Inventory Check**
+> This panel validates your cross-tool page coverage[cite: 6]. Always check this sheet before interpreting the wider dashboard to guarantee that your raw scanner outputs aren't missing key pages[cite: 6].
 
-Typical fields shown include rule label, page, component, issue scope, pattern, source, DOM path / selector, fingerprint, and message.
+*   **Tool Agreement Profile (Chart):** Displays how often your accessibility tools agree on issues, overlap within the same family, or remain entirely unique[cite: 6]. This is an organization tool, not an absolute truth meter[cite: 6].
+*   **WCAG Support Coverage (Table):** Explains the high-level WCAG testing capabilities of your active tool frameworks[cite: 6]. It shows capability, not a guarantee that every rule was actively triggered on a run[cite: 6].
 
----
-
-## Interpreting overlap and coverage carefully
-
-- More overlap across tool families often suggests stronger corroboration.
-- Same-family overlap can be sensitive to deduplication logic and selector/fingerprint strictness.
-- A wider tool stack improves breadth and confidence, but automated coverage remains partial.
-
-> **Warning:** Dashboard totals and overlap views should be interpreted as **evidence organization**, not as the final truth about accessibility quality.
+### 🛠️ Action & Remediation Panels
+*   **Fix Once, Benefit Many (Table):** A ranked shortlist highlighting the repeated code patterns most worth fixing first[cite: 6]. This is the most actionable panel on the dashboard[cite: 6].
+*   **Top Problem Types (Chart):** Groups individual component failures into massive functional buckets (e.g., Forms, Interactive, Navigation, Structure, ARIA)[cite: 6].
+*   **Component Heatmap (Chart):** Pinpoints exactly which user interface components are throwing the most errors[cite: 6]. Display labels are humanized, but lookups run on raw component keys underneath[cite: 6].
+*   **WCAG Rule Breakdown (Chart):** Displays a refined view containing only valid WCAG criteria[cite: 6]. Messy technical rule IDs and engine debug text are stripped out[cite: 6].
+*   **Issues per Page (Chart):** Lists your most heavily broken URLs so you can separate severe localized failures from global template noise[cite: 6].
 
 ---
 
-## Suggested dashboard reading order
+## Drilldown Behavior
 
-1.  Check **Page Inventory Check** first.
-2.  Use **Top Problem Types** and **Component Heatmap** to understand the shape of the issue space.
-3.  Use **WCAG Rule Breakdown** for standards-focused reporting.
-4.  Use **Tool Agreement Profile** to understand corroboration patterns.
-5.  Use **Fix Once, Benefit Many** to build a remediation queue.
-6.  Use drilldown search and paging to inspect the exact findings behind any bar or row.
+Clicking any interactive chart bar or fix row automatically launches the drilldown panel for that specific data subset[cite: 6]. 
+
+To make exploring dense rows easier, the drilldown interface includes:
+*   🔍 **Targeted Search:** Instantly filters text across the current drilldown result subset[cite: 6].
+*   📄 **Page Sizing:** Lets you adjust your workspace view to show 10, 25, 50, or 100 rows per screen[cite: 6].
+*   🔀 **Pagination:** Provides clean page numbers to navigate long development sets without crashing your browser[cite: 6].
+
+*Fields rendered in this view include: rule label, page URL, component key, issue scope, pattern type, code source, DOM selector path, unique fingerprint, and engine message[cite: 6].*
+
+---
+
+## ⚠️ Interpretation Guidance & Limits
+
+*   **Overlap Value:** Higher overlap across completely different tool families indicates incredibly high confidence and strong issue corroboration[cite: 6].
+*   **Same-Family Overlap:** Intrafamily overlap can be highly sensitive to your deduplication settings, DOM selector formats, and fingerprint strictness[cite: 6].
+
+> **Warning:** Dashboard charts and overlap summaries are designed for **evidence organization**[cite: 6]. They are an optimization map for developers, not a replacement for manual accessibility audits or human evaluation[cite: 6].

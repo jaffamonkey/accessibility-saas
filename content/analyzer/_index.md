@@ -10,109 +10,125 @@ showreadingtime: false
 showtableofcontents: true
 ---
 
-> [!NOTE]
-> The systemic analyzer is still being polished for public use, but the test jobs board is open for a preview of how it surfaces patterns, priorities, and fix-once opportunities. <br />[View systemic analyzer jobs board](https://a11yanalyzer.sbs)
-
-The **Systemic Accessibility Analyzer** is a multi-tool analysis and reporting layer for accessibility scan output. It is built for the point where a website, application, or wider digital estate has more findings than a team can sensibly triage one page at a time.
+> [!NOTE]---
+> 🛠️ **Status Preview**
+> The systemic analyzer is still being polished for public use, but the test jobs board is open for a preview of how it surfaces patterns, priorities, and fix-once opportunities.
+> [View systemic analyzer jobs board](https://a11yanalyzer.sbs)
+---
+The **Systemic Accessibility Analyzer** is a multi-tool analysis and reporting layer for accessibility scan output. It is built for teams whose websites, applications, or digital estates have more findings than can sensibly be triaged one page at a time.
 
 Rather than treating every scanner result as an isolated defect, the analyzer brings reports together, normalises the data, identifies likely overlaps, groups repeated patterns, and highlights the fixes most likely to improve many pages or components at once.
 
-_The aim is not to produce a larger pile of findings. It is to make the findings easier to understand, prioritise, and act on._
+> 🎯 **The Goal:** To make findings easier to understand, prioritise, and act on—not to produce a larger pile of data.
+
+---
 
 ## From issue volume to useful priorities
 
 Automated tools are good at finding individual instances. They are less helpful when the same underlying problem appears dozens or hundreds of times across a site.
 
-A contrast failure on the home page, product page, basket, and checkout may not be four unrelated defects. It may be one shared button style that needs fixing once.
+For example, a contrast failure on the home page, product page, basket, and checkout may not be four unrelated defects. It may be **one shared button style** that needs to be fixed just once. 
 
-The analyzer is designed to surface that distinction. It helps answer questions such as:
+The analyzer surfaces these distinctions, helping you quickly answer:
 
-- Which issues are repeated across multiple pages?
-- Which findings appear to come from a shared component, template, or pattern?
-- Which problems are corroborated by more than one tool?
-- Which pages or components carry the greatest concentration of accessibility debt?
-- Which fixes are likely to remove the broadest class of issues first?
+*   **Pattern tracking:** Which issues are repeated across multiple pages?
+*   **Shared sources:** Which findings come from a shared component, template, or pattern?
+*   **Cross-tool verification:** Which problems are corroborated by more than one tool?
+*   **Debt concentration:** Which pages or components carry the greatest concentration of accessibility debt?
+*   **High-impact fixes:** Which fixes will remove the broadest class of issues first?
 
-## What the analyzer does
+---
 
-The analyzer processes reports from multiple accessibility tools and turns them into a shared analysis model. It can:
+## Core Capabilities
 
-- detect and load supported report formats
-- normalise findings into a consistent structure
-- map rules to WCAG criteria, levels, and human-readable titles where possible
-- preserve useful needs-review findings as well as confirmed violations
-- deduplicate likely overlaps between tools on the same page
-- infer likely components, component groups, templates, and shared patterns
-- group repeated findings into systemic clusters
-- calculate overlap, confidence, spread, and prioritisation metrics
-- generate a static dashboard and an analyst-friendly workbook
+The analyzer processes reports from multiple accessibility tools and turns them into a shared, unified analysis model. 
+
+### Data processing & cleanup
+*   **Format support:** Automatically detects and loads supported report formats.
+*   **Data normalisation:** Organises findings into a consistent, predictable structure.
+*   **WCAG mapping:** Maps scanner rules to WCAG criteria, levels, and human-readable titles.
+*   **Smart deduplication:** Removes likely overlapping results from different tools on the same page.
+*   **Review preservation:** Keeps helpful "needs-review" findings separate from confirmed violations.
+
+### Systemic analysis
+*   **Pattern inference:** Identifies likely components, component groups, templates, and shared patterns.
+*   **Systemic clustering:** Groups repeated findings into actionable clusters.
+*   **Smart metrics:** Calculates overlap, confidence, spread, and prioritisation metrics.
+*   **Dual outputs:** Generates both a static visual dashboard and an analyst-friendly spreadsheet workbook.
+
+---
 
 ## Why use more than one tool?
 
-Different accessibility tools have different strengths, rule sets, and ways of representing results. Running several tools can improve breadth, but it can also create noise: duplicated findings, inconsistent labels, and results that are difficult to compare directly.
+Different accessibility tools have different strengths, rule sets, and ways of representing results. Running several tools improves coverage, but it can create noise: duplicated findings, inconsistent labels, and messy comparisons.
 
-The analyzer is intended to make that wider evidence set usable. It currently supports report families including **axe-core**, **axe-scan**, **IBM Accessibility Checker**, **Lighthouse**, **Oobee**, **UUV**, **Pa11y**, and **HTMLCS / html-sniffer**.
+The analyzer makes wider evidence usable. It currently supports report families including **axe-core**, **axe-scan**, **IBM Accessibility Checker**, **Lighthouse**, **Oobee**, **UUV**, **Pa11y**, and **HTMLCS / html-sniffer**.
 
-Where tools appear to report the same underlying problem, the analyzer can bring those findings together. Where a tool reports an incomplete, potential, or manual-review style result, the analyzer can retain that distinction rather than presenting everything as a confirmed failure.
+*   **Where tools overlap:** The analyzer blends the findings together into one clear issue.
+*   **Where tools are uncertain:** Potential or manual-review results retain their distinction rather than being falsely flagged as confirmed failures.
 
-## Dashboard: understand the shape of the problem
+---
 
-The dashboard provides a higher-level view of the analyzed estate. It is designed to help teams move quickly from raw volume to areas worth investigating.
+## Output 1: The Dashboard
 
-Current dashboard views include:
+The dashboard provides a high-level view of your analyzed estate. It helps teams move quickly from raw data volume to the areas most worth investigating.
 
-- issue volume and affected-page summaries
-- WCAG criteria and conformance-level breakdowns
-- cross-tool overlap and evidence confidence
-- shared-pattern and shared-source metrics
-- top problem types
-- component heatmaps
-- issues per page
-- page inventory checks
-- a **Fix Once, Benefit Many** prioritisation panel
-- searchable, paginated drilldowns for inspecting the findings behind each chart or ranked item
+### Key dashboard views:
+*   **Summaries:** Issue volume and affected-page breakdowns.
+*   **Compliance metrics:** WCAG criteria and conformance-level breakdowns.
+*   **Confidence scores:** Cross-tool overlap metrics to show where tools agree.
+*   **Hotspots:** Component heatmaps, top problem types, and issues-per-page.
+*   **The Priority Panel:** A dedicated **Fix Once, Benefit Many** prioritisation grid.
+*   **Page Inventory Check:** A vital validation step to verify the coverage of your collected reports before interpreting the wider data.
+*   **Drilldowns:** Searchable, paginated views for inspecting the raw findings behind each chart.
 
-The **Page Inventory Check** is an important first step: it helps validate the coverage of the collected reports before the wider dashboard is interpreted.
+---
 
-## Workbook: inspect, filter, hand off, and report
+## Output 2: The Workbook
 
-The exported workbook provides the more detailed analysis layer behind the dashboard. It is intended both for hands-on accessibility review and for wider reporting workflows.
+The exported spreadsheet workbook provides the detailed data layer behind the dashboard. It is built for hands-on accessibility reviews, technical handoffs, and downstream reporting workflows.
 
-It includes:
+### What's inside:
+*   **Management views:** Clean, high-level summary sheets.
+*   **Enriched data:** Detailed issue rows with enriched rule and WCAG fields.
+*   **Actionable shortlists:** Systemic cluster analysis and **Fix Once, Benefit Many** priority lists.
+*   **BI-ready data:** Flat, Power BI-friendly tables with fact and dimension sheets for relational reporting.
 
-- summary and management-style views
-- detailed issue rows with enriched rule and WCAG fields
-- systemic cluster analysis
-- **Fix Once, Benefit Many** and top-fix shortlists
-- flat Power BI-friendly tables
-- fact and dimension sheets for relational reporting
+This makes it easy to move seamlessly from an executive overview into filtered developer triage without losing the technical evidence behind the headline numbers.
 
-This makes it possible to move from an executive overview into filtered triage, technical handoff, ownership discussions, and downstream BI analysis without losing the evidence behind the headline metrics.
+---
 
 ## What “systemic” means here
 
-A systemic issue is a repeated finding pattern where one remediation change may improve many instances. That may be a design-system component issue, a repeated template problem, a recurring content structure issue, or another shared implementation pattern.
+A **systemic issue** is a repeated finding pattern where one remediation change improves many instances across a site. This includes:
+*   Design-system component bugs
+*   Repeated page template issues
+*   Recurring content structure problems
 
-The analyzer does not assume that every repeated issue has the same cause. Instead, it helps surface likely reusable remediation targets so that teams can investigate and prioritise them more efficiently.
+The analyzer does not assume every repeated issue has the exact same root cause. Instead, it highlights reusable remediation targets so your team can investigate them efficiently.
+
+---
 
 ## A practical workflow
 
-1. Run the accessibility scanners and collect their report files.
-2. Build the normalised dashboard and workbook output.
-3. Check the page inventory to confirm the expected coverage.
-4. Review the dashboard for concentrated problem areas, repeated patterns, WCAG hotspots, and high-value fixes.
-5. Use the workbook for deeper triage, handoff, reporting, and BI workflows.
-6. Re-run after remediation to compare changes in volume, concentration, overlap, and systemic impact.
+1.  **Scan:** Run your accessibility scanners and collect their report files.
+2.  **Build:** Generate the normalised dashboard and workbook output using the analyzer.
+3.  **Verify:** Check the page inventory to confirm your expected scan coverage.
+4.  **Review:** Inspect the dashboard for concentrated problem areas and high-value fixes.
+5.  **Triage & Handoff:** Use the workbook for deeper technical triage and developer handoffs.
+6.  **Track:** Re-run the tool after remediation to measure changes in volume and systemic impact.
 
-## Important limitation
+---
 
-> **Automated coverage remains partial.** A broader tool stack improves breadth, corroboration, and confidence, but it does not replace manual accessibility testing or human judgement.
+## ⚠️ Important Limitation
 
-Areas such as alt-text quality, meaningful link wording in context, logical focus order, error recovery, semantic clarity, and cognitive accessibility still need human review.
+> **Automated coverage remains partial.** A broader tool stack improves coverage and confidence, but it **does not replace manual testing** or human judgement.
+>
+> Critical areas like alt-text quality, meaningful link wording, logical focus order, error recovery, semantic clarity, and cognitive accessibility still require human review.
 
 ## Explore the analyzer
 
-- [Systemic Accessibility Analyzer overview](/analyzer/accessibility-systemic-analyzer/)
-- [Dashboard charts and metrics guide](/analyzer/dashboard-charts-and-metrics-guide/)
-- [Spreadsheet workbook guide](/analyzer/workbook-guide/)
-- [View systemic analyzer dashboard](https://a11yanalyzer.sbs)
+*   [Systemic Accessibility Analyzer overview](/analyzer/accessibility-systemic-analyzer/)
+*   [Dashboard charts and metrics guide](/analyzer/dashboard-charts-and-metrics-guide/)
+*   [Spreadsheet workbook guide](/analyzer/workbook-guide/)
+*   [View systemic analyzer dashboard](https://a11yanalyzer.sbs)

@@ -15,37 +15,46 @@ categories: ["Accessibility"]
 tags: ["accessibility", "WCAG", "specialist support", "manual testing"]
 ---
 
-Accessibility work is most useful when it helps a team make better product decisions, not when it simply produces a long list of defects.
+Accessibility work is most useful when it helps your team make better product decisions—not when it simply produces a long list of defects.
 
-I provide practical accessibility support for websites and mobile apps across design, development, testing and release. The focus is on evidence, user impact and realistic remediation: helping teams understand what matters, make informed decisions and improve the experience they deliver.
+I provide practical accessibility support for websites and mobile apps across design, development, testing, and release. My focus is on evidence, user impact, and realistic remediation. I help teams understand what matters, make informed decisions, and improve the final user experience.
 
 ## Where I can help
 
-- Reviewing journeys, screens, components and patterns before they become expensive to change
-- Checking keyboard access, focus behaviour, navigation, forms and error handling
-- Reviewing touch targets, gestures and mobile interaction patterns where relevant
-- Carrying out screen reader and assistive technology checks
-- Combining automated checks with manual testing and human judgement
-- Translating accessibility findings into plain-English product and engineering decisions
-- Helping teams understand WCAG without turning it into a box-ticking exercise
-- Supporting re-testing and verification after fixes are made
+*   **Early reviews:** Checking journeys, screens, components, and patterns before they become expensive to change.
+*   **Interaction checks:** Reviewing keyboard access, focus behaviour, navigation, forms, and error handling.
+*   **Mobile patterns:** Testing touch targets, gestures, and mobile interaction patterns.
+*   **Assistive tech:** Carrying out screen reader and assistive technology checks.
+*   **Hybrid testing:** Combining automated tools with manual testing and human judgement.
+*   **Clear translation:** Turning complex accessibility findings into plain-English product and engineering decisions.
+*   **Practical WCAG:** Helping teams understand WCAG standards without turning them into a box-ticking exercise.
+*   **Post-fix support:** Re-testing and verifying accessibility fixes after they are made.
 
 ## Typical outputs
 
-- Clear notes on user impact and risk
-- Prioritised recommendations
-- Developer-friendly remediation guidance
-- Examples of better patterns where useful
-- Re-test notes after changes
+*   **Impact analysis:** Clear notes on user impact and risk.
+*   **Prioritised tasks:** Recommendations ranked by urgency.
+*   **Dev-friendly guides:** Remediation guidance written for developers.
+*   **Pattern examples:** Practical examples of better design patterns where useful.
+*   **Verification:** Detailed re-test notes after changes are implemented.
 
-## Good fit
+## Is this a good fit?
 
-This service is useful when you need accessibility judgement alongside delivery work: reviewing a feature, unblocking a team, sense-checking fixes, improving a design system, preparing for release or deciding whether a fuller audit is needed.
+This service is a great fit when you need expert accessibility judgement alongside delivery work. This includes:
 
-For a more structured review with prioritised findings, see [accessibility audit](/audit-services/).
+*   Reviewing a specific feature
+*   Unblocking a stuck team
+*   Sense-checking fixes
+*   Improving a design system
+*   Preparing for an upcoming release
+*   Deciding whether a full audit is needed
+
+> 💡 **Looking for a more structured review?** For a formal review with heavily prioritised findings, see my [accessibility audit](/audit-services/).
 
 ## Book a call
 
-To discuss where accessibility support would be most useful, book a call below.
+Let's discuss where accessibility support would be most useful for your project. 
+
+Use the calendar widget below to pick a date and time that works for you. There are no forms to fill out beforehand, and you can cancel or reschedule at any time.
 
 {{< calendar-booking >}}

@@ -17,7 +17,7 @@ showHero: false
   <section class="hct-core-hero" aria-labelledby="core-services-heading">
     <p class="hct-core-kicker">Accessibility support</p>
     <h1 id="core-services-heading">Clear accessibility work. Practical fixes. Less theatre.</h1>
-    <p class="hct-core-lede">I ensure accessibility findings lead to meaningful changes for both web and mobile apps.</p>
+    <p class="hct-core-lede">I turn accessibility findings into meaningful improvements for both web and mobile apps.</p>
 
   
     <div class="hct-core-actions" aria-label="Primary actions">

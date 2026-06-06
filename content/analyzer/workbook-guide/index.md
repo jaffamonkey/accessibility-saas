@@ -12,128 +12,78 @@ showTableOfContents: true
 showReadingTime: true
 ---
 
-This workbook is the main analysis export of the accessibility framework. It combines processed findings, deduplicated and clustered views, pattern prioritization, and BI-friendly model tabs in one place.
+This workbook functions as the primary data and analysis export for the accessibility testing framework. It compiles processed findings, deduplicated clusters, prioritized fix sequences, and database-ready data schemas into a single offline spreadsheet.
 
-> **Recent workbook changes:** friendlier rule labels, stricter separation of Rule vs WCAG fields, improved WCAG-only handling, preserved needs-review findings, and closer alignment with the current dashboard behavior.
-
----
-
-## How to read the workbook overall
-
-The workbook has three broad layers:
-
-### 1. Human summary / analyst tabs
-
-- Summary
-- Systemic Clusters
-- Issue Details
-- Fix Once Benefit Many
-- Top Fixes
-
-### 2. Flat reporting / BI tabs
-
-- Power BI Findings
-- Power BI Patterns
-
-### 3. Star-schema tabs
-
-- Fact Findings
-- Dim Page
-- Dim Rule
-- Dim Component
-- Dim Pattern
+> 🔄 **Recent Workbook Updates:** Implemented friendlier human rule labels, enforced strict visual separation between Rule names and WCAG codes, optimized WCAG-only chart logic, and preserved "needs-review" data fields.
 
 ---
 
-## Core field concepts used across tabs
+## Core Data Concepts (Dictionary)
 
-| Field family              | Meaning                                          |
-|---------------------------|--------------------------------------------------|
-| Rule                      | Friendly display label for the issue             |
-| Rule Id                   | Underlying tool-specific identifier              |
-| WCAG                      | Criterion code such as `1.4.3`                   |
-| WCAG Name                 | Criterion title such as `Contrast (Minimum)`     |
-| Severity                  | Normalized severity used for sorting and triage  |
-| Consensus                 | Overlap signal across merged tools               |
-| Confidence                | Broader evidence judgement                       |
-| Issue Rank Score          | Numeric prioritization signal                    |
-| Pattern / Display Pattern | Repeated issue family identifier and human label |
+To help you navigate the columns across different tabs, here is a quick key explaining what the primary data fields represent:
 
----
-
-## Sheet-by-sheet guide
-
-### 1) Summary
-
-The executive overview sheet with values such as Violations, Pages Affected, Design System Impact, Accessibility Debt Index, and Accessibility Opportunity Score.
-
-### 2) Systemic Clusters
-
-One of the most important analyst tabs because it moves from raw findings to repeated issue families. Typical columns include Rule, Rule Id, WCAG, WCAG Name, Level, Severity, Component, Display Pattern, Systemic, Pages, Count, Issue Rank Score, Owner Team, Root Cause, Message, and Sources.
-
-Use it when you want to answer which issues repeat across the estate, which look systemic, and which clusters should be triaged first.
-
-### 3) Issue Details
-
-The detailed analyst tab: one row per processed finding with readable enriched fields such as Page, Rule, Rule Id, WCAG, WCAG Name, Severity, Component, Pattern, Consensus, Confidence, DOM context, Message, and Sources.
-
-The workbook is now stricter about **not** using a bare WCAG code as the Rule label when that code already appears in the WCAG column.
-
-### 4) Power BI Findings
-
-A flatter reporting table with stable-ish keys and display fields for downstream BI.
-
-### 5) Power BI Patterns
-
-Pattern-level rollup for repeated issue families, page spread, ownership, severity, and systemicity.
-
-### 6) Fact Findings
-
-The central fact-like table with one row per processed finding.
-
-### 7) Dim Page
-
-Normalized page keys and display fields.
-
-### 8) Dim Rule
-
-Rule display label, rule id, WCAG code, WCAG name, level, and sort fields.
-
-### 9) Dim Component
-
-Component and ownership metadata used for grouping and reporting.
-
-### 10) Dim Pattern
-
-Pattern-level dimension for repeated issue-family reporting.
-
-### 11) Fix Once Benefit Many
-
-The pre-ranked shortlist behind the main remediation panel, including pattern, component, severity, findings count, affected pages count, owner team, and priority score.
-
-**Priority score note:** the numeric score is a ranking aid. Many top rows can tie if they share very similar severity and spread inputs.
-
-### 12) Top Fixes
-
-A simpler root-cause summary used for concise management-style reporting.
+| Field Family | Meaning / Data Contained |
+| :--- | :--- |
+| **Rule** | Clear, human-readable display title for the issue[cite: 7]. |
+| **Rule Id** | The original, technical identifier used by the source scanner tool[cite: 7]. |
+| **WCAG** | The specific compliance success criterion code (e.g., `1.4.3`)[cite: 7]. |
+| **WCAG Name** | The official title of the criterion (e.g., `Contrast (Minimum)`)[cite: 7]. |
+| **Severity** | Normalized severity scales used for sorting and issue triage[cite: 7]. |
+| **Consensus** | An overlap tracker showing how many tools flagged this exact issue[cite: 7]. |
+| **Confidence** | A calculated judgment score verifying the raw strength of the evidence[cite: 7]. |
+| **Issue Rank Score** | A calculated numeric value used to prioritize tasks[cite: 7]. |
+| **Pattern** | A shared identifier and human label for a repeated issue family[cite: 7]. |
 
 ---
 
-## Needs-review findings in the workbook
+## The 3-Layer Sheet Guide
 
-Some tools emit rows that are not hard failures but still matter operationally. Depending on the adapter, these may appear as `incomplete`, `potentialviolation`, or `warning`. These rows are preserved because they are useful for investigation, but they should not always be interpreted exactly the same way as confirmed failures.
+The sheets in this workbook are divided into three clear layers depending on your immediate goal: **Human Analysis**, **Flat Reporting**, or **Relational BI Modelling**[cite: 7].
+
+### Layer 1: Human Summary & Analyst Tabs
+*Use these tabs for manual code reviews, engineering handoffs, and project planning.*
+
+*   **1. Summary:** The executive dashboard page[cite: 7]. Displays macro metrics like overall Violations, Pages Affected, Debt Indices, and your total Opportunity Score[cite: 7].
+*   **2. Systemic Clusters:** *One of the most vital analyst tabs[cite: 7].* It rolls raw individual findings up into grouped, repeated issue families[cite: 7]. 
+    *   *🎯 **Best used for:** Identifying which specific code bugs repeat across the site and which clusters to fix first[cite: 7].*
+*   **3. Issue Details:** The master row review page[cite: 7]. Contains every single processed finding with fully enriched fields (DOM paths, selectors, and tool messages)[cite: 7]. 
+    *   *💡 **Note:** This tab strictly isolates clean Rule labels from raw WCAG codes[cite: 7].*
+*   **4. Fix Once Benefit Many:** A pre-ranked engineering shortlist displaying pattern groups, counts, affected URLs, and priority scores[cite: 7]. 
+    *   *💡 **Note:** Numeric priority scores are guides; multiple rows can tie if their scale and severity are identical[cite: 7].*
+*   **5. Top Fixes:** A highly simplified root-cause summary sheet[cite: 7]. Perfect for concise, high-level management status updates[cite: 7].
+
+### Layer 2: Flat Reporting & Business Intelligence Tabs
+*Use these tabs to plug your spreadsheet directly into tools like Power BI or Tableau.*
+
+*   **6. Power BI Findings:** A flattened reporting layout containing stabilized keys and clean display fields for raw downstream findings[cite: 7].
+*   **7. Power BI Patterns:** A flat, pattern-level rollup table optimized to track page spread, team ownership boundaries, and systemicity metrics[cite: 7].
+
+### Layer 3: Relational Star-Schema Tabs
+*Use these tabs to construct custom database models, relational tables, or complex internal metrics.*
+
+*   **8. Fact Findings:** The central data hub[cite: 7]. Contains one strict transactional row per individual processed finding[cite: 7].
+*   **9. Dim Page:** The dimension table containing normalized page keys and validated display URLs[cite: 7].
+*   **10. Dim Rule:** The dimension table housing rule titles, scanner IDs, WCAG criteria, levels, and sorting attributes[cite: 7].
+*   **11. Dim Component:** The component dimension containing custom infrastructure names and internal development team ownership mappings[cite: 7].
+*   **12. Dim Pattern:** The pattern dimension designed for mapping and reporting on broad, repeated issue families[cite: 7].
 
 ---
 
-## When the workbook and dashboard differ
+## Standard Analyst Workflow
 
-The workbook and dashboard should usually align, but the workbook is often the better place to inspect the exact fields behind a chart. If something looks odd in the dashboard, check **Issue Details**, **Dim Rule**, and **Systemic Clusters**.
+When opening a new export, follow this step-by-step pipeline to process the data without getting lost in the rows:
+
+1.  **Assess the Scale:** Start with the **Summary** tab to get your bearings, then open **Systemic Clusters** to see the grouped problem spaces[cite: 7].
+2.  **Queue the Work:** Open **Fix Once Benefit Many** to immediately pull out your highest-value development priorities[cite: 7].
+3.  **Handoff to Devs:** Filter the rows on the **Issue Details** sheet to export exact DOM paths and messages to your engineering teams[cite: 7].
+4.  **Scale the Reports:** Connect the **Power BI** or **Star-Schema** tabs to your downstream business systems for long-term tracking[cite: 7].
 
 ---
 
-## Typical analyst workflow
+## 💡 Important Data Quirks & Limits
 
-1.  Start with **Summary** and **Systemic Clusters**.
-2.  Use **Issue Details** for filtered triage and handoff.
-3.  Use **Fix Once Benefit Many** to build a remediation queue.
-4.  Use **Power BI Findings** or the fact/dimension tabs for downstream reporting and modeling.
+### Handling "Needs-Review" Statuses
+Some automated testing tools generate warnings that are not definitive, confirmed compliance failures[cite: 7]. Depending on the source engine, these will appear in your sheets flagged as `incomplete`, `potentialviolation`, or `warning`[cite: 7]. The analyzer intentionally preserves these rows for deep security and engineering investigation, but **do not calculate them as confirmed failures** in your final compliance metrics[cite: 7].
+
+### Troubleshooting Dashboard Discrepancies
+The visual dashboard and the spreadsheet workbook share a core data model and should always align[cite: 7]. However, because dashboards summarize data, the workbook is always the source of truth for micro-investigations[cite: 7]. If a chart metric looks confusing, always verify the raw rows inside **Issue Details**, **Dim Rule**, and **Systemic Clusters**[cite: 7].

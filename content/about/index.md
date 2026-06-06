@@ -16,70 +16,57 @@ tags: ["quality engineering", "testing", "accessibility", "automation"]
 weight: 10
 ---
 
-I’m **Paul Littlebury**, a quality engineer and tester with more than 25 years of experience helping teams ship better software through smarter testing, stronger automation and a more human approach to quality.
+I’m **Paul Littlebury**, a quality engineer and tester with more than 25 years of experience. I help teams ship better software through smarter testing, stronger automation, and a more human approach to quality.
 
-I believe quality is not something to add at the end of delivery. It is a mindset, a culture and a way of working that improves reliability, delivery confidence and the experience of the people using a product.
+I believe quality is not something to just add at the end of delivery. It is a mindset, a culture, and a way of working. Done right, it improves reliability, boosts delivery confidence, and elevates the experience of the people using the product.
 
 ![Past clients](clients.png)
 
-## What I do
+## What I do & How I help
 
-I work across:
+I blend hands-on engineering with collaborative problem-solving across five core areas:
 
-- Test engineering for web, mobile, APIs and performance
-- DevOps and CI/CD
-- Accessibility and inclusive UX
-- Quality strategy and coaching
-- Conversational AI testing
+*   **Test engineering:** Testing for web, mobile, APIs, and performance.
+*   **DevOps & CI/CD:** Building robust, maintainable frameworks and embedding testing into pipelines.
+*   **Accessibility:** Treating inclusive UX and accessibility as a first-class quality concern.
+*   **Strategy & coaching:** Helping teams take shared ownership of quality and user-centred thinking.
+*   **Conversational AI:** Exploring and testing complex AI systems to uncover issues early.
 
-I build automation frameworks, embed testing into pipelines, improve reliability, coach teams and explore systems deeply to uncover issues before users encounter them.
-
-## How I work
-
-My approach blends hands-on engineering with collaborative problem-solving:
-
-- Building robust, maintainable test frameworks
-- Integrating testing into CI/CD pipelines
-- Coaching teams to take shared ownership of quality
-- Encouraging user-centred thinking
-- Using exploratory testing to find high-value issues
-- Treating accessibility as a first-class quality concern
-
-I enjoy bringing order to complex systems and helping teams feel more confident in their releases.
+I love bringing order to complex systems so teams can feel genuinely confident in their releases.
 
 ## Experience
 
-I have worked across healthcare, fintech, telecoms, public services and high-traffic consumer products. Highlights include:
+I have worked across healthcare, fintech, telecoms, public services, and high-traffic consumer products. Highlights include:
 
-- **Acorn Compliance** — conversational AI quality and automation
-- **bet365** — rebuilding mobile UI and API test frameworks for Android and iOS
-- **CGI** — SDET Lead across four Scrum teams working on a major Flutter banking app
-- **Ceta Insurance** — test strategy, UI and API automation, load testing and CI pipelines
-- **Tele2** — quality engineering for a custom AI chatbot
-- **DocComs, KPMG, Wowcher, TNT** and many more across web, mobile and enterprise systems
+*   **Acorn Compliance** — Focused on conversational AI quality and automation frameworks.
+*   **bet365** — Rebuilt mobile UI and API test frameworks for Android and iOS.
+*   **CGI** — Led as SDET Lead across four Scrum teams working on a major Flutter banking app.
+*   **Ceta Insurance** — Shaped test strategy, UI/API automation, load testing, and CI pipelines.
+*   **Tele2** — Delivered quality engineering for a custom AI chatbot.
+*   **Enterprise Systems** — Scale experience with **DocComs, KPMG, Wowcher, TNT**, and more.
 
-Every project has strengthened my belief that quality engineering works best when it is collaborative, proactive and built into delivery from the start.
+Every project has strengthened my belief that quality engineering works best when it is collaborative, proactive, and built-in from day one.
 
 ## Accessibility services
 
 Alongside broader quality engineering, I provide focused accessibility services for websites and mobile apps:
 
-- [Accessibility audit](/audit-services/) for structured, prioritised findings and remediation guidance
-- [Accessibility support](/accessibility-specialist/) for practical help during design, development, testing and release
+*   **[Accessibility Audit](/audit-services/)** — Choose this for structured, prioritised findings and deep remediation guidance.
+*   **[Accessibility Support](/accessibility-specialist/)** — Choose this for practical, hands-on help during design, development, testing, and release.
 
 ## What drives me
 
 Ultimately, I am motivated by making things better:
 
-- Better user experiences
-- Better engineering practices
-- Better communication between teams
-- Better confidence in every release
-
-Whether I am building frameworks, shaping strategy or asking the right questions, I enjoy helping teams deliver software that feels reliable, accessible and genuinely useful.
+*   **Better experiences** for the end user.
+*   **Better practices** for engineering teams.
+*   **Better communication** across disciplines.
+*   **Better confidence** in every single release.
 
 ## Contact
 
-To talk about quality engineering, testing or accessibility, connect with me on [LinkedIn](https://www.linkedin.com/in/jaffamonkey/) or book a call below.
+Let's talk about quality engineering, testing, or accessibility. 
+
+You can connect with me on [LinkedIn](https://www.linkedin.com/in/jaffamonkey/) or use the calendar widget below to book a introductory call directly into my schedule.
 
 {{< calendar-booking >}}
