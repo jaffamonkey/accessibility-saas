@@ -42,7 +42,7 @@ I provide practical accessibility support for websites and mobile apps across de
 
 This service is useful when you need accessibility judgement alongside delivery work: reviewing a feature, unblocking a team, sense-checking fixes, improving a design system, preparing for release or deciding whether a fuller audit is needed.
 
-For a more structured review with prioritised findings, see [accessibility audits](/audit-services/).
+For a more structured review with prioritised findings, see [accessibility audit](/audit-services/).
 
 ## Book a call
 

@@ -1,5 +1,5 @@
 ---
-title: "Accessibility audits"
+title: "Accessibility audit"
 description: "Accessibility audits for websites and mobile apps, with WCAG-informed testing and systemic analysis to help teams find, prioritise and fix barriers."
 summary: "Practical accessibility audits for websites and mobile apps, with clear findings, actionable fixes and systemic analysis."
 images:
