@@ -16,6 +16,8 @@ tags: ["quality engineering", "testing", "accessibility", "automation"]
 weight: 10
 ---
 
+> “I’ve never heard of you” ~ A world-famous Agile coach.
+
 I’m **Paul Littlebury**, a quality engineer and tester with more than 25 years of experience. I help teams ship better software through smarter testing, stronger automation, and a more human approach to quality.
 
 I believe quality is not something to just add at the end of delivery. It is a mindset, a culture, and a way of working. Done right, it improves reliability, boosts delivery confidence, and elevates the experience of the people using the product.
