@@ -12,6 +12,9 @@ showTableOfContents: true
 showReadingTime: true
 ---
 
+> [!NOTE]
+> The spreadsheet output are still being polished for public use.
+
 This workbook functions as the primary data and analysis export for the accessibility testing framework. It compiles processed findings, deduplicated clusters, prioritized fix sequences, and database-ready data schemas into a single offline spreadsheet.
 
 > 🔄 **Recent Workbook Updates:** Implemented friendlier human rule labels, enforced strict visual separation between Rule names and WCAG codes, optimized WCAG-only chart logic, and preserved "needs-review" data fields.
