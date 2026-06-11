@@ -1,5 +1,5 @@
 ---
-title: "Systemic Accessibility Analyzer Overview"
+title: "Systemic Accessibility Analyzer"
 summary: "A multi-tool analysis and reporting layer for finding repeated accessibility barriers, prioritising systemic fixes, and turning scan output into a practical remediation plan."
 description: "The Systemic Accessibility Analyzer brings accessibility scan output together into a clearer dashboard and workbook, helping teams identify repeated patterns, compare evidence across tools, and prioritise fixes with the widest impact."
 date: "2026-05-28"
