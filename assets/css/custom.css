@@ -1877,3 +1877,34 @@ html.dark .hct-card-number {
 .hct-core-home .hct-core-analyser {
   margin-top: 3rem !important;
 }
+
+.whatsapp-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.7rem 1rem;
+  border-radius: 0.45rem;
+  background: #187d45;
+  color: #fff;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  transition:
+    background-color 160ms ease,
+    transform 160ms ease;
+}
+
+.whatsapp-button:hover {
+  background: #126a3a;
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+.whatsapp-button:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 3px;
+}
+
+.whatsapp-button svg {
+  flex: 0 0 auto;
+}

@@ -20,6 +20,14 @@ weight: 90
 
 Let's talk about quality engineering, testing, or accessibility. 
 
-You can connect with me on [LinkedIn](https://www.linkedin.com/in/jaffamonkey/) or use the calendar widget below to book a introductory call directly into my schedule.
+You can connect with me on [LinkedIn](https://www.linkedin.com/in/jaffamonkey/)
+
+{{< whatsapp
+  number="447394074047"
+  label="Message Practical Accessibility on WhatsApp"
+  message="Hi, I would like to find out more about your accessibility services."
+>}}
+
+Use the calendar widget below to book a introductory call directly into my schedule.
 
 {{< calendar-booking >}}
