@@ -14,14 +14,9 @@
   weight = 30
 
 [[main]]
-  name = "Systemic Analyzer"
-  pageRef = "analyzer"
-  weight = 40
-
-[[main]]
   name = "Contact"
   pageRef = "contact"
-  weight = 50
+  weight = 40
 
 [[main]]
   identifier = "search"
@@ -46,11 +41,6 @@
   weight = 30
 
 [[footer]]
-  name = "Systemic Analyzer"
-  pageRef = "analyzer"
-  weight = 40
-
-[[footer]]
   name = "Contact"
   pageRef = "contact"
-  weight = 50
+  weight = 40
