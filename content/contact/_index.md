@@ -16,7 +16,10 @@ weight: 90
 
 Let's talk about quality engineering, testing, or accessibility. 
 
-You can connect with me on [LinkedIn](https://www.linkedin.com/in/jaffamonkey/)
+{{< linkedin
+  url="https://www.linkedin.com/in/jaffamonkey/"
+  label="Connect with me on LinkedIn"
+>}}
 
 {{< whatsapp
   number="447394074047"

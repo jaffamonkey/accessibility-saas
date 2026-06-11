@@ -1908,3 +1908,34 @@ html.dark .hct-card-number {
 .whatsapp-button svg {
   flex: 0 0 auto;
 }
+
+.linkedin-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.7rem 1rem;
+  border-radius: 0.45rem;
+  background: #0a66c2;
+  color: #fff;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  transition:
+    background-color 160ms ease,
+    transform 160ms ease;
+}
+
+.linkedin-button:hover {
+  background: #084f96;
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+.linkedin-button:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 3px;
+}
+
+.linkedin-button svg {
+  flex: 0 0 auto;
+}
