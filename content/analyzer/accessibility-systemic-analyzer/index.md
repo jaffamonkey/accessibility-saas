@@ -1,5 +1,5 @@
 ---
-title: "Systemic Accessibility Analyzer"
+title: "Systemic Analyzer"
 summary: "Project overview covering the architecture, supported tools, workflow, workbook, and dashboard notes."
 description: "A refreshed project overview for the Systemic Accessibility Analyzer, covering the current architecture, supported adapters, WCAG handling, systemic analysis workflow, workbook model, and dashboard support."
 categories: ["Accessibility", "Testing"]

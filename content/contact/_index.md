@@ -10,6 +10,8 @@ showReadingTime: false
 showTableOfContents: false
 showHero: false
 weight: 50
+categories: ["Accessibility", "Testing"]
+tags: ["accessibility", "testing", "analysis", "wcag", "dashboard"]
 ---
 
 ## Contact
