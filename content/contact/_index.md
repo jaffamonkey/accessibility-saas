@@ -9,7 +9,7 @@ showDate: false
 showReadingTime: false
 showTableOfContents: false
 showHero: false
-weight: 90
+weight: 50
 ---
 
 ## Contact
@@ -21,11 +21,14 @@ Let's talk about quality engineering, testing, or accessibility.
   label="Connect with me on LinkedIn"
 >}}
 
+
+
 {{< whatsapp
   number="447394074047"
   label="Message Practical Accessibility on WhatsApp"
   message="Hi, I would like to find out more about your accessibility services."
 >}}
+
 
 Use the calendar widget below to book a introductory call directly into my schedule.
 
