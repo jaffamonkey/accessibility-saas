@@ -11,6 +11,7 @@ showDate: false
 showReadingTime: false
 showTableOfContents: false
 showHero: false
+categories: ["Contact"]
 ---
 
 <div class="hct-core-home hct-accessibility-only-home">

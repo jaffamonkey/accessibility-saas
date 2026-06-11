@@ -8,6 +8,7 @@ showauthor: false
 showdate: false
 showreadingtime: false
 showtableofcontents: true
+categories: ["Accessibility"]
 ---
 
 > [!NOTE]
