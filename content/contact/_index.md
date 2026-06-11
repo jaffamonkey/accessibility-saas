@@ -1,0 +1,25 @@
+---
+title: "Contact"
+summary: "Engineering better software through smarter testing, stronger automation and a human-first approach to quality."
+description: "Quality engineering, test automation, accessibility and conversational AI testing experience."
+date: "2026-05-28"
+draft: false
+showAuthor: false
+showDate: false
+showReadingTime: false
+showTableOfContents: false
+showHero: false
+heroStyle: "background"
+featureimage: "/images/about-hero4.png"
+categories: ["Contact"]
+tags: ["quality engineering", "testing", "accessibility", "automation"]
+weight: 90
+---
+
+## Contact
+
+Let's talk about quality engineering, testing, or accessibility. 
+
+You can connect with me on [LinkedIn](https://www.linkedin.com/in/jaffamonkey/) or use the calendar widget below to book a introductory call directly into my schedule.
+
+{{< calendar-booking >}}

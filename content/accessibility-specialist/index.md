@@ -50,11 +50,3 @@ This service is a great fit when you need expert accessibility judgement alongsi
 *   Deciding whether a full audit is needed
 
 > 💡 **Looking for a more structured review?** For a formal review with heavily prioritised findings, see my [accessibility audit](/audit-services/).
-
-## Book a call
-
-Let's discuss where accessibility support would be most useful for your project. 
-
-Use the calendar widget below to pick a date and time that works for you. There are no forms to fill out beforehand, and you can cancel or reschedule at any time.
-
-{{< calendar-booking >}}

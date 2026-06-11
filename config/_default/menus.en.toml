@@ -44,3 +44,8 @@
   name = "Systemic Analyzer"
   pageRef = "analyzer"
   weight = 40
+
+[[footer]]
+  name = "Contact"
+  pageRef = "contact"
+  weight = 50

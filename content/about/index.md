@@ -64,11 +64,3 @@ Ultimately, I am motivated by making things better:
 *   **Better practices** for engineering teams.
 *   **Better communication** across disciplines.
 *   **Better confidence** in every single release.
-
-## Contact
-
-Let's talk about quality engineering, testing, or accessibility. 
-
-You can connect with me on [LinkedIn](https://www.linkedin.com/in/jaffamonkey/) or use the calendar widget below to book a introductory call directly into my schedule.
-
-{{< calendar-booking >}}

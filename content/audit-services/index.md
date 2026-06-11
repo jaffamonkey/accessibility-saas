@@ -73,11 +73,3 @@ I have delivered trusted audits across healthcare, fintech, e-commerce, and publ
 | * TympaHealth | * Infervision | |
 
 ---
-
-## Book a call
-
-Let's discuss the scope of your project and figure out the most effective approach for your team. 
-
-Use the calendar widget below to pick a date and time that fits your schedule.
-
-{{< calendar-booking >}}
