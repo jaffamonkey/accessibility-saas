@@ -1,5 +1,5 @@
 ---
-title: "About us"
+title: "Bio"
 summary: "Engineering better software through smarter testing, stronger automation and a human-first approach to quality."
 description: "Quality engineering, test automation, accessibility and conversational AI testing experience."
 date: "2026-05-28"
@@ -11,7 +11,7 @@ showTableOfContents: true
 showHero: true
 heroStyle: "background"
 featureimage: "/images/about-hero4.png"
-categories: ["About"]
+categories: ["Bio"]
 tags: ["quality engineering", "testing", "accessibility", "automation"]
 weight: 10
 ---

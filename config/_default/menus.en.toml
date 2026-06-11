@@ -1,6 +1,6 @@
 [[main]]
-  name = "About"
-  pageRef = "about"
+  name = "Bio"
+  pageRef = "bio"
   weight = 10
 
 [[main]]
@@ -31,8 +31,8 @@
     icon = "search"
 
 [[footer]]
-  name = "About"
-  pageRef = "about"
+  name = "Bio"
+  pageRef = "bio"
   weight = 10
 
 [[footer]]
