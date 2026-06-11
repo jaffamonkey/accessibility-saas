@@ -1,17 +1,16 @@
 ---
-title: "Accessibility Specialist & Audit Services"
+title: "Contact"
 description: "Accessibility support, WCAG-informed audit services, and systemic accessibility analysis to help teams find, prioritise and fix barriers."
 summary: "Practical accessibility support, audit services, and systemic analysis for clearer findings and better fixes."
-images:
-  - "https://practicalaccessibility.co.uk/images/accessibility-systemic-analyzer-collage.png"
-date: 2026-05-28
+date: "2026-05-28"
 draft: false
 showAuthor: false
 showDate: false
 showReadingTime: false
 showTableOfContents: false
-showHero: false
 categories: ["Contact"]
+tags: ["quality engineering", "testing", "accessibility", "automation"]
+weight: 50
 ---
 
 <div class="hct-core-home hct-accessibility-only-home">
