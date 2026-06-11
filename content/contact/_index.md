@@ -9,10 +9,6 @@ showDate: false
 showReadingTime: false
 showTableOfContents: false
 showHero: false
-heroStyle: "background"
-featureimage: "/images/about-hero4.png"
-categories: ["Contact"]
-tags: ["quality engineering", "testing", "accessibility", "automation"]
 weight: 90
 ---
 
