@@ -1955,7 +1955,6 @@ a.whatsapp-button:hover {
   background-color: #126a3a;
 }
 
-```css
 /* Contact button row */
 .contact-links {
   display: flex;
@@ -2026,4 +2025,3 @@ a.whatsapp-button:hover {
     width: 100%;
   }
 }
-```
