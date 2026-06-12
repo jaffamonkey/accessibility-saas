@@ -4,7 +4,7 @@
   weight = 10
 
 [[main]]
-  name = "Accessibility support"
+  name = "Specialist support"
   pageRef = "accessibility-specialist"
   weight = 20
 
@@ -31,7 +31,7 @@
   weight = 10
 
 [[footer]]
-  name = "Accessibility support"
+  name = "Specialist support"
   pageRef = "accessibility-specialist"
   weight = 20
 
