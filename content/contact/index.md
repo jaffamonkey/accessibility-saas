@@ -14,7 +14,7 @@ categories: ["Accessibility", "Testing"]
 tags: ["accessibility", "testing", "analysis", "wcag", "dashboard"]
 ---
 
-> [!NOTE]
+> [!NOTE] Ready to talk?
 > Let’s talk about quality engineering, testing, or accessibility.
 {icon="a11y"}
 
