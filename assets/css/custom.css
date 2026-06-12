@@ -2025,3 +2025,43 @@ a.whatsapp-button:hover {
     width: 100%;
   }
 }
+
+```css
+/* Email contact button: light-theme visibility fix */
+html:not(.dark) .email-button,
+html:not(.dark) .email-button:link,
+html:not(.dark) .email-button:visited {
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  background-color: #1d4ed8 !important;
+  border-color: #1d4ed8 !important;
+  text-decoration: none !important;
+}
+
+html:not(.dark) .email-button:hover,
+html:not(.dark) .email-button:focus-visible {
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  background-color: #1e40af !important;
+  border-color: #1e40af !important;
+}
+
+/* Email contact button: dark theme */
+.dark .email-button,
+.dark .email-button:link,
+.dark .email-button:visited {
+  color: #172238 !important;
+  -webkit-text-fill-color: #172238 !important;
+  background-color: #93c5fd !important;
+  border-color: #93c5fd !important;
+  text-decoration: none !important;
+}
+
+.dark .email-button:hover,
+.dark .email-button:focus-visible {
+  color: #172238 !important;
+  -webkit-text-fill-color: #172238 !important;
+  background-color: #bfdbfe !important;
+  border-color: #bfdbfe !important;
+}
+```
