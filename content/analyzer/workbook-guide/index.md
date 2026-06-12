@@ -14,6 +14,7 @@ showReadingTime: true
 
 > [!NOTE] 
 The spreadsheet output is still being polished for public use.
+{icon="a11y"}
 
 This workbook functions as the primary data and analysis export for the accessibility testing framework. It compiles processed findings, deduplicated clusters, prioritized fix sequences, and database-ready data schemas into a single offline spreadsheet.
 
