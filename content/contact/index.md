@@ -16,6 +16,13 @@ tags: ["accessibility", "testing", "analysis", "wcag", "dashboard"]
 
 > [!TIP] Let's talk about quality engineering, testing, or accessibility.
 
+<a
+  class="hct-core-button hct-core-button-secondary"
+  href="mailto:paul@accessibilityreview.co.uk"
+>
+  Email
+</a>
+
 {{< linkedin
   url="https://www.linkedin.com/in/jaffamonkey/"
   label="Connect with me on LinkedIn"
