@@ -16,6 +16,11 @@ categories: ["Accessibility"]
 > [View systemic analyzer jobs board](https://a11yanalyzer.sbs)
 {icon="a11y"}
 
+> [!TIP]
+> Let’s talk about quality engineering, testing, or accessibility.
+{icon="a11y"}
+
+
 The **Systemic Accessibility Analyzer** is a multi-tool analysis and reporting layer for accessibility scan output. It is built for teams whose websites, applications, or digital estates have more findings than can sensibly be triaged one page at a time.
 
 Rather than treating every scanner result as an isolated defect, the analyzer brings reports together, normalises the data, identifies likely overlaps, groups repeated patterns, and highlights the fixes most likely to improve many pages or components at once.
