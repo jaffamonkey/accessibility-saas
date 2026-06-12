@@ -49,4 +49,4 @@ This service is a great fit when you need expert accessibility judgement alongsi
 *   Preparing for an upcoming release
 *   Deciding whether a full audit is needed
 
-> 💡 **Looking for a more structured review?** For a formal review with heavily prioritised findings, see my [accessibility audit](/audit-services/).
+> 💡 **Looking for a more structured review?** For a formal review with heavily prioritised findings, see my [accessibility audit services](/audit-services/).
