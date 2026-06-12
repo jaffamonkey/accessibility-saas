@@ -20,6 +20,6 @@ tags: ["accessibility", "testing", "analysis", "wcag", "dashboard"]
 
 [Chat on WhatsApp](https://wa.me/447394074047)
 
-Use the calendar widget below to book a introductory call directly into my schedule.
+<!-- Use the calendar widget below to book a introductory call directly into my schedule.
 
-{{< calendar-booking >}}
+{{< calendar-booking >}} -->
