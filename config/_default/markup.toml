@@ -1,6 +1,8 @@
 [goldmark]
-  [goldmark.renderer]
-    unsafe = true
+  [goldmark.parser]
+    [goldmark.parser.attribute]
+      block = true
+      title = true
 
 [highlight]
   noClasses = false
@@ -11,3 +13,4 @@
   tabWidth = 2
 
 tableOfContents = { startLevel = 2, endLevel = 4, ordered = false }
+
