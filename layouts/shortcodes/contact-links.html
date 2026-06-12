@@ -1,0 +1,40 @@
+{{- $linkedin := .Get "linkedin" | default "https://www.linkedin.com/in/jaffamonkey/" -}}
+{{- $email := .Get "email" | default "paul@accessibilityreview.co.uk" -}}
+{{- $whatsapp := .Get "whatsapp" | default "" -}}
+
+<div class="contact-links" aria-label="Contact options">
+
+  <a
+    class="contact-button linkedin-button"
+    href="{{ $linkedin }}"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Connect on LinkedIn — opens in a new tab"
+  >
+    {{ partial "icon.html" "linkedin" }}
+    <span>Connect on LinkedIn</span>
+  </a>
+
+  <a
+    class="contact-button email-button"
+    href="mailto:{{ $email }}"
+    aria-label="Send me an email"
+  >
+    {{ partial "icon.html" "email" }}
+    <span>Email me</span>
+  </a>
+
+  {{- if $whatsapp }}
+  <a
+    class="contact-button whatsapp-button"
+    href="https://wa.me/{{ $whatsapp }}"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Message me on WhatsApp — opens in a new tab"
+  >
+    {{ partial "icon.html" "whatsapp" }}
+    <span>Message on WhatsApp</span>
+  </a>
+  {{- end }}
+
+</div>

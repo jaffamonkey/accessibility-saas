@@ -1954,3 +1954,76 @@ a.whatsapp-button {
 a.whatsapp-button:hover {
   background-color: #126a3a;
 }
+
+```css
+/* Contact button row */
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  margin-block: 1.25rem;
+}
+
+.contact-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  min-height: 2.75rem;
+  padding: 0.65rem 1rem;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  color: #1d4ed8;
+  background: #ffffff;
+  font-weight: 650;
+  line-height: 1.2;
+  text-decoration: none !important;
+  transition:
+    background-color 160ms ease,
+    color 160ms ease,
+    border-color 160ms ease,
+    transform 160ms ease;
+}
+
+.contact-button svg {
+  width: 1.2rem;
+  height: 1.2rem;
+  flex: 0 0 auto;
+}
+
+.contact-button:hover {
+  color: #ffffff;
+  background: #1d4ed8;
+  border-color: #1d4ed8;
+  transform: translateY(-1px);
+}
+
+.contact-button:focus-visible {
+  outline: 3px solid #f59e0b;
+  outline-offset: 3px;
+}
+
+/* Dark theme */
+.dark .contact-button {
+  color: #93c5fd;
+  background: transparent;
+  border-color: #93c5fd;
+}
+
+.dark .contact-button:hover {
+  color: #172238;
+  background: #93c5fd;
+  border-color: #93c5fd;
+}
+
+@media (max-width: 640px) {
+  .contact-links {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .contact-button {
+    justify-content: center;
+    width: 100%;
+  }
+}
+```
