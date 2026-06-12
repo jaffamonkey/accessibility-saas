@@ -16,8 +16,7 @@ tags: ["accessibility", "testing", "analysis", "wcag", "dashboard"]
 
 > [!TIP] Let's talk about quality engineering, testing, or accessibility.
 
-[Email me](mailto:paul@accessibilityreview.co.uk)
-[Chat with us](https://wa.me/447394074047)
+[Chat on WhatsApp](https://wa.me/447394074047)
 {{< email label="Send me an email" >}}
 
 Use the calendar widget below to book a introductory call directly into my schedule.
