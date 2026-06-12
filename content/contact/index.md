@@ -16,8 +16,9 @@ tags: ["accessibility", "testing", "analysis", "wcag", "dashboard"]
 
 > [!TIP] Let's talk about quality engineering, testing, or accessibility.
 
-[Chat on WhatsApp](https://wa.me/447394074047)
 {{< email label="Send me an email" >}}
+
+[Chat on WhatsApp](https://wa.me/447394074047)
 
 Use the calendar widget below to book a introductory call directly into my schedule.
 
