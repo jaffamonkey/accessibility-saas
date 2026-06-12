@@ -2026,7 +2026,6 @@ a.whatsapp-button:hover {
   }
 }
 
-```css
 /* Email contact button: light-theme visibility fix */
 html:not(.dark) .email-button,
 html:not(.dark) .email-button:link,
@@ -2064,4 +2063,3 @@ html:not(.dark) .email-button:focus-visible {
   background-color: #bfdbfe !important;
   border-color: #bfdbfe !important;
 }
-```
