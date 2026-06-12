@@ -66,10 +66,10 @@ I have delivered trusted audits across healthcare, fintech, e-commerce, and publ
 
 | | | |
 |---|---|---|
-| * M&S | * JamUp | * Asclepius |
-| * Leva Clinic | * Adora | * Dawa Innovations |
-| * Coloplast | * DigiSafe | * HealthwaveHub |
-| * IMS Maxims | * MediaLogix | * ZoomDoc |
-| * TympaHealth | * Infervision | |
+| M&S |  JamUp |  Asclepius |
+|  Leva Clinic |  Adora |  Dawa Innovations |
+|  Coloplast |  DigiSafe |  HealthwaveHub |
+|  IMS Maxims |  MediaLogix |  ZoomDoc |
+|  TympaHealth |  Infervision | |
 
 ---
