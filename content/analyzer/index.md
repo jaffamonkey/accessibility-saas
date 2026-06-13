@@ -11,9 +11,8 @@ showtableofcontents: true
 categories: ["Accessibility"]
 ---
 
-> [!NOTE]
-> The systemic analyzer is still being polished for public use, but the test jobs board is open for a preview of how it surfaces patterns, priorities, and fix-once opportunities.
-> [View systemic analyzer jobs board](https://a11yanalyzer.sbs)
+> [!NOTE] Coming soon!
+> The systemic analyzer is still being polished for public use, but the test jobs board is open for a preview of how it surfaces patterns, priorities, and fix-once opportunities. Meanwhile, feel free to browse the progress on the [systemic acessibiluty analyzer jobs board](https://a11yanalyzer.sbs)
 {icon="a11y"}
 
 
