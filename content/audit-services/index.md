@@ -70,4 +70,4 @@ I have delivered trusted audits across healthcare, fintech, e-commerce, and publ
 | Leva Clinic | Adora | Dawa Innovations |
 | Coloplast | DigiSafe | HealthwaveHub |
 | IMS Maxims | MediaLogix | ZoomDoc |
-| TympaHealth | Infervision |   |
+| TympaHealth | Infervision | Acorn Compliance |
