@@ -64,12 +64,10 @@ To save your team time, I use **systemic analysis**. I group repeated issues tog
 
 I have delivered trusted audits across healthcare, fintech, e-commerce, and public services, including:
 
-| | | |
+|   |   |   |
 |---|---|---|
-| M&S |  JamUp |  Asclepius |
-|  Leva Clinic |  Adora |  Dawa Innovations |
-|  Coloplast |  DigiSafe |  HealthwaveHub |
-|  IMS Maxims |  MediaLogix |  ZoomDoc |
-|  TympaHealth |  Infervision | |
-
----
+| M&S | JamUp | Asclepius |
+| Leva Clinic | Adora | Dawa Innovations |
+| Coloplast | DigiSafe | HealthwaveHub |
+| IMS Maxims | MediaLogix | ZoomDoc |
+| TympaHealth | Infervision |   |
