@@ -12,7 +12,7 @@ categories: ["Accessibility"]
 ---
 
 > [!NOTE] Coming soon!
-> The systemic analyzer is still being polished for public use, but the test jobs board is open for a preview of how it surfaces patterns, priorities, and fix-once opportunities. Meanwhile, feel free to browse the progress on the [systemic acessibiluty analyzer jobs board](https://a11yanalyzer.sbs)
+> The systemic analyzer is still being polished for public use, but the test jobs board is open for a preview of how it surfaces patterns, priorities, and fix-once opportunities. Meanwhile, feel free to browse the progress on the [systemic accessibility analyzer jobs board](https://a11yanalyzer.sbs)
 {icon="a11y"}
 
 
