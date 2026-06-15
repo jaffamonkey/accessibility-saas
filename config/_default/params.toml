@@ -48,7 +48,7 @@ mainSections = ["analyzer", "testing", "accessibility", "conversational-ai"]
   excludedKinds = []
 
 [footer]
-  showCopyright = false
+  showCopyright = true
   showThemeAttribution = true
 
 [header]
