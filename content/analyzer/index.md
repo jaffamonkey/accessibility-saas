@@ -15,6 +15,9 @@ categories: ["Accessibility"]
 > The systemic analyzer is still being polished for public use, but the test jobs board is open for a preview of how it surfaces patterns, priorities, and fix-once opportunities. Meanwhile, feel free to browse the progress on the [systemic accessibility analyzer jobs board](https://a11yanalyzer.sbs)
 {icon="a11y"}
 
+## Don't count findings. Find consensus.
+
+> From thousands of findings to the handful of problems that matter.
 
 The **Systemic Accessibility Analyzer** is a multi-tool analysis and reporting layer for accessibility scan output. It is built for teams whose websites, applications, or digital estates have more findings than can sensibly be triaged one page at a time.
 
