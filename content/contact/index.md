@@ -20,10 +20,10 @@ tags: ["accessibility", "testing", "analysis", "wcag", "dashboard"]
 
 <!-- {{< email label="Send me an email" >}}
 
-[Chat on WhatsApp](https://wa.me/447394074047) -->
+[Chat on WhatsApp](https://wa.me/447732201516) -->
 
 <!-- Use the calendar widget below to book a introductory call directly into my schedule.
 
 {{< calendar-booking >}} -->
 
-{{< contact-links whatsapp="447394074047" >}}
+{{< contact-links whatsapp="447732201516" >}}

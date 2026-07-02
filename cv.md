@@ -1,7 +1,7 @@
 # Paul Littlebury
 
 **Accessibility Specialist | Conversational AI Quality Engineer | Senior SDET**  
-London, UK | 07394 074047 | paullittlebury@gmail.com  
+London, UK | 07732 201516 | paullittlebury@gmail.com  
 [LinkedIn Profile](https://linkedin.com) | [GitHub Portfolio](https://github.com)  
 Professional Portfolios: [Practical Accessibility](https://practicalaccessibility.co.uk) | [Human-Centred Testing (jaffamonkey)](https://jaffamonkey.sbs)
 
