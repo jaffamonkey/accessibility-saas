@@ -9,7 +9,7 @@ draft: false
 weight: 20
 showauthor: false
 showTableOfContents: true
-showReadingTime: false
+showReadingTime: true
 ---
 
 The **Accessibility Systemic Analyzer** is evolving from a multi-tool reporting platform into an **Accessibility Intelligence Engine**.

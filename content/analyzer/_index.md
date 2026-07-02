@@ -6,7 +6,7 @@ date: "2026-05-28"
 draft: false
 showauthor: false
 showdate: false
-showreadingtime: false
+showreadingtime: true
 showtableofcontents: true
 categories: ["Accessibility"]
 ---

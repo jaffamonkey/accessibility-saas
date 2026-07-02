@@ -9,7 +9,7 @@ draft: false
 weight: 10
 showauthor: false
 showTableOfContents: true
-showReadingTime: false
+showReadingTime: true
 ---
 
 The **Systemic Accessibility Analyzer** is a multi-tool analysis and reporting layer for accessibility scan output. It is built for teams whose digital estates have more findings than can comfortably be triaged page by page. 
