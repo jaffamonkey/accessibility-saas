@@ -14,35 +14,74 @@ showReadingTime: true
 
 The **Accessibility Systemic Analyzer** is evolving from a multi-tool reporting platform into an **Accessibility Intelligence Engine**.
 
-Rather than simply aggregating reports, the project is focused on turning accessibility evidence into actionable insight.
+Rather than simply aggregating accessibility reports, the project aims to transform accessibility evidence into meaningful insight.
 
 > **Don't count findings. Find consensus.**
 
 ---
 
-# Phase 1 — Accessibility Evidence Engine *(Current)*
+## Where we are today
 
-Phase 1 focuses on gathering accessibility evidence from multiple independent sources and presenting it in a unified, meaningful way.
+<div class="note">
 
-Instead of manually comparing reports from numerous accessibility tools, the analyzer normalises findings, removes duplication where possible and highlights where tools independently agree.
+**Current focus:** Completing **Phase 1 – Accessibility Evidence Engine**
+
+The foundations are now largely in place, with development beginning to shift towards **Phase 2 – Accessibility Intelligence**.
+
+</div>
+
+---
+
+# 🚀 Project Roadmap
+
+| Phase | Focus | Status |
+| :--- | :--- | :--- |
+| **Phase 1** | Accessibility Evidence Engine | ✅ Nearing completion |
+| **Phase 2** | Accessibility Intelligence | 🚧 In Development |
+| **Phase 3** | Accessibility Guidance | 🔮 Future |
+
+---
+
+# ✅ Phase 1 — Accessibility Evidence Engine
+
+The first phase focuses on gathering accessibility evidence from multiple independent engines and presenting it as a unified dataset.
+
+Instead of comparing dozens of reports manually, the analyzer normalises findings, removes duplication where possible and highlights where independent tools agree.
+
+> **Phase 1 asks:** *What did the tools find?*
 
 ## Current capabilities
 
-- Support for **14 accessibility engines**
-- Public and authenticated website scanning
+### Multi-tool analysis
+
+- Multiple accessibility engines
+- Public website scanning
+- Authenticated application scanning
 - Adapter-based report ingestion
-- WCAG mapping and enrichment
+- WCAG mapping
 - Rule canonicalisation
 - Cross-tool deduplication
 - Consensus analysis
+
+### Reporting
+
 - Interactive dashboard
 - Static report generation
-- JSON and workbook exports
-- Visual Keyboard Tab Map
-- Virtual Screen Reader simulation
+- JSON exports
+- Excel workbook generation
+
+### Visual analysis
+
+- Visual Explorer
+- Keyboard Tab Map
+- Virtual Screen Reader
 - Visual Contrast Checker
+
+### Validation
+
 - HTML validation
-- Benchmark website suite
+- WCAG reporting
+- Benchmark regression suite
 
 ---
 
@@ -51,69 +90,78 @@ Instead of manually comparing reports from numerous accessibility tools, the ana
 | Tool | Purpose |
 | :--- | :--- |
 | axe-core | Automated WCAG testing |
-| axe-scan | Axe-derived reporting |
+| axe-scan | Additional Axe evidence |
 | IBM Accessibility Checker | Confirmed and advisory findings |
 | HTML CodeSniffer | WCAG technique analysis |
 | Lighthouse | Browser accessibility audits |
-| Oobee | Large-scale crawling |
-| UUV | Flow-based accessibility testing |
+| Oobee | Crawl-based analysis |
+| UUV | Flow-based testing |
 | Alfa | ACT rule evaluation |
 | Nu HTML Checker | HTML validation |
-| Pa11y (Axe) | Additional axe reporting |
-| Pa11y (HTMLCS) | Additional HTMLCS reporting |
+| Pa11y Axe | Additional Axe evidence |
+| Pa11y HTMLCS | Additional HTMLCS evidence |
+| Visual Explorer | Visual page previews |
 | Tab Map | Keyboard navigation visualisation |
 | Virtual Screen Reader | Reading-order simulation |
-| Contrast Checker | Visual colour contrast analysis |
+| Contrast Checker | Visual contrast analysis |
 
 ---
 
 # Benchmark Suite
 
-The analyzer is continually tested against a growing benchmark suite representing a wide variety of websites.
+The analyzer is continuously tested against a growing benchmark suite.
 
 Current categories include:
 
-- Government
-- Retail / eCommerce
-- Modern SPA / Next.js
-- Legacy websites
-- Authenticated applications
-- Deliberately poor accessibility examples
-- Reference-quality implementations
+- 🏛 Government
+- 🛒 Retail / eCommerce
+- ⚡ Modern SPA / Next.js
+- 🏚 Legacy websites
+- 🔐 Authenticated applications
+- 😈 Deliberately poor accessibility examples
+- ✅ Reference-quality websites
 
-The benchmark suite acts as a large-scale regression test for every release.
+These sites provide regression testing for adapters, aliases, dashboard views, consensus scoring and future intelligence features.
 
 ---
 
-# Phase 2 — Accessibility Intelligence *(Planned)*
+# 🚧 Phase 2 — Accessibility Intelligence
 
-Phase 2 shifts the focus away from individual findings and towards understanding accessibility at a higher level.
+Phase 2 moves beyond collecting findings.
 
-Instead of answering:
+Instead of asking:
 
-> **"How many issues were found?"**
+> **How many issues exist?**
 
-the analyzer will begin answering:
+the analyzer begins asking:
 
-> **"What needs fixing?"**
+> **What should be fixed first?**
 
 ---
 
 ## Component Analysis
 
-Rather than grouping findings purely by WCAG rule, findings will be associated with interface components such as:
+Findings will be grouped by interface components instead of isolated pages.
+
+Examples include:
 
 - Navigation
 - Forms
 - Buttons
 - Links
 - Images
-- Tables
 - Cards
+- Tables
 - Dialogs
 - Carousels
 
-The goal is to identify repeated design-system issues rather than isolated page defects.
+Instead of:
+
+> 47 button issues
+
+the analyzer can identify:
+
+> One shared Button component affecting 47 locations.
 
 ---
 
@@ -123,21 +171,18 @@ Many accessibility reports contain hundreds of repeated findings.
 
 Phase 2 aims to identify the underlying repair.
 
-For example:
-
 | Instead of | The analyzer identifies |
 | :--- | :--- |
 | 63 button findings | Shared Button component |
 | 41 contrast failures | Shared design token |
 | 82 missing labels | Shared Form component |
+| 76 missing alt text issues | Shared Image component |
 
 ---
 
 ## Confidence Scoring
 
-Not every accessibility finding carries the same weight.
-
-Future analysis will consider:
+Future confidence scoring will consider:
 
 - Tool agreement
 - Independent engine families
@@ -146,40 +191,57 @@ Future analysis will consider:
 - Shared DOM targets
 - Advisory vs confirmed findings
 
-This provides stronger evidence when several independent tools report the same underlying issue.
+The objective is to distinguish between:
+
+- ✅ High-confidence evidence
+- ⚠ Needs-review evidence
+- 🔍 Tool-specific observations
 
 ---
 
-## Accessibility Heatmaps
+## Visual Accessibility Layers
 
-Future visualisations may include:
+The existing Visual Explorer provides the foundation for richer visual overlays.
 
-- Landmark overlays
-- Heading hierarchy
-- Form analysis
-- Image analysis
-- Component boundaries
-- Accessibility heatmaps
+Future views may include:
 
-These visual layers will build upon the existing:
+- 🧭 Landmark View
+- 📝 Heading Hierarchy
+- 📋 Form Analysis
+- 🖼 Image Analysis
+- 🧩 Component Map
+- 🌡 Accessibility Heatmap
 
-- Keyboard Tab Map
-- Virtual Screen Reader
-- Contrast Checker
+These all build upon the same visual capture pipeline.
 
 ---
 
-## Unified Visual Capture
+## Repair Count, Not Issue Count
 
-The current screenshot and Tab Map workflows are being merged into a single visual capture pipeline.
+One of the major goals of Phase 2 is changing the conversation from:
 
-One browser visit will generate:
+> **437 accessibility findings**
 
-- Visual Preview
-- Keyboard Tab Map
-- Future accessibility overlays
+to:
 
-This simplifies maintenance while ensuring every visual representation uses identical page loading, authentication and cookie-handling logic.
+> **9 meaningful repairs.**
+
+For large digital estates, this can dramatically reduce manual triage.
+
+---
+
+# 🔮 Phase 3 — Accessibility Guidance
+
+The long-term vision is to help teams understand *how* to improve accessibility rather than simply reporting defects.
+
+Potential ideas include:
+
+- 💡 Suggested repairs
+- 📈 Trend analysis
+- 🧩 Design system insights
+- 🏗 Component ownership
+- 🤖 AI-assisted explanations
+- 📊 Organisation-wide accessibility intelligence
 
 ---
 
@@ -187,27 +249,35 @@ This simplifies maintenance while ensuring every visual representation uses iden
 
 Accessibility tools already identify problems.
 
-The Accessibility Systemic Analyzer is focused on understanding those problems.
+The Accessibility Systemic Analyzer aims to explain those problems.
 
-Ultimately the goal is to help answer questions such as:
+Ultimately the project is designed to answer questions such as:
 
-- Which issues have the strongest evidence?
-- Which findings are repeated across components?
-- Which repairs remove the greatest amount of accessibility debt?
-- Which issues genuinely require manual review?
-- Which components should be prioritised first?
+- Which findings have the strongest evidence?
+- Which issues are repeated across components?
+- Which repairs remove the greatest accessibility debt?
+- Which components should be prioritised?
+- Which findings still require manual review?
 
-Rather than producing another accessibility report, the analyzer aims to help teams understand **where effort should be spent**.
+Rather than producing another accessibility report, the analyzer aims to help teams make better accessibility decisions.
 
 ---
 
-# Current Status
+# Status
 
-🚧 **Work in Progress**
+🚧 **Active Development**
 
-Phase 1 is nearing completion, with the focus now turning towards Phase 2.
+Phase 1 is nearing completion.
 
-The long-term ambition remains simple:
+Development is now beginning to focus on:
+
+- 🧩 Component Intelligence
+- 🌳 Root Cause Analysis
+- 📊 Confidence Scoring
+- 🌡 Accessibility Heatmaps
+- 🖼 Expanded Visual Explorer
+
+---
 
 > **From findings... to evidence.**  
 > **From evidence... to consensus.**  
