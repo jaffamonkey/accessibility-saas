@@ -42,7 +42,7 @@ The foundations are now largely in place, with development beginning to shift to
 
 ---
 
-# ✅ Phase 1 — Accessibility Evidence Engine
+# Phase 1 — Accessibility Evidence Engine
 
 The first phase focuses on gathering accessibility evidence from multiple independent engines and presenting it as a unified dataset.
 
