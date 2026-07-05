@@ -132,8 +132,4 @@ The analyzer does not assume every repeated issue has the exact same root cause.
 
 ## Explore the analyzer
 
-*   [Systemic Accessibility Analyzer overview](/analyzer/accessibility-systemic-analyzer/)
-*   [Dashboard charts and metrics guide](/analyzer/dashboard-charts-and-metrics-guide/)
-*   [Spreadsheet workbook guide](/analyzer/workbook-guide/)
-*   [View roadmap](/analyzer/roadmap/)
 *   [View systemic analyzer dashboard](https://a11yanalyzer.sbs)
