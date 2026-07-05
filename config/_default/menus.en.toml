@@ -14,9 +14,14 @@
   weight = 30
 
 [[main]]
+  name = "Accessibility analyzer"
+  pageRef = "analyzer"
+  weight = 40
+
+[[main]]
   name = "Contact"
   pageRef = "contact"
-  weight = 40
+  weight = 50
 
 [[main]]
   identifier = "search"
@@ -41,6 +46,11 @@
   weight = 30
 
 [[footer]]
+  name = "Accessibility analyzer"
+  pageRef = "analyzer"
+  weight = 40
+
+[[footer]]
   name = "Contact"
   pageRef = "contact"
-  weight = 40
+  weight = 50
