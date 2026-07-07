@@ -92,6 +92,7 @@ Instead of comparing dozens of reports manually, the analyzer normalises finding
 | axe-core | Automated WCAG testing |
 | axe-scan | Additional Axe evidence |
 | IBM Accessibility Checker | Confirmed and advisory findings |
+| Speca11y | Automated WCAG testing including some draft WCAG 3.0 rules |
 | HTML CodeSniffer | WCAG technique analysis |
 | Lighthouse | Browser accessibility audits |
 | Oobee | Crawl-based analysis |
