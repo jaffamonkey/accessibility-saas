@@ -15,17 +15,6 @@
     <span>Connect on LinkedIn</span>
   </a>
 
-  {{< form-overlay >}}
-  
-  <a
-    class="contact-button email-button"
-    href="mailto:{{ $email }}"
-    aria-label="Send me an email"
-  >
-    {{ partial "icon.html" "email" }}
-    <span>Email me</span>
-  </a>
-
   {{- if $whatsapp }}
   <a
     class="contact-button whatsapp-button"
