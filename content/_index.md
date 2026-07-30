@@ -29,5 +29,4 @@ showHero: false
 
 {{< analyzer-strip >}}
 
-{{< form-overlay >}}
 </div>
