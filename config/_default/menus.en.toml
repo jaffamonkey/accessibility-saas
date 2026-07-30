@@ -51,6 +51,11 @@
   weight = 40
 
 [[footer]]
+  name = "Accessibility statement"
+  pageRef = "accessibility-statement"
+  weight = 50
+
+[[footer]]
   name = "Contact"
   pageRef = "contact"
-  weight = 50
+  weight = 60
