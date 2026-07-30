@@ -21,7 +21,7 @@ We are committed to ensuring digital accessibility for people with disabilities.
 
 ## Conformance Status
 
-We strive to conform to the Web Content Accessibility Guidelines (WCAG) 2.1 at Level AA, alongside consideration of selected Level AAA success criteria.
+We strive to conform to the Web Content Accessibility Guidelines (WCAG) 2.2 at Level AA, alongside consideration of selected Level AAA success criteria.
 
 Based on our recent comprehensive accessibility audit (covering 381 evaluated instances and key design system components), our website is partially conformant. Partially conformant means that some parts of the content may not yet fully conform to the accessibility standard, and active remediation is underway.
 
