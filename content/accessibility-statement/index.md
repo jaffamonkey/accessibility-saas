@@ -7,7 +7,7 @@ draft: false
 showAuthor: false
 showDate: false
 showReadingTime: false
-showTableOfContents: false
+showTableOfContents: true
 showHero: false
 weight: 50
 categories: ["Accessibility", "Testing"]
