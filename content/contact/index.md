@@ -18,14 +18,14 @@ tags: ["accessibility", "testing", "analysis", "wcag", "dashboard"]
 > Let’s talk about quality engineering, testing, or accessibility.
 {icon="a11y"}
 
+{{< contact-form >}}
+
 <!-- {{< email label="Send me an email" >}}
 
 [Chat on WhatsApp](https://wa.me/447732201516) -->
 
 <!-- Use the calendar widget below to book a introductory call directly into my schedule.
 
-{{< calendar-booking >}} -->
 
 {{< contact-links whatsapp="447394074047" >}}
 
-<!-- {{< form-overlay >}} -->
