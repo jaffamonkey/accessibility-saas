@@ -20,12 +20,6 @@ tags: ["accessibility", "testing", "analysis", "wcag", "dashboard"]
 
 {{< contact-form >}}
 
-<!-- {{< email label="Send me an email" >}}
-
-[Chat on WhatsApp](https://wa.me/447732201516) -->
-
-<!-- Use the calendar widget below to book a introductory call directly into my schedule.
-
-
 {{< contact-links whatsapp="447394074047" >}}
+
 
