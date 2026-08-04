@@ -14,10 +14,4 @@ categories: ["Accessibility", "Testing"]
 tags: ["accessibility", "testing", "analysis", "wcag", "dashboard"]
 ---
 
-> [!NOTE] Ready to talk?
-> Let’s talk about quality engineering, testing, or accessibility.
-{icon="a11y"}
-
-{{< contact-links whatsapp="447394074047" >}}
-
-{{< contact-form >}}
+> Message sent! We will contact you back shortly

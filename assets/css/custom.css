@@ -2197,3 +2197,84 @@ html:not(.dark) .email-button:focus-visible {
   flex-direction: column;
   gap: 15px;
 }
+
+/* Base container constraints */
+.contact-form {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+/* Grouping labels and inputs */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+/* Accessible and scannable labels */
+.form-group label {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #333333;
+}
+
+/* Uniform element sizing for inputs and textareas */
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: border-color 0.2s ease;
+}
+
+/* Prevent textareas from breaking layout widths */
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+/* Focus state feedback */
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #0066cc;
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+}
+
+/* Button layout sizing */
+.submit-btn {
+  align-self: flex-start; /* Keeps the button naturally sized instead of full-width */
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #0066cc;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.submit-btn:hover {
+  background-color: #004da3;
+}
+
+/* Mobile responsive sizing override */
+@media (max-width: 480px) {
+  .contact-form {
+    padding: 1rem;
+  }
+  .submit-btn {
+    width: 100%; /* Makes the button tap-friendly on mobile phones */
+  }
+}
