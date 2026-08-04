@@ -2199,82 +2199,134 @@ html:not(.dark) .email-button:focus-visible {
 }
 
 
-/* 1. Base Variables (Light Theme Default) */
-:root {
-  --form-bg: #ffffff;
-  --label-text: #1a1a1a; 
-  --input-bg: #ffffff;
-  --input-text: #1a1a1a;
-  --input-border: #595959; /* Passes 3:1 UI contrast against white */
-  --focus-ring: #005fcc;
-}
-
-/* 2. Dark Theme Variables */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --form-bg: #121212;
-    --label-text: #f5f5f5; /* High contrast for dark backgrounds */
-    --input-bg: #2a2a2a;
-    --input-text: #ffffff;
-    --input-border: #8e8e8e; /* Passes 3:1 UI contrast against #2a2a2a */
-    --focus-ring: #66b2ff;
-  }
-}
-
-/* 3. Form Styling */
+/* Base container constraints */
 .contact-form {
-  background-color: var(--form-bg);
   max-width: 600px;
-  font-family: system-ui, sans-serif;
-}
-
-.form-group {
-  margin-bottom: 1.5rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.5rem;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  gap: 1.25rem;
 }
 
-/* Label Styling */
-.form-group label {
-  color: var(--label-text);
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-  font-size: 1rem;
+/* Grouping labels and inputs */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
 }
 
-/* Input & Textarea Styling */
+/* Uniform element sizing for inputs and textareas */
 .form-group input,
 .form-group textarea {
-  background-color: var(--input-bg);
-  color: var(--input-text);
-  border: 2px solid var(--input-border);
-  border-radius: 4px;
+  width: 100%;
   padding: 0.75rem;
   font-size: 1rem;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: background-color 0.2s, border-color 0.2s, color 0.2s;
 }
 
-/* Accessible Focus States */
-.form-group input:focus,
-.form-group textarea:focus {
-  outline: none;
-  border-color: var(--focus-ring);
-  box-shadow: 0 0 0 3px rgba(102, 178, 255, 0.4);
+/* Prevent textareas from breaking layout widths */
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
 }
 
-/* Submit Button */
-.contact-form button {
-  background-color: var(--focus-ring);
-  color: #121212; /* High contrast against the light blue button */
-  font-weight: bold;
-  font-size: 1.1rem;
-  padding: 0.75rem 1.5rem;
+/* Button layout sizing */
+.submit-btn {
+  align-self: flex-start;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  font-weight: 700; /* Increased to 700 for better text accessibility */
+  color: #ffffff;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  transition: background-color 0.2s ease;
 }
 
-.contact-form button:hover,
-.contact-form button:focus {
-  background-color: #99ccff;
+/* ========================================== */
+/* LIGHT THEME STYLES (Default)               */
+/* ========================================== */
+.form-group label {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #1a1a1a;
+}
+
+.form-group input,
+.form-group textarea {
+  background-color: #ffffff;
+  border: 1px solid #767676; /* Darker border for WCAG AA compliance on inputs */
+  color: #1a1a1a;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #656565; /* Darker placeholder text for readability */
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #0056b3; /* Increased contrast focus border */
+  box-shadow: 0 0 0 3px rgba(0, 86, 179, 0.25);
+}
+
+.submit-btn {
+  background-color: #0056b3; /* Darker accessible blue (4.5+:1 ratio) */
+}
+
+.submit-btn:hover {
+  background-color: #004085;
+}
+
+/* ========================================== */
+/* ACCESSIBLE DARK THEME STYLES (.dark)       */
+/* ========================================== */
+.dark .form-group label {
+  color: #ffffff; /* Shifted to pure white for maximum crisp contrast */
+}
+
+.dark .form-group input,
+.dark .form-group textarea {
+  background-color: #1e1e1e;
+  border: 1px solid #949494; /* Brighter border color so boundaries are highly visible */
+  color: #ffffff;
+}
+
+.dark .form-group input::placeholder,
+.dark .form-group textarea::placeholder {
+  color: #b0b0b0; /* Enhanced placeholder text visibility */
+}
+
+.dark .form-group input:focus,
+.dark .form-group textarea:focus {
+  border-color: #66b2ff;
+  box-shadow: 0 0 0 3px rgba(102, 178, 255, 0.35);
+}
+
+.dark .submit-btn {
+  background-color: #66b2ff; /* Bright accessible blue on dark mode */
+  color: #000000; /* Pure black text offers maximum visual contrast here */
+}
+
+.dark .submit-btn:hover {
+  background-color: #8ccdff;
+}
+
+/* ========================================== */
+/* MOBILE RESPONSIVE SIZING OVERRIDES         */
+/* ========================================== */
+@media (max-width: 480px) {
+  .contact-form {
+    padding: 1rem;
+  }
+  .submit-btn {
+    width: 100%; /* Spans full width on mobile screens for easy tapping */
+  }
 }
