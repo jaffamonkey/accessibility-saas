@@ -2199,134 +2199,82 @@ html:not(.dark) .email-button:focus-visible {
 }
 
 
-/* Base container constraints */
+/* 1. Base Variables (Light Theme Default) */
+:root {
+  --form-bg: #ffffff;
+  --label-text: #1a1a1a; 
+  --input-bg: #ffffff;
+  --input-text: #1a1a1a;
+  --input-border: #595959; /* Passes 3:1 UI contrast against white */
+  --focus-ring: #005fcc;
+}
+
+/* 2. Dark Theme Variables */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --form-bg: #121212;
+    --label-text: #f5f5f5; /* High contrast for dark backgrounds */
+    --input-bg: #2a2a2a;
+    --input-text: #ffffff;
+    --input-border: #8e8e8e; /* Passes 3:1 UI contrast against #2a2a2a */
+    --focus-ring: #66b2ff;
+  }
+}
+
+/* 3. Form Styling */
 .contact-form {
+  background-color: var(--form-bg);
   max-width: 600px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 1.5rem;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  gap: 1.25rem;
+  font-family: system-ui, sans-serif;
 }
 
-/* Grouping labels and inputs */
 .form-group {
+  margin-bottom: 1.5rem;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
-  width: 100%;
 }
 
-/* Uniform element sizing for inputs and textareas */
+/* Label Styling */
+.form-group label {
+  color: var(--label-text);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+/* Input & Textarea Styling */
 .form-group input,
 .form-group textarea {
-  width: 100%;
+  background-color: var(--input-bg);
+  color: var(--input-text);
+  border: 2px solid var(--input-border);
+  border-radius: 4px;
   padding: 0.75rem;
   font-size: 1rem;
-  border-radius: 4px;
-  box-sizing: border-box;
-  transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
-/* Prevent textareas from breaking layout widths */
-.form-group textarea {
-  resize: vertical;
-  min-height: 120px;
-}
-
-/* Button layout sizing */
-.submit-btn {
-  align-self: flex-start;
-  padding: 0.75rem 2rem;
-  font-size: 1rem;
-  font-weight: 600;
-  color: #ffffff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.2s ease;
-}
-
-/* ========================================== */
-/* LIGHT THEME STYLES (Default)               */
-/* ========================================== */
-.form-group label {
-  font-weight: 600;
-  font-size: 0.95rem;
-  color: #1a1a1a;
-}
-
-.form-group input,
-.form-group textarea {
-  background-color: #ffffff;
-  border: 1px solid #cccccc;
-  color: #1a1a1a;
-}
-
-.form-group input::placeholder,
-.form-group textarea::placeholder {
-  color: #757575;
-}
-
+/* Accessible Focus States */
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #0066cc;
-  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.15);
+  border-color: var(--focus-ring);
+  box-shadow: 0 0 0 3px rgba(102, 178, 255, 0.4);
 }
 
-.submit-btn {
-  background-color: #0066cc;
+/* Submit Button */
+.contact-form button {
+  background-color: var(--focus-ring);
+  color: #121212; /* High contrast against the light blue button */
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-.submit-btn:hover {
-  background-color: #004da3;
-}
-
-/* ========================================== */
-/* DARK THEME STYLES (Triggered by .dark)    */
-/* ========================================== */
-.dark .form-group label {
-  color: #f0f0f0;
-}
-
-.dark .form-group input,
-.dark .form-group textarea {
-  background-color: #1e1e1e;
-  border: 1px solid #444444;
-  color: #ffffff;
-}
-
-.dark .form-group input::placeholder,
-.dark .form-group textarea::placeholder {
-  color: #a0a0a0;
-}
-
-.dark .form-group input:focus,
-.dark .form-group textarea:focus {
-  border-color: #4da3ff;
-  box-shadow: 0 0 0 3px rgba(77, 163, 255, 0.25);
-}
-
-.dark .submit-btn {
-  background-color: #4da3ff;
-  color: #121212; /* Dark text for clean contrast on light blue button */
-}
-
-.dark .submit-btn:hover {
-  background-color: #80bfff;
-}
-
-/* ========================================== */
-/* MOBILE RESPONSIVE SIZING OVERRIDES         */
-/* ========================================== */
-@media (max-width: 480px) {
-  .contact-form {
-    padding: 1rem;
-  }
-  .submit-btn {
-    width: 100%; /* Spans full width on mobile screens for easy tapping */
-  }
+.contact-form button:hover,
+.contact-form button:focus {
+  background-color: #99ccff;
 }
